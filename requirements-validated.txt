@@ -1,0 +1,6 @@
+# Versions used for local validation, 2026-10-08. Install in a fresh environment if desired.
+numpy==2.5.3
+cadquery-ocp==8.0.1.0.0
+pytest==9.1.1
+matplotlib==3.11.2
+pillow==12.3.0

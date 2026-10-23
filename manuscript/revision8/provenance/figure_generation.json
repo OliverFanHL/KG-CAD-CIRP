@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "results_changed": false,
+  "annotation_layout_checks": [
+    {
+      "figure": "figure2_observer_comparison",
+      "numeric_annotations": 20,
+      "annotation_collisions": 0,
+      "separate_statistic_columns": true,
+      "native_width_inches": 7.15
+    },
+    {
+      "figure": "figure3_role_differences",
+      "numeric_annotations": 44,
+      "annotation_collisions": 0,
+      "separate_statistic_columns": true,
+      "native_width_inches": 7.15
+    }
+  ],
+  "numerical_SD_omission_threshold": 0.001,
+  "annotation_decimals": 3,
+  "error_bars_unchanged": true,
+  "generator_sha256": "0d0b055e3b443b1d6f84094a4e02a8a1f90c80c82cbbda2486e9899c35aedf96",
+  "source_sha256": {
+    "family_metrics.csv": "f1a23d1b2f65b9d1396c3262ba1cc14ec1f5063c9879bed4bc31cc7de76eb0e8",
+    "paired_tests.csv": "c011eff35dec33afa26e92d597b412a00405f5713504fd2da18557dfb1eba100",
+    "remaining_local_three_pass.csv": "d0000b95d725410d4aa9a26068bcaa8ac85d6668034577a077bed09b437b7687",
+    "summary.csv": "3a239e698b9cb5971c34926b6c1846614e2bff61ed7700a1cddcc783f3a9bb80"
+  },
+  "output_sha256": {
+    "figure2_observer_comparison.pdf": "f013c390d9ff29bd3857d14d348d27a4f326d899dc50496e38b54fcc0de823e5",
+    "figure2_observer_comparison.png": "aec9ff985303d996847569bf45c11ff857a07d427d498d755f402e77c28ecd5c",
+    "figure2_observer_comparison.svg": "0dc271ed3c3510864f4aefc2b53425909efe18d7507b56c1cb30e016e6b2e329",
+    "figure3_role_differences.pdf": "1e9d8362df7fac5426e8201f0dc785ac1d472804280522b7ce51fe725ad9fb48",
+    "figure3_role_differences.png": "3e681776f23efe8394fe6bb9cd96f6e56baa2c542c85f3bb5c09b4fb8e388e58",
+    "figure3_role_differences.svg": "238faf23fcdd8c4656107a6e824b0848cdd331b742669d72bb5f02a2d9a0b4c0"
+  },
+  "scienceplots": "2.2.2",
+  "matplotlib": "3.11.2"
+}

@@ -1,0 +1,90 @@
+# Full valid-descriptor cohort. Keeps the original scan train/val/test splits.
+# JEV and Laya must both be run on these same samples before matched evaluation.
+project:
+  seed: 42
+
+study:
+  descriptor_path: outputs/descriptors/tmcad_descriptors.csv
+  schema_path: outputs/descriptors/quantile_schema.json
+  questions_path: configs/questions_compact.yaml
+  jev_results_path: outputs/study/full/jev_results.jsonl
+  jev_cache_path: outputs/study/full/jev_cache.sqlite
+  jev_dry_run_path: outputs/study/full/jev_dry_run.jsonl
+  laya_results_path: outputs/study/full/laya_results.jsonl
+  cohort_path: outputs/study/full/cohort.csv
+  mesh_dir: outputs/study/full/mesh
+  geometry_checkpoint: outputs/study/full/geometry_encoder.pt
+  geometry_embeddings: outputs/study/full/geometry_embeddings.csv
+  pair_pool_path: outputs/study/full/retrieval_judgments.csv
+  judgments_path: outputs/study/full/annotations/judged_pairs.csv
+  evaluation_dir: outputs/study/full_ft_kaggle/evaluation
+
+ground_truth:
+  annotation_dir: outputs/study/full/annotations
+  seed: 42
+  queries_per_class: {val: 5, test: 10}
+
+laya_finetune:
+  data_dir: outputs/study/full_ft/laya_training_data
+  checkpoint_dir: outputs/study/full_ft_kaggle/laya_checkpoint
+  results_path: outputs/study/full_ft_kaggle/laya_results.jsonl
+  device: cuda
+  calibration_fraction: 0.10
+  epochs: 4
+  batch_size: 2
+  accumulation_steps: 4
+  encoder_lr: 0.000025
+  head_lr: 0.0001
+  weight_decay: 0.01
+  group_size: 4
+  sigma_start: 0.4
+  sigma_end: 0.1
+  rl_weight: 1.0
+
+cohort:
+  source: all
+  # per_class is intentionally omitted: no cap applies to any split or class.
+
+cad:
+  state_variant: compact
+  include_numeric_context: true
+  include_profile_arrays: false
+
+mesh:
+  points: 512
+  neighbors: 16
+  tolerance: 0.003
+  workers: 8  # OpenCASCADE processes; try 4 if memory and storage allow.
+  checkpoint_every: 100
+
+geometry:
+  device: auto
+  epochs: 80
+  patience: 12
+  batch_size: 16
+  cache_in_memory: true  # true avoids reopening meshes each epoch; needs about 0.6-1 GB extra RAM.
+  embedding_dim: 128
+  learning_rate: 0.001
+  weight_decay: 0.0001
+
+jev:
+  model: jev-latest
+  retry_attempts: 5
+  retry_base_seconds: 1.5
+  timeout_seconds: 30.0
+
+laya:
+  required: true
+  repository: convaiinnovations/laya
+  subfolder: typed-decisions
+  revision: null
+
+classification:
+  c_grid: [0.01, 0.1, 1.0, 10.0]
+
+retrieval:
+  query_scope: preselected
+  ks: [1, 5, 10]
+  fusion_weights: [0.0, 0.25, 0.5, 0.75, 1.0]
+  pool_top_k: 10
+  pool_random_k: 10

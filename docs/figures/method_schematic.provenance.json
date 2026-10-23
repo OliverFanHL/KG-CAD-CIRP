@@ -1,0 +1,14 @@
+{
+  "asset": "method_schematic.png",
+  "prompt": "method_schematic.prompt.txt",
+  "prompt_sha256": "b8ec7c4e0ff6ba24c255d8f26b049e221cd9b183838068d0d50a1676ee105141",
+  "asset_sha256": "85a6ab37b064f98375423bc5a8b3ba2fb791aa2f1d63207876595c11e70f47b8",
+  "generator": "built-in image_gen.imagegen tool",
+  "model_id": "not exposed by the built-in tool; user permitted GPT-Image 2",
+  "image_pixels": [
+    1774,
+    887
+  ],
+  "review": "Image inspected: labels distinguish computed geometry, predicted categories, scoped source-supported priors, and AI reference evaluation. Evaluation arrows do not enter construction or ranking. No performance statistics are drawn.",
+  "source_image": "C:/Users/fhlie/.codex/generated_images/01a11b5b-9b14-7561-90f0-d5afc861ceb8/exec-82beff08-2633-4dbf-b05a-2d850ecb4582.png"
+}

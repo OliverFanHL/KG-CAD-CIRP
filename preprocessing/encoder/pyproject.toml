@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jev-tmcad"
+version = "0.1.0"
+description = "Matched CAD geometry and semantic decision experiments on TMCAD"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scikit-learn>=1.4",
+  "matplotlib>=3.8",
+  "PyYAML>=6.0",
+  "python-dotenv>=1.0",
+  "tqdm>=4.66",
+  "typesafe-sdk"
+]
+
+[project.optional-dependencies]
+cad = ["cadquery"]
+geometry = ["cadquery", "torch>=2.2"]
+laya = ["laya"]
+study = ["cadquery", "torch>=2.2", "laya"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+jev-tmcad = "jev_tmcad.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cadkg"
+version = "0.1.0"
+description = "Provenance-aware intent retrieval and bounded reasoning for TMCAD"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3"]
+
+[project.optional-dependencies]
+step = ["cadquery-ocp>=7.8,<9"]
+technical = ["cadquery-ocp>=7.8,<9", "matplotlib>=3.7,<4", "pillow>=10,<13"]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+cadkg = "cadkg.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cadkg*"]
+
+[tool.setuptools.package-data]
+cadkg = ["web/*.html", "web/*.js", "web/*.css"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

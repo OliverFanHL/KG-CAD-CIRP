@@ -1,0 +1,60 @@
+classification:
+  id: part_class
+  instructions: Choose the mechanical part class supported by the geometry facts.
+  criteria:
+    bearing: rotating support race
+    bolt-screw: headed threaded fastener
+    bracket: structural support
+    coupling: joins coaxial shafts
+    flange: connecting rim or disk
+    gear: toothed power wheel
+    nut: compact internally threaded fastener
+    pulley: grooved belt wheel
+    shaft: elongated rotating member
+    spring: compliant elastic part
+
+semantic_signature:
+  geom__predominantly_rotational:
+    instructions: Is the part rotationally organized?
+  geom__predominantly_prismatic:
+    instructions: Is the part mainly prismatic?
+  geom__elongated_axial_form:
+    instructions: Is the part axially elongated?
+  geom__disk_or_ring_form:
+    instructions: Is the part disk or ring shaped?
+  geom__compact_form:
+    instructions: Is the part compact in all dimensions?
+  geom__low_material_fill:
+    instructions: Is material fill low?
+  geom__strong_cylindrical_character:
+    instructions: Are cylindrical surfaces prominent?
+  geom__strong_planar_character:
+    instructions: Are planar surfaces prominent?
+  geom__high_geometric_repetition:
+    instructions: Is geometry highly repetitive?
+  geom__circumferential_periodicity:
+    instructions: Is there circumferential repetition?
+  geom__stepped_axial_profile:
+    instructions: Is the axial profile stepped?
+  geom__head_or_end_asymmetry:
+    instructions: Is one axial end distinct?
+  func__mounting_or_support_character:
+    instructions: Is a mounting or support role plausible?
+  func__coaxial_connection_character:
+    instructions: Is a coaxial connection role plausible?
+  func__torque_transmission_character:
+    instructions: Is torque transmission plausible?
+  func__rolling_support_character:
+    instructions: Is bearing-like support plausible?
+  func__elastic_compliance_character:
+    instructions: Is elastic compliance plausible?
+  func__threaded_fastener_character:
+    instructions: Is a threaded fastener role plausible?
+  func__belt_engagement_character:
+    instructions: Is belt engagement plausible?
+  mfg__turning_oriented_geometry:
+    instructions: Is turning-oriented manufacture plausible?
+  mfg__milling_oriented_geometry:
+    instructions: Is milling-oriented manufacture plausible?
+  geom__topology_complexity_high:
+    instructions: Is surface topology complex?

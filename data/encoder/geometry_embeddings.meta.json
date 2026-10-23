@@ -1,0 +1,4915 @@
+{
+  "cohort_hash": "1e5e6962ffc4e0d747fe98ca5897d688197bd6d5e81d5b745c2ef550de9faaee",
+  "checkpoint": "D:\\Postdoc\\research\\jepa_cad\\jev_tmcad_v0\\outputs\\study\\full\\geometry_encoder.pt",
+  "mesh_hash": "0d254816f9ed971a21c8776b87fd497a1bf7d18e84b71b5d613413f1ea147468",
+  "checkpoint_sha256": "332a9661b782c7a343a6ff0e709818e0e5a77a8d5166b0d6b9267fa62d38ef62",
+  "checkpoint_epoch": 17,
+  "device": "cuda",
+  "batch_size": 16,
+  "timings": [
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02353930000026594,
+      "transfer_seconds": 0.0004273000013199635,
+      "inference_seconds": 0.1613175999991654,
+      "end_to_end_seconds": 0.1852842000007513,
+      "per_sample_inference_seconds": 0.010082349999947837
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019986100000096485,
+      "transfer_seconds": 0.0004275999999663327,
+      "inference_seconds": 0.007701899998210138,
+      "end_to_end_seconds": 0.028115599998272955,
+      "per_sample_inference_seconds": 0.0004813687498881336
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01361689999976079,
+      "transfer_seconds": 0.0002863000008801464,
+      "inference_seconds": 0.007334199999604607,
+      "end_to_end_seconds": 0.021237400000245543,
+      "per_sample_inference_seconds": 0.00045838749997528794
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02238020000004326,
+      "transfer_seconds": 0.0003713000005518552,
+      "inference_seconds": 0.007430900001054397,
+      "end_to_end_seconds": 0.030182400001649512,
+      "per_sample_inference_seconds": 0.0004644312500658998
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03438269999969634,
+      "transfer_seconds": 0.00044270000216783956,
+      "inference_seconds": 0.007730900000751717,
+      "end_to_end_seconds": 0.0425563000026159,
+      "per_sample_inference_seconds": 0.0004831812500469823
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02380749999792897,
+      "transfer_seconds": 0.00041510000301059335,
+      "inference_seconds": 0.007709000001341337,
+      "end_to_end_seconds": 0.0319316000022809,
+      "per_sample_inference_seconds": 0.0004818125000838336
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024760499996773433,
+      "transfer_seconds": 0.00037180000072112307,
+      "inference_seconds": 0.008019999997486593,
+      "end_to_end_seconds": 0.03315229999498115,
+      "per_sample_inference_seconds": 0.0005012499998429121
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.044800499999837484,
+      "transfer_seconds": 0.000501900001836475,
+      "inference_seconds": 0.008286000000225613,
+      "end_to_end_seconds": 0.05358840000189957,
+      "per_sample_inference_seconds": 0.0005178750000141008
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023984999999811407,
+      "transfer_seconds": 0.0005568999986280687,
+      "inference_seconds": 0.008348700001079123,
+      "end_to_end_seconds": 0.0328905999995186,
+      "per_sample_inference_seconds": 0.0005217937500674452
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028735500000038883,
+      "transfer_seconds": 0.00042019999818876386,
+      "inference_seconds": 0.007467899999028305,
+      "end_to_end_seconds": 0.03662359999725595,
+      "per_sample_inference_seconds": 0.00046674374993926904
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03100529999937862,
+      "transfer_seconds": 0.00043870000081369653,
+      "inference_seconds": 0.007772400000249036,
+      "end_to_end_seconds": 0.039216400000441354,
+      "per_sample_inference_seconds": 0.00048577500001556473
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02684650000082911,
+      "transfer_seconds": 0.0004673000003094785,
+      "inference_seconds": 0.008294400002341717,
+      "end_to_end_seconds": 0.035608200003480306,
+      "per_sample_inference_seconds": 0.0005184000001463573
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03568910000103642,
+      "transfer_seconds": 0.0003569000000425149,
+      "inference_seconds": 0.007476999999198597,
+      "end_to_end_seconds": 0.043523000000277534,
+      "per_sample_inference_seconds": 0.0004673124999499123
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023469899999327026,
+      "transfer_seconds": 0.000420000000303844,
+      "inference_seconds": 0.007692099999985658,
+      "end_to_end_seconds": 0.03158199999961653,
+      "per_sample_inference_seconds": 0.0004807562499991036
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026999200003047008,
+      "transfer_seconds": 0.00045280000267666765,
+      "inference_seconds": 0.0076449000007414725,
+      "end_to_end_seconds": 0.03509690000646515,
+      "per_sample_inference_seconds": 0.00047780625004634203
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019272800000180723,
+      "transfer_seconds": 0.0002835000013874378,
+      "inference_seconds": 0.007372599997324869,
+      "end_to_end_seconds": 0.02692889999889303,
+      "per_sample_inference_seconds": 0.0004607874998328043
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03012249999665073,
+      "transfer_seconds": 0.00032749999809311703,
+      "inference_seconds": 0.00736739999774727,
+      "end_to_end_seconds": 0.03781739999249112,
+      "per_sample_inference_seconds": 0.0004604624998592044
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02692369999931543,
+      "transfer_seconds": 0.0005345000026864,
+      "inference_seconds": 0.007632899996679043,
+      "end_to_end_seconds": 0.035091099998680875,
+      "per_sample_inference_seconds": 0.0004770562497924402
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03154770000037388,
+      "transfer_seconds": 0.00035009999919566326,
+      "inference_seconds": 0.007391899998765439,
+      "end_to_end_seconds": 0.03928969999833498,
+      "per_sample_inference_seconds": 0.0004619937499228399
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02195459999711602,
+      "transfer_seconds": 0.00037489999886020087,
+      "inference_seconds": 0.007436399999278365,
+      "end_to_end_seconds": 0.029765899995254586,
+      "per_sample_inference_seconds": 0.0004647749999548978
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0485960999976669,
+      "transfer_seconds": 0.0005373999993025791,
+      "inference_seconds": 0.00837169999795151,
+      "end_to_end_seconds": 0.057505199994920986,
+      "per_sample_inference_seconds": 0.0005232312498719693
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03655910000088625,
+      "transfer_seconds": 0.00040069999886327423,
+      "inference_seconds": 0.007772500001010485,
+      "end_to_end_seconds": 0.044732300000760006,
+      "per_sample_inference_seconds": 0.0004857812500631553
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013294699998368742,
+      "transfer_seconds": 0.00037319999682949856,
+      "inference_seconds": 0.008167700001649791,
+      "end_to_end_seconds": 0.021835599996848032,
+      "per_sample_inference_seconds": 0.000510481250103112
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013950200002000201,
+      "transfer_seconds": 0.00030930000139051117,
+      "inference_seconds": 0.00738429999910295,
+      "end_to_end_seconds": 0.021643800002493663,
+      "per_sample_inference_seconds": 0.0004615187499439344
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020135599999775877,
+      "transfer_seconds": 0.000447300000814721,
+      "inference_seconds": 0.0079479000014544,
+      "end_to_end_seconds": 0.028530800002044998,
+      "per_sample_inference_seconds": 0.0004967437500909
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024786199999653036,
+      "transfer_seconds": 0.00043369999912101775,
+      "inference_seconds": 0.00763359999837121,
+      "end_to_end_seconds": 0.032853499997145263,
+      "per_sample_inference_seconds": 0.0004770999998982006
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023998399999982212,
+      "transfer_seconds": 0.0003768999995372724,
+      "inference_seconds": 0.00755859999844688,
+      "end_to_end_seconds": 0.031933899997966364,
+      "per_sample_inference_seconds": 0.00047241249990293
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.031616299998859176,
+      "transfer_seconds": 0.00047339999946416356,
+      "inference_seconds": 0.007665400000405498,
+      "end_to_end_seconds": 0.03975509999872884,
+      "per_sample_inference_seconds": 0.0004790875000253436
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023261700000148267,
+      "transfer_seconds": 0.0003988999997091014,
+      "inference_seconds": 0.0075829000015801284,
+      "end_to_end_seconds": 0.031243500001437496,
+      "per_sample_inference_seconds": 0.00047393125009875803
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0320224999995844,
+      "transfer_seconds": 0.000472699997771997,
+      "inference_seconds": 0.0076229000005696435,
+      "end_to_end_seconds": 0.04011809999792604,
+      "per_sample_inference_seconds": 0.0004764312500356027
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0320648999986588,
+      "transfer_seconds": 0.00045650000174646266,
+      "inference_seconds": 0.00772290000168141,
+      "end_to_end_seconds": 0.040244300002086675,
+      "per_sample_inference_seconds": 0.0004826812501050881
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027389999999286374,
+      "transfer_seconds": 0.00031429999944521114,
+      "inference_seconds": 0.007393299998511793,
+      "end_to_end_seconds": 0.03509759999724338,
+      "per_sample_inference_seconds": 0.00046208124990698707
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0122257000002719,
+      "transfer_seconds": 0.0002888000017264858,
+      "inference_seconds": 0.007373000000370666,
+      "end_to_end_seconds": 0.019887500002369052,
+      "per_sample_inference_seconds": 0.00046081250002316665
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02476350000142702,
+      "transfer_seconds": 0.0004181000003882218,
+      "inference_seconds": 0.007566899999801535,
+      "end_to_end_seconds": 0.032748500001616776,
+      "per_sample_inference_seconds": 0.00047293124998759595
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01678840000022319,
+      "transfer_seconds": 0.0003799999976763502,
+      "inference_seconds": 0.007603499998367624,
+      "end_to_end_seconds": 0.024771899996267166,
+      "per_sample_inference_seconds": 0.0004752187498979765
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017838100000517443,
+      "transfer_seconds": 0.0002974999988509808,
+      "inference_seconds": 0.007388300000457093,
+      "end_to_end_seconds": 0.025523899999825517,
+      "per_sample_inference_seconds": 0.0004617687500285683
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02062129999831086,
+      "transfer_seconds": 0.00041430000055697747,
+      "inference_seconds": 0.007547499997599516,
+      "end_to_end_seconds": 0.028583099996467354,
+      "per_sample_inference_seconds": 0.00047171874984996975
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.04813309999735793,
+      "transfer_seconds": 0.00032840000130818225,
+      "inference_seconds": 0.007389700000203447,
+      "end_to_end_seconds": 0.05585119999886956,
+      "per_sample_inference_seconds": 0.00046185625001271546
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012294100000872277,
+      "transfer_seconds": 0.00037909999809926376,
+      "inference_seconds": 0.007498299997678259,
+      "end_to_end_seconds": 0.0201714999966498,
+      "per_sample_inference_seconds": 0.0004686437498548912
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026334199999837438,
+      "transfer_seconds": 0.0003880000003846362,
+      "inference_seconds": 0.007528099999035476,
+      "end_to_end_seconds": 0.03425029999925755,
+      "per_sample_inference_seconds": 0.00047050624993971724
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02558300000237068,
+      "transfer_seconds": 0.0004006000017398037,
+      "inference_seconds": 0.007557100001577055,
+      "end_to_end_seconds": 0.03354070000568754,
+      "per_sample_inference_seconds": 0.00047231875009856594
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029624599999806378,
+      "transfer_seconds": 0.00038069999936851673,
+      "inference_seconds": 0.007614500002091518,
+      "end_to_end_seconds": 0.03761980000126641,
+      "per_sample_inference_seconds": 0.00047590625013071985
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016584900000452762,
+      "transfer_seconds": 0.00029260000155773014,
+      "inference_seconds": 0.007347300001129042,
+      "end_to_end_seconds": 0.024224800003139535,
+      "per_sample_inference_seconds": 0.00045920625007056515
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012285799999517621,
+      "transfer_seconds": 0.00026059999800054356,
+      "inference_seconds": 0.007297000000107801,
+      "end_to_end_seconds": 0.019843399997625966,
+      "per_sample_inference_seconds": 0.00045606250000673754
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012266900001122849,
+      "transfer_seconds": 0.0002865000024030451,
+      "inference_seconds": 0.007351500000368105,
+      "end_to_end_seconds": 0.019904900003894,
+      "per_sample_inference_seconds": 0.0004594687500230066
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020130699998844648,
+      "transfer_seconds": 0.00043089999962830916,
+      "inference_seconds": 0.007648200000403449,
+      "end_to_end_seconds": 0.028209799998876406,
+      "per_sample_inference_seconds": 0.00047801250002521556
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02636749999874155,
+      "transfer_seconds": 0.00033799999800976366,
+      "inference_seconds": 0.007409199999528937,
+      "end_to_end_seconds": 0.03411469999628025,
+      "per_sample_inference_seconds": 0.00046307499997055857
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022272599999269005,
+      "transfer_seconds": 0.00032590000046184286,
+      "inference_seconds": 0.007383299998764414,
+      "end_to_end_seconds": 0.029981799998495262,
+      "per_sample_inference_seconds": 0.0004614562499227759
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016780999998445623,
+      "transfer_seconds": 0.0003720999993674923,
+      "inference_seconds": 0.007509799997933442,
+      "end_to_end_seconds": 0.024662899995746557,
+      "per_sample_inference_seconds": 0.0004693624998708401
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01764270000057877,
+      "transfer_seconds": 0.00038720000156899914,
+      "inference_seconds": 0.0075877000017499086,
+      "end_to_end_seconds": 0.025617600003897678,
+      "per_sample_inference_seconds": 0.0004742312501093693
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.007468499999959022,
+      "transfer_seconds": 0.00032160000046133064,
+      "inference_seconds": 0.007484600002499064,
+      "end_to_end_seconds": 0.015274700002919417,
+      "per_sample_inference_seconds": 0.0004677875001561915
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012837400001444621,
+      "transfer_seconds": 0.0003635000030044466,
+      "inference_seconds": 0.007529200000135461,
+      "end_to_end_seconds": 0.02073010000458453,
+      "per_sample_inference_seconds": 0.0004705750000084663
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026300700003048405,
+      "transfer_seconds": 0.0003815000018221326,
+      "inference_seconds": 0.007571300000563497,
+      "end_to_end_seconds": 0.034253500005434034,
+      "per_sample_inference_seconds": 0.00047320625003521855
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025821799998084316,
+      "transfer_seconds": 0.0004034000012325123,
+      "inference_seconds": 0.00758039999709581,
+      "end_to_end_seconds": 0.03380559999641264,
+      "per_sample_inference_seconds": 0.00047377499981848814
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029238899998745183,
+      "transfer_seconds": 0.00042179999945801683,
+      "inference_seconds": 0.0076150000022607855,
+      "end_to_end_seconds": 0.037275700000463985,
+      "per_sample_inference_seconds": 0.0004759375001412991
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025846000000456115,
+      "transfer_seconds": 0.00041570000030333176,
+      "inference_seconds": 0.007580599998618709,
+      "end_to_end_seconds": 0.033842299999378156,
+      "per_sample_inference_seconds": 0.0004737874999136693
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012851800001953961,
+      "transfer_seconds": 0.0003460000007180497,
+      "inference_seconds": 0.007611299999553012,
+      "end_to_end_seconds": 0.020809100002225023,
+      "per_sample_inference_seconds": 0.00047570624997206323
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021469899998919573,
+      "transfer_seconds": 0.00045060000047669746,
+      "inference_seconds": 0.007628499999555061,
+      "end_to_end_seconds": 0.02954899999895133,
+      "per_sample_inference_seconds": 0.0004767812499721913
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028451999998651445,
+      "transfer_seconds": 0.0004793999978573993,
+      "inference_seconds": 0.007651399999303976,
+      "end_to_end_seconds": 0.03658279999581282,
+      "per_sample_inference_seconds": 0.0004782124999564985
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024636000001919456,
+      "transfer_seconds": 0.00034779999987222254,
+      "inference_seconds": 0.00754889999734587,
+      "end_to_end_seconds": 0.03253269999913755,
+      "per_sample_inference_seconds": 0.0004718062498341169
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03445039999860455,
+      "transfer_seconds": 0.0004604999994626269,
+      "inference_seconds": 0.007702700000663754,
+      "end_to_end_seconds": 0.04261359999873093,
+      "per_sample_inference_seconds": 0.0004814187500414846
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030586000000766944,
+      "transfer_seconds": 0.00045310000132303685,
+      "inference_seconds": 0.007482599998184014,
+      "end_to_end_seconds": 0.038521700000273995,
+      "per_sample_inference_seconds": 0.0004676624998865009
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026852899998630164,
+      "transfer_seconds": 0.000356399999873247,
+      "inference_seconds": 0.007718699998804368,
+      "end_to_end_seconds": 0.03492799999730778,
+      "per_sample_inference_seconds": 0.000482418749925273
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.044563499999640044,
+      "transfer_seconds": 0.00043539999751374125,
+      "inference_seconds": 0.00788029999966966,
+      "end_to_end_seconds": 0.052879199996823445,
+      "per_sample_inference_seconds": 0.0004925187499793537
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019621100000222214,
+      "transfer_seconds": 0.0004042000000481494,
+      "inference_seconds": 0.00863250000111293,
+      "end_to_end_seconds": 0.028657800001383293,
+      "per_sample_inference_seconds": 0.0005395312500695582
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030433700001594843,
+      "transfer_seconds": 0.0003269000008003786,
+      "inference_seconds": 0.007945900000777328,
+      "end_to_end_seconds": 0.03870650000317255,
+      "per_sample_inference_seconds": 0.000496618750048583
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0074944000007235445,
+      "transfer_seconds": 0.00025459999960730784,
+      "inference_seconds": 0.007863700000598328,
+      "end_to_end_seconds": 0.01561270000092918,
+      "per_sample_inference_seconds": 0.0004914812500373955
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019499399997584987,
+      "transfer_seconds": 0.00032840000130818225,
+      "inference_seconds": 0.008259399997768924,
+      "end_to_end_seconds": 0.028087199996662093,
+      "per_sample_inference_seconds": 0.0005162124998605577
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.032388399999035755,
+      "transfer_seconds": 0.0005504000000655651,
+      "inference_seconds": 0.008227599999372615,
+      "end_to_end_seconds": 0.041166399998473935,
+      "per_sample_inference_seconds": 0.0005142249999607884
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.033080299999710405,
+      "transfer_seconds": 0.00046189999920898117,
+      "inference_seconds": 0.00827440000284696,
+      "end_to_end_seconds": 0.041816600001766346,
+      "per_sample_inference_seconds": 0.000517150000177935
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022939599999517668,
+      "transfer_seconds": 0.00037150000207475387,
+      "inference_seconds": 0.00818250000156695,
+      "end_to_end_seconds": 0.03149360000315937,
+      "per_sample_inference_seconds": 0.0005114062500979344
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017987999999604654,
+      "transfer_seconds": 0.0003605999991123099,
+      "inference_seconds": 0.00795999999900232,
+      "end_to_end_seconds": 0.026308599997719284,
+      "per_sample_inference_seconds": 0.000497499999937645
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.008045299997320399,
+      "transfer_seconds": 0.0003352999992785044,
+      "inference_seconds": 0.008031599998503225,
+      "end_to_end_seconds": 0.016412199995102128,
+      "per_sample_inference_seconds": 0.0005019749999064516
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023199400002340553,
+      "transfer_seconds": 0.00035009999919566326,
+      "inference_seconds": 0.007982399998581968,
+      "end_to_end_seconds": 0.031531900000118185,
+      "per_sample_inference_seconds": 0.000498899999911373
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019748900002014125,
+      "transfer_seconds": 0.0005722999994759448,
+      "inference_seconds": 0.008436000000074273,
+      "end_to_end_seconds": 0.028757200001564343,
+      "per_sample_inference_seconds": 0.0005272500000046421
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012621800000488292,
+      "transfer_seconds": 0.00026900000011664815,
+      "inference_seconds": 0.007838300000003073,
+      "end_to_end_seconds": 0.020729100000608014,
+      "per_sample_inference_seconds": 0.0004898937500001921
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012562599997181678,
+      "transfer_seconds": 0.00032780000037746504,
+      "inference_seconds": 0.008021699999517296,
+      "end_to_end_seconds": 0.02091209999707644,
+      "per_sample_inference_seconds": 0.000501356249969831
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.036225500000000466,
+      "transfer_seconds": 0.000383700000384124,
+      "inference_seconds": 0.008007200001884485,
+      "end_to_end_seconds": 0.044616400002269074,
+      "per_sample_inference_seconds": 0.0005004500001177803
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03428900000290014,
+      "transfer_seconds": 0.00036129999716649763,
+      "inference_seconds": 0.008587200001784367,
+      "end_to_end_seconds": 0.043237500001851004,
+      "per_sample_inference_seconds": 0.000536700000111523
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01798369999960414,
+      "transfer_seconds": 0.00031269999817595817,
+      "inference_seconds": 0.00794060000043828,
+      "end_to_end_seconds": 0.02623699999821838,
+      "per_sample_inference_seconds": 0.0004962875000273925
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023683200000959914,
+      "transfer_seconds": 0.00034189999860245734,
+      "inference_seconds": 0.007928800001536729,
+      "end_to_end_seconds": 0.0319539000010991,
+      "per_sample_inference_seconds": 0.0004955500000960456
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.040113799997925526,
+      "transfer_seconds": 0.00038979999953880906,
+      "inference_seconds": 0.00797210000018822,
+      "end_to_end_seconds": 0.048475699997652555,
+      "per_sample_inference_seconds": 0.0004982562500117638
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.00874649999968824,
+      "transfer_seconds": 0.0003321999975014478,
+      "inference_seconds": 0.00800359999993816,
+      "end_to_end_seconds": 0.017082299997127848,
+      "per_sample_inference_seconds": 0.000500224999996135
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013341499998205109,
+      "transfer_seconds": 0.00029460000223480165,
+      "inference_seconds": 0.007825900000170805,
+      "end_to_end_seconds": 0.021462000000610715,
+      "per_sample_inference_seconds": 0.0004891187500106753
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026603999998769723,
+      "transfer_seconds": 0.00043849999929079786,
+      "inference_seconds": 0.008762899997236673,
+      "end_to_end_seconds": 0.035805399995297194,
+      "per_sample_inference_seconds": 0.000547681249827292
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028894099999888567,
+      "transfer_seconds": 0.00035039999784203246,
+      "inference_seconds": 0.00841260000015609,
+      "end_to_end_seconds": 0.03765709999788669,
+      "per_sample_inference_seconds": 0.0005257875000097556
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021785799999634037,
+      "transfer_seconds": 0.00030590000096708536,
+      "inference_seconds": 0.008316600000398466,
+      "end_to_end_seconds": 0.03040830000099959,
+      "per_sample_inference_seconds": 0.0005197875000249041
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012517300001491094,
+      "transfer_seconds": 0.0008854000006977003,
+      "inference_seconds": 0.008033199999772478,
+      "end_to_end_seconds": 0.021435900001961272,
+      "per_sample_inference_seconds": 0.0005020749999857799
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01927100000102655,
+      "transfer_seconds": 0.0004269999990356155,
+      "inference_seconds": 0.008588299999246374,
+      "end_to_end_seconds": 0.02828629999930854,
+      "per_sample_inference_seconds": 0.0005367687499528984
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029050000001006993,
+      "transfer_seconds": 0.0004284999995434191,
+      "inference_seconds": 0.008522899999661604,
+      "end_to_end_seconds": 0.038001400000212016,
+      "per_sample_inference_seconds": 0.0005326812499788502
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02754579999964335,
+      "transfer_seconds": 0.0004284999995434191,
+      "inference_seconds": 0.007630000000062864,
+      "end_to_end_seconds": 0.03560429999924963,
+      "per_sample_inference_seconds": 0.000476875000003929
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0449298000021372,
+      "transfer_seconds": 0.00040810000064084306,
+      "inference_seconds": 0.007462000001396518,
+      "end_to_end_seconds": 0.05279990000417456,
+      "per_sample_inference_seconds": 0.0004663750000872824
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01580399999875226,
+      "transfer_seconds": 0.00041540000165696256,
+      "inference_seconds": 0.008331699998961994,
+      "end_to_end_seconds": 0.024551099999371218,
+      "per_sample_inference_seconds": 0.0005207312499351247
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03165460000309395,
+      "transfer_seconds": 0.0005318999974406324,
+      "inference_seconds": 0.0077366000004985835,
+      "end_to_end_seconds": 0.03992310000103316,
+      "per_sample_inference_seconds": 0.00048353750003116147
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022231399998418055,
+      "transfer_seconds": 0.0003921999996236991,
+      "inference_seconds": 0.007638600000063889,
+      "end_to_end_seconds": 0.030262199998105643,
+      "per_sample_inference_seconds": 0.00047741250000399305
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014557499998772983,
+      "transfer_seconds": 0.0002948000001197215,
+      "inference_seconds": 0.007358800001384225,
+      "end_to_end_seconds": 0.02221110000027693,
+      "per_sample_inference_seconds": 0.00045992500008651405
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025766200000362005,
+      "transfer_seconds": 0.00044940000225324184,
+      "inference_seconds": 0.007938099999591941,
+      "end_to_end_seconds": 0.03415370000220719,
+      "per_sample_inference_seconds": 0.0004961312499744963
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025301500001660315,
+      "transfer_seconds": 0.0003428999989409931,
+      "inference_seconds": 0.007554100000561448,
+      "end_to_end_seconds": 0.033198500001162756,
+      "per_sample_inference_seconds": 0.0004721312500350905
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01944780000121682,
+      "transfer_seconds": 0.0003541000005498063,
+      "inference_seconds": 0.007447200001479359,
+      "end_to_end_seconds": 0.027249100003245985,
+      "per_sample_inference_seconds": 0.00046545000009245996
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029197399999247864,
+      "transfer_seconds": 0.0004627999987860676,
+      "inference_seconds": 0.0076991999994788785,
+      "end_to_end_seconds": 0.03735939999751281,
+      "per_sample_inference_seconds": 0.0004811999999674299
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024873200000001816,
+      "transfer_seconds": 0.0004264999988663476,
+      "inference_seconds": 0.0076808999983768445,
+      "end_to_end_seconds": 0.03298059999724501,
+      "per_sample_inference_seconds": 0.0004800562498985528
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.009984799999074312,
+      "transfer_seconds": 0.00026730000172392465,
+      "inference_seconds": 0.007331500000873348,
+      "end_to_end_seconds": 0.017583600001671584,
+      "per_sample_inference_seconds": 0.00045821875005458423
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01432560000102967,
+      "transfer_seconds": 0.00037990000055287965,
+      "inference_seconds": 0.007827400000678608,
+      "end_to_end_seconds": 0.022532900002261158,
+      "per_sample_inference_seconds": 0.000489212500042413
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024079100003291387,
+      "transfer_seconds": 0.00032669999927747995,
+      "inference_seconds": 0.00764540000091074,
+      "end_to_end_seconds": 0.03205120000347961,
+      "per_sample_inference_seconds": 0.00047783750005692127
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03935599999749684,
+      "transfer_seconds": 0.00046319999819388613,
+      "inference_seconds": 0.007948999998916406,
+      "end_to_end_seconds": 0.04776819999460713,
+      "per_sample_inference_seconds": 0.0004968124999322754
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03130710000186809,
+      "transfer_seconds": 0.0004231000020809006,
+      "inference_seconds": 0.007744999998976709,
+      "end_to_end_seconds": 0.0394752000029257,
+      "per_sample_inference_seconds": 0.00048406249993604433
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.009265100001357496,
+      "transfer_seconds": 0.0003007000013894867,
+      "inference_seconds": 0.007511399999202695,
+      "end_to_end_seconds": 0.017077200001949677,
+      "per_sample_inference_seconds": 0.0004694624999501684
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.035299000002851244,
+      "transfer_seconds": 0.00047990000166464597,
+      "inference_seconds": 0.007646600002772175,
+      "end_to_end_seconds": 0.043425500007288065,
+      "per_sample_inference_seconds": 0.0004779125001732609
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02230260000214912,
+      "transfer_seconds": 0.0004154999987804331,
+      "inference_seconds": 0.007693399998970563,
+      "end_to_end_seconds": 0.030411499999900116,
+      "per_sample_inference_seconds": 0.00048083749993566016
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02133239999966463,
+      "transfer_seconds": 0.00037969999902998097,
+      "inference_seconds": 0.00751250000030268,
+      "end_to_end_seconds": 0.02922459999899729,
+      "per_sample_inference_seconds": 0.0004695312500189175
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.018375000003288733,
+      "transfer_seconds": 0.000365700001566438,
+      "inference_seconds": 0.007774599998811027,
+      "end_to_end_seconds": 0.026515300003666198,
+      "per_sample_inference_seconds": 0.0004859124999256892
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027138000001286855,
+      "transfer_seconds": 0.0003921999996236991,
+      "inference_seconds": 0.007676299999729963,
+      "end_to_end_seconds": 0.03520650000064052,
+      "per_sample_inference_seconds": 0.0004797687499831227
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024837299999489915,
+      "transfer_seconds": 0.00034929999674204737,
+      "inference_seconds": 0.0077835000010963995,
+      "end_to_end_seconds": 0.03297009999732836,
+      "per_sample_inference_seconds": 0.00048646875006852497
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.015452400002686772,
+      "transfer_seconds": 0.00031970000054570846,
+      "inference_seconds": 0.007412900002236711,
+      "end_to_end_seconds": 0.023185000005469192,
+      "per_sample_inference_seconds": 0.00046330625013979443
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01990049999949406,
+      "transfer_seconds": 0.0003880000003846362,
+      "inference_seconds": 0.007438100001309067,
+      "end_to_end_seconds": 0.027726600001187762,
+      "per_sample_inference_seconds": 0.0004648812500818167
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017241800000192598,
+      "transfer_seconds": 0.0003094000021519605,
+      "inference_seconds": 0.0073622000018076506,
+      "end_to_end_seconds": 0.02491340000415221,
+      "per_sample_inference_seconds": 0.00046013750011297816
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03673300000082236,
+      "transfer_seconds": 0.0003662999988591764,
+      "inference_seconds": 0.007465799997589784,
+      "end_to_end_seconds": 0.04456509999727132,
+      "per_sample_inference_seconds": 0.0004666124998493615
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.031856499997957144,
+      "transfer_seconds": 0.00035199999911128543,
+      "inference_seconds": 0.00783919999958016,
+      "end_to_end_seconds": 0.04004769999664859,
+      "per_sample_inference_seconds": 0.00048994999997376
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0221480000000156,
+      "transfer_seconds": 0.00031210000088321976,
+      "inference_seconds": 0.007385599998087855,
+      "end_to_end_seconds": 0.029845699998986674,
+      "per_sample_inference_seconds": 0.00046159999988049094
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017034699998475844,
+      "transfer_seconds": 0.00029119999817339703,
+      "inference_seconds": 0.007660799998120638,
+      "end_to_end_seconds": 0.02498669999476988,
+      "per_sample_inference_seconds": 0.00047879999988253985
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01673769999979413,
+      "transfer_seconds": 0.000436700000136625,
+      "inference_seconds": 0.007932300002721604,
+      "end_to_end_seconds": 0.02510670000265236,
+      "per_sample_inference_seconds": 0.0004957687501701002
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025567799999407725,
+      "transfer_seconds": 0.0003376000022399239,
+      "inference_seconds": 0.007424300001730444,
+      "end_to_end_seconds": 0.03332970000337809,
+      "per_sample_inference_seconds": 0.00046401875010815274
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020988200001738733,
+      "transfer_seconds": 0.00036840000029769726,
+      "inference_seconds": 0.007740500001091277,
+      "end_to_end_seconds": 0.029097100003127707,
+      "per_sample_inference_seconds": 0.0004837812500682048
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01578670000162674,
+      "transfer_seconds": 0.0004206000012345612,
+      "inference_seconds": 0.007915100002719555,
+      "end_to_end_seconds": 0.024122400005580857,
+      "per_sample_inference_seconds": 0.0004946937501699722
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024525500000891043,
+      "transfer_seconds": 0.0003262999998696614,
+      "inference_seconds": 0.007673799998883624,
+      "end_to_end_seconds": 0.03252559999964433,
+      "per_sample_inference_seconds": 0.0004796124999302265
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024163999998563668,
+      "transfer_seconds": 0.00036159999945084564,
+      "inference_seconds": 0.00800840000010794,
+      "end_to_end_seconds": 0.032533999998122454,
+      "per_sample_inference_seconds": 0.0005005250000067463
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02044969999769819,
+      "transfer_seconds": 0.00045220000174595043,
+      "inference_seconds": 0.007733299997198628,
+      "end_to_end_seconds": 0.02863519999664277,
+      "per_sample_inference_seconds": 0.00048333124982491427
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.018491100003302563,
+      "transfer_seconds": 0.0004351999996288214,
+      "inference_seconds": 0.007943999997223727,
+      "end_to_end_seconds": 0.026870300000155112,
+      "per_sample_inference_seconds": 0.000496499999826483
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01766700000007404,
+      "transfer_seconds": 0.00034700000105658546,
+      "inference_seconds": 0.0074027000009664334,
+      "end_to_end_seconds": 0.02541670000209706,
+      "per_sample_inference_seconds": 0.0004626687500604021
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01598039999953471,
+      "transfer_seconds": 0.0003112999984296039,
+      "inference_seconds": 0.007671499999560183,
+      "end_to_end_seconds": 0.023963199997524498,
+      "per_sample_inference_seconds": 0.00047946874997251143
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03632919999654405,
+      "transfer_seconds": 0.00036419999742065556,
+      "inference_seconds": 0.007561500002339017,
+      "end_to_end_seconds": 0.04425489999630372,
+      "per_sample_inference_seconds": 0.00047259375014618854
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023421300000336487,
+      "transfer_seconds": 0.0003288999978394713,
+      "inference_seconds": 0.007408000001305481,
+      "end_to_end_seconds": 0.03115819999948144,
+      "per_sample_inference_seconds": 0.0004630000000815926
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024319999996805564,
+      "transfer_seconds": 0.00036440000258153304,
+      "inference_seconds": 0.007578000000648899,
+      "end_to_end_seconds": 0.032262400000035996,
+      "per_sample_inference_seconds": 0.0004736250000405562
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020247599997674115,
+      "transfer_seconds": 0.0003283000005467329,
+      "inference_seconds": 0.007453999998688232,
+      "end_to_end_seconds": 0.02802989999690908,
+      "per_sample_inference_seconds": 0.0004658749999180145
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03587650000190479,
+      "transfer_seconds": 0.0003386000025784597,
+      "inference_seconds": 0.007644799999980023,
+      "end_to_end_seconds": 0.04385990000446327,
+      "per_sample_inference_seconds": 0.00047779999999875145
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019663600000058068,
+      "transfer_seconds": 0.0003724000016518403,
+      "inference_seconds": 0.007693100000324193,
+      "end_to_end_seconds": 0.0277291000020341,
+      "per_sample_inference_seconds": 0.0004808187500202621
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02094059999944875,
+      "transfer_seconds": 0.000473000000056345,
+      "inference_seconds": 0.0077019000018481165,
+      "end_to_end_seconds": 0.02911550000135321,
+      "per_sample_inference_seconds": 0.0004813687501155073
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019504600000800565,
+      "transfer_seconds": 0.0002916999983426649,
+      "inference_seconds": 0.007671399998798734,
+      "end_to_end_seconds": 0.027467699997941963,
+      "per_sample_inference_seconds": 0.00047946249992492085
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014114599998720223,
+      "transfer_seconds": 0.0002973000009660609,
+      "inference_seconds": 0.007363499997154577,
+      "end_to_end_seconds": 0.02177539999684086,
+      "per_sample_inference_seconds": 0.00046021874982216104
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02386549999937415,
+      "transfer_seconds": 0.0003499000013107434,
+      "inference_seconds": 0.007558099998277612,
+      "end_to_end_seconds": 0.03177349999896251,
+      "per_sample_inference_seconds": 0.00047238124989235075
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.043116699998790864,
+      "transfer_seconds": 0.0003713000005518552,
+      "inference_seconds": 0.008385300003283191,
+      "end_to_end_seconds": 0.05187330000262591,
+      "per_sample_inference_seconds": 0.0005240812502051995
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.033383099998900434,
+      "transfer_seconds": 0.00046180000208551064,
+      "inference_seconds": 0.009254000000510132,
+      "end_to_end_seconds": 0.04309890000149608,
+      "per_sample_inference_seconds": 0.0005783750000318832
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023486499998398358,
+      "transfer_seconds": 0.00034950000190292485,
+      "inference_seconds": 0.009035700000822544,
+      "end_to_end_seconds": 0.03287170000112383,
+      "per_sample_inference_seconds": 0.000564731250051409
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.015459199999895645,
+      "transfer_seconds": 0.0004009000003861729,
+      "inference_seconds": 0.008195300000807038,
+      "end_to_end_seconds": 0.024055400001088856,
+      "per_sample_inference_seconds": 0.0005122062500504398
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02018369999859715,
+      "transfer_seconds": 0.00029859999995096587,
+      "inference_seconds": 0.00888660000055097,
+      "end_to_end_seconds": 0.029368899999099085,
+      "per_sample_inference_seconds": 0.0005554125000344357
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019437499999185093,
+      "transfer_seconds": 0.0003318999988550786,
+      "inference_seconds": 0.008672500000102445,
+      "end_to_end_seconds": 0.028441899998142617,
+      "per_sample_inference_seconds": 0.0005420312500064028
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02296790000036708,
+      "transfer_seconds": 0.0004087000015715603,
+      "inference_seconds": 0.008188899999368005,
+      "end_to_end_seconds": 0.031565500001306646,
+      "per_sample_inference_seconds": 0.0005118062499605003
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03267240000059246,
+      "transfer_seconds": 0.0004169999992882367,
+      "inference_seconds": 0.008589699998992728,
+      "end_to_end_seconds": 0.041679099998873426,
+      "per_sample_inference_seconds": 0.0005368562499370455
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029537599999457598,
+      "transfer_seconds": 0.00035430000207270496,
+      "inference_seconds": 0.007952399999339832,
+      "end_to_end_seconds": 0.037844300000870135,
+      "per_sample_inference_seconds": 0.0004970249999587395
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027628799998637987,
+      "transfer_seconds": 0.0003606999998737592,
+      "inference_seconds": 0.007951999999932013,
+      "end_to_end_seconds": 0.03594149999844376,
+      "per_sample_inference_seconds": 0.0004969999999957508
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024824799998896196,
+      "transfer_seconds": 0.00045390000013867393,
+      "inference_seconds": 0.008229600000049686,
+      "end_to_end_seconds": 0.033508299999084556,
+      "per_sample_inference_seconds": 0.0005143500000031054
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020038900001964066,
+      "transfer_seconds": 0.00041280000004917383,
+      "inference_seconds": 0.008246199999121018,
+      "end_to_end_seconds": 0.028697900001134258,
+      "per_sample_inference_seconds": 0.0005153874999450636
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022862000001623528,
+      "transfer_seconds": 0.0003943999981856905,
+      "inference_seconds": 0.008362500000657747,
+      "end_to_end_seconds": 0.031618900000466965,
+      "per_sample_inference_seconds": 0.0005226562500411092
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.018792899998516077,
+      "transfer_seconds": 0.0003966999975091312,
+      "inference_seconds": 0.008249099999375176,
+      "end_to_end_seconds": 0.027438699995400384,
+      "per_sample_inference_seconds": 0.0005155687499609485
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022061899999243906,
+      "transfer_seconds": 0.0003942000003007706,
+      "inference_seconds": 0.00810000000274158,
+      "end_to_end_seconds": 0.030556100002286257,
+      "per_sample_inference_seconds": 0.0005062500001713488
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01838829999906011,
+      "transfer_seconds": 0.0003048000035050791,
+      "inference_seconds": 0.00788040000043111,
+      "end_to_end_seconds": 0.026573500002996298,
+      "per_sample_inference_seconds": 0.0004925250000269443
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.018701699998928234,
+      "transfer_seconds": 0.00044689999776892364,
+      "inference_seconds": 0.00878989999910118,
+      "end_to_end_seconds": 0.027938499995798338,
+      "per_sample_inference_seconds": 0.0005493687499438238
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012882000002718996,
+      "transfer_seconds": 0.00030979999792180024,
+      "inference_seconds": 0.00789960000111023,
+      "end_to_end_seconds": 0.021091400001751026,
+      "per_sample_inference_seconds": 0.0004937250000693894
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02596559999801684,
+      "transfer_seconds": 0.0003498999976727646,
+      "inference_seconds": 0.007965500000864267,
+      "end_to_end_seconds": 0.034280999996553874,
+      "per_sample_inference_seconds": 0.0004978437500540167
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026697600002080435,
+      "transfer_seconds": 0.00038860000131535344,
+      "inference_seconds": 0.008064500001637498,
+      "end_to_end_seconds": 0.035150700005033286,
+      "per_sample_inference_seconds": 0.0005040312501023436
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020781400002306327,
+      "transfer_seconds": 0.0003816999997070525,
+      "inference_seconds": 0.008036300001549534,
+      "end_to_end_seconds": 0.029199400003562914,
+      "per_sample_inference_seconds": 0.0005022687500968459
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.018362399998295587,
+      "transfer_seconds": 0.0003018000024894718,
+      "inference_seconds": 0.007956100002047606,
+      "end_to_end_seconds": 0.026620300002832664,
+      "per_sample_inference_seconds": 0.0004972562501279754
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030259299997851485,
+      "transfer_seconds": 0.00042529999700491317,
+      "inference_seconds": 0.00810289999935776,
+      "end_to_end_seconds": 0.03878749999421416,
+      "per_sample_inference_seconds": 0.00050643124995986
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01743500000156928,
+      "transfer_seconds": 0.0003603000004659407,
+      "inference_seconds": 0.008037100000365172,
+      "end_to_end_seconds": 0.02583240000240039,
+      "per_sample_inference_seconds": 0.0005023187500228232
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027137699999002507,
+      "transfer_seconds": 0.0003394999985175673,
+      "inference_seconds": 0.007917599999927916,
+      "end_to_end_seconds": 0.03539479999744799,
+      "per_sample_inference_seconds": 0.0004948499999954947
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01313750000190339,
+      "transfer_seconds": 0.0003347999991092365,
+      "inference_seconds": 0.00802309999926365,
+      "end_to_end_seconds": 0.021495400000276277,
+      "per_sample_inference_seconds": 0.0005014437499539781
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029923799997050082,
+      "transfer_seconds": 0.00043000000005122274,
+      "inference_seconds": 0.00813909999851603,
+      "end_to_end_seconds": 0.038492899995617336,
+      "per_sample_inference_seconds": 0.0005086937499072519
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.031171900001936592,
+      "transfer_seconds": 0.00034499999674153514,
+      "inference_seconds": 0.007944000000861706,
+      "end_to_end_seconds": 0.039460899999539834,
+      "per_sample_inference_seconds": 0.0004965000000538566
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03276439999899594,
+      "transfer_seconds": 0.00039430000106221996,
+      "inference_seconds": 0.008058899999014102,
+      "end_to_end_seconds": 0.04121759999907226,
+      "per_sample_inference_seconds": 0.0005036812499383814
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028495900001871632,
+      "transfer_seconds": 0.00038979999953880906,
+      "inference_seconds": 0.0080541000024823,
+      "end_to_end_seconds": 0.03693980000389274,
+      "per_sample_inference_seconds": 0.0005033812501551438
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013280200000735931,
+      "transfer_seconds": 0.00032160000046133064,
+      "inference_seconds": 0.008047700001043268,
+      "end_to_end_seconds": 0.02164950000224053,
+      "per_sample_inference_seconds": 0.0005029812500652042
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020320599996921374,
+      "transfer_seconds": 0.00035819999902741984,
+      "inference_seconds": 0.008009500001207925,
+      "end_to_end_seconds": 0.02868829999715672,
+      "per_sample_inference_seconds": 0.0005005937500754953
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03265100000135135,
+      "transfer_seconds": 0.00034109999978682026,
+      "inference_seconds": 0.008360900003026472,
+      "end_to_end_seconds": 0.04135300000416464,
+      "per_sample_inference_seconds": 0.0005225562501891545
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014580899998691166,
+      "transfer_seconds": 0.0003728000010596588,
+      "inference_seconds": 0.008079999999608845,
+      "end_to_end_seconds": 0.02303369999935967,
+      "per_sample_inference_seconds": 0.0005049999999755528
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.039138699998147786,
+      "transfer_seconds": 0.00045110000064596534,
+      "inference_seconds": 0.008197899998776847,
+      "end_to_end_seconds": 0.0477876999975706,
+      "per_sample_inference_seconds": 0.000512368749923553
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022732900000846712,
+      "transfer_seconds": 0.0003130000004603062,
+      "inference_seconds": 0.00793340000018361,
+      "end_to_end_seconds": 0.03097930000149063,
+      "per_sample_inference_seconds": 0.0004958375000114756
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023738799998682225,
+      "transfer_seconds": 0.00031670000316808,
+      "inference_seconds": 0.007898300002125325,
+      "end_to_end_seconds": 0.03195380000397563,
+      "per_sample_inference_seconds": 0.0004936437501328328
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014207599997462239,
+      "transfer_seconds": 0.00031880000096862204,
+      "inference_seconds": 0.00818289999733679,
+      "end_to_end_seconds": 0.02270929999576765,
+      "per_sample_inference_seconds": 0.0005114312498335494
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025264600000809878,
+      "transfer_seconds": 0.00032610000198474154,
+      "inference_seconds": 0.007460200002242345,
+      "end_to_end_seconds": 0.033050900005036965,
+      "per_sample_inference_seconds": 0.0004662625001401466
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020190100000036182,
+      "transfer_seconds": 0.0003376000022399239,
+      "inference_seconds": 0.007434300001477823,
+      "end_to_end_seconds": 0.02796200000375393,
+      "per_sample_inference_seconds": 0.0004646437500923639
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029669299998204224,
+      "transfer_seconds": 0.00034500000037951395,
+      "inference_seconds": 0.007416000000375789,
+      "end_to_end_seconds": 0.037430299998959526,
+      "per_sample_inference_seconds": 0.0004635000000234868
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013327700002264464,
+      "transfer_seconds": 0.000278499999694759,
+      "inference_seconds": 0.007402299997920636,
+      "end_to_end_seconds": 0.02100849999987986,
+      "per_sample_inference_seconds": 0.00046264374987003976
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0330859000023338,
+      "transfer_seconds": 0.00041480000072624534,
+      "inference_seconds": 0.00817559999995865,
+      "end_to_end_seconds": 0.041676300003018696,
+      "per_sample_inference_seconds": 0.0005109749999974156
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028030000001308508,
+      "transfer_seconds": 0.00037940000038361177,
+      "inference_seconds": 0.007479600000806386,
+      "end_to_end_seconds": 0.035889000002498506,
+      "per_sample_inference_seconds": 0.0004674750000503991
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028237200000148732,
+      "transfer_seconds": 0.0005046000005677342,
+      "inference_seconds": 0.0075450000003911555,
+      "end_to_end_seconds": 0.03628680000110762,
+      "per_sample_inference_seconds": 0.0004715625000244472
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02134690000093542,
+      "transfer_seconds": 0.00037460000021383166,
+      "inference_seconds": 0.007815699998900527,
+      "end_to_end_seconds": 0.02953720000004978,
+      "per_sample_inference_seconds": 0.000488481249931283
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.033218399999896064,
+      "transfer_seconds": 0.00041419999979552813,
+      "inference_seconds": 0.008535400000255322,
+      "end_to_end_seconds": 0.042167999999946915,
+      "per_sample_inference_seconds": 0.0005334625000159576
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03745839999828604,
+      "transfer_seconds": 0.0005887999977858271,
+      "inference_seconds": 0.007864800001698313,
+      "end_to_end_seconds": 0.04591199999777018,
+      "per_sample_inference_seconds": 0.0004915500001061446
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020908300000883173,
+      "transfer_seconds": 0.00035629999911179766,
+      "inference_seconds": 0.007471700002497528,
+      "end_to_end_seconds": 0.0287363000024925,
+      "per_sample_inference_seconds": 0.0004669812501560955
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01830790000167326,
+      "transfer_seconds": 0.000420300002588192,
+      "inference_seconds": 0.008406500001001405,
+      "end_to_end_seconds": 0.027134700005262857,
+      "per_sample_inference_seconds": 0.0005254062500625878
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027341200002410915,
+      "transfer_seconds": 0.00036579999868990853,
+      "inference_seconds": 0.007504899997002212,
+      "end_to_end_seconds": 0.035211899998103036,
+      "per_sample_inference_seconds": 0.00046905624981263827
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03608379999786848,
+      "transfer_seconds": 0.000488599998789141,
+      "inference_seconds": 0.008501199998136144,
+      "end_to_end_seconds": 0.04507359999479377,
+      "per_sample_inference_seconds": 0.000531324999883509
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0268969000026118,
+      "transfer_seconds": 0.00038270000004558824,
+      "inference_seconds": 0.008355699999810895,
+      "end_to_end_seconds": 0.035635300002468284,
+      "per_sample_inference_seconds": 0.0005222312499881809
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021174699999392033,
+      "transfer_seconds": 0.0005746999995608348,
+      "inference_seconds": 0.008274599997093901,
+      "end_to_end_seconds": 0.03002399999604677,
+      "per_sample_inference_seconds": 0.0005171624998183688
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02589330000046175,
+      "transfer_seconds": 0.0004072999981872272,
+      "inference_seconds": 0.008005799998500152,
+      "end_to_end_seconds": 0.03430639999714913,
+      "per_sample_inference_seconds": 0.0005003624999062595
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025545799999235896,
+      "transfer_seconds": 0.0004422999991220422,
+      "inference_seconds": 0.008093700002063997,
+      "end_to_end_seconds": 0.034081800000421936,
+      "per_sample_inference_seconds": 0.0005058562501289998
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027953299999353476,
+      "transfer_seconds": 0.0004549999976006802,
+      "inference_seconds": 0.007828800000424962,
+      "end_to_end_seconds": 0.03623709999737912,
+      "per_sample_inference_seconds": 0.0004893000000265602
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02995089999967604,
+      "transfer_seconds": 0.00044270000216783956,
+      "inference_seconds": 0.007727399999566842,
+      "end_to_end_seconds": 0.03812100000141072,
+      "per_sample_inference_seconds": 0.0004829624999729276
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027430300000560237,
+      "transfer_seconds": 0.0004009000003861729,
+      "inference_seconds": 0.007754800000839168,
+      "end_to_end_seconds": 0.03558600000178558,
+      "per_sample_inference_seconds": 0.000484675000052448
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022589300002437085,
+      "transfer_seconds": 0.0004318000028433744,
+      "inference_seconds": 0.007736200001090765,
+      "end_to_end_seconds": 0.030757300006371224,
+      "per_sample_inference_seconds": 0.0004835125000681728
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02369610000096145,
+      "transfer_seconds": 0.0005154000027687289,
+      "inference_seconds": 0.007775300000503194,
+      "end_to_end_seconds": 0.03198680000423337,
+      "per_sample_inference_seconds": 0.0004859562500314496
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021180700001423247,
+      "transfer_seconds": 0.00039760000072419643,
+      "inference_seconds": 0.009834299999056384,
+      "end_to_end_seconds": 0.03141260000120383,
+      "per_sample_inference_seconds": 0.000614643749941024
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024270800000522286,
+      "transfer_seconds": 0.000325700002576923,
+      "inference_seconds": 0.009322900001279777,
+      "end_to_end_seconds": 0.033919400004378986,
+      "per_sample_inference_seconds": 0.0005826812500799861
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03520369999750983,
+      "transfer_seconds": 0.0003919000009773299,
+      "inference_seconds": 0.009632400000555208,
+      "end_to_end_seconds": 0.04522799999904237,
+      "per_sample_inference_seconds": 0.0006020250000347005
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03156400000079884,
+      "transfer_seconds": 0.0003727000002982095,
+      "inference_seconds": 0.009372000000439584,
+      "end_to_end_seconds": 0.041308700001536636,
+      "per_sample_inference_seconds": 0.000585750000027474
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017234500002814457,
+      "transfer_seconds": 0.0003423000016482547,
+      "inference_seconds": 0.009595100000296952,
+      "end_to_end_seconds": 0.027171900004759664,
+      "per_sample_inference_seconds": 0.0005996937500185595
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027611900000920286,
+      "transfer_seconds": 0.0003710999990289565,
+      "inference_seconds": 0.009408499998244224,
+      "end_to_end_seconds": 0.03739149999819347,
+      "per_sample_inference_seconds": 0.000588031249890264
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019265599999926053,
+      "transfer_seconds": 0.00038750000021536835,
+      "inference_seconds": 0.009432400001969654,
+      "end_to_end_seconds": 0.029085500002111075,
+      "per_sample_inference_seconds": 0.0005895250001231034
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029847900001186645,
+      "transfer_seconds": 0.0003556000010576099,
+      "inference_seconds": 0.009347600000182865,
+      "end_to_end_seconds": 0.03955110000242712,
+      "per_sample_inference_seconds": 0.0005842250000114291
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030357999999978347,
+      "transfer_seconds": 0.000387399999453919,
+      "inference_seconds": 0.009428199999092612,
+      "end_to_end_seconds": 0.04017359999852488,
+      "per_sample_inference_seconds": 0.0005892624999432883
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019235699997807387,
+      "transfer_seconds": 0.0003983999995398335,
+      "inference_seconds": 0.009865500000159955,
+      "end_to_end_seconds": 0.029499599997507175,
+      "per_sample_inference_seconds": 0.0006165937500099972
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02682479999930365,
+      "transfer_seconds": 0.0003934999986086041,
+      "inference_seconds": 0.00983519999863347,
+      "end_to_end_seconds": 0.037053499996545725,
+      "per_sample_inference_seconds": 0.0006146999999145919
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.035311300001922064,
+      "transfer_seconds": 0.00043430000005173497,
+      "inference_seconds": 0.009358800001791678,
+      "end_to_end_seconds": 0.04510440000376548,
+      "per_sample_inference_seconds": 0.0005849250001119799
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028895100000227103,
+      "transfer_seconds": 0.0003518999983498361,
+      "inference_seconds": 0.009384799999679672,
+      "end_to_end_seconds": 0.03863179999825661,
+      "per_sample_inference_seconds": 0.0005865499999799795
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022279299999354407,
+      "transfer_seconds": 0.000343399999110261,
+      "inference_seconds": 0.009560800001054304,
+      "end_to_end_seconds": 0.03218349999951897,
+      "per_sample_inference_seconds": 0.000597550000065894
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013978099999803817,
+      "transfer_seconds": 0.000312700001813937,
+      "inference_seconds": 0.009331500001280801,
+      "end_to_end_seconds": 0.023622300002898555,
+      "per_sample_inference_seconds": 0.0005832187500800501
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014305699998658383,
+      "transfer_seconds": 0.00031409999792231247,
+      "inference_seconds": 0.009809600000153296,
+      "end_to_end_seconds": 0.02442939999673399,
+      "per_sample_inference_seconds": 0.000613100000009581
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019725300000573043,
+      "transfer_seconds": 0.0005154999998921994,
+      "inference_seconds": 0.010219499999948312,
+      "end_to_end_seconds": 0.030460300000413554,
+      "per_sample_inference_seconds": 0.0006387187499967695
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02557170000000042,
+      "transfer_seconds": 0.0004327000024204608,
+      "inference_seconds": 0.009435100000700913,
+      "end_to_end_seconds": 0.03543950000312179,
+      "per_sample_inference_seconds": 0.0005896937500438071
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023911100000987062,
+      "transfer_seconds": 0.0003260000012232922,
+      "inference_seconds": 0.0094238999990921,
+      "end_to_end_seconds": 0.033661000001302455,
+      "per_sample_inference_seconds": 0.0005889937499432563
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019755699999222998,
+      "transfer_seconds": 0.0003172000033373479,
+      "inference_seconds": 0.009375800000270829,
+      "end_to_end_seconds": 0.029448700002831174,
+      "per_sample_inference_seconds": 0.0005859875000169268
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025616799997806083,
+      "transfer_seconds": 0.00040159999844036065,
+      "inference_seconds": 0.009898700001940597,
+      "end_to_end_seconds": 0.03591709999818704,
+      "per_sample_inference_seconds": 0.0006186687501212873
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013905600000725826,
+      "transfer_seconds": 0.0002955999989353586,
+      "inference_seconds": 0.009367099999508355,
+      "end_to_end_seconds": 0.02356829999916954,
+      "per_sample_inference_seconds": 0.0005854437499692722
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026104800002940465,
+      "transfer_seconds": 0.00037320000046747737,
+      "inference_seconds": 0.009339899999758927,
+      "end_to_end_seconds": 0.03581790000316687,
+      "per_sample_inference_seconds": 0.000583743749984933
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026744099999632454,
+      "transfer_seconds": 0.00036470000122790225,
+      "inference_seconds": 0.009379799997986993,
+      "end_to_end_seconds": 0.03648859999884735,
+      "per_sample_inference_seconds": 0.000586237499874187
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01591280000138795,
+      "transfer_seconds": 0.0004527000019152183,
+      "inference_seconds": 0.009823300002608448,
+      "end_to_end_seconds": 0.026188800005911617,
+      "per_sample_inference_seconds": 0.000613956250163028
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026255699998728232,
+      "transfer_seconds": 0.0003735000027518254,
+      "inference_seconds": 0.009405799999512965,
+      "end_to_end_seconds": 0.03603500000099302,
+      "per_sample_inference_seconds": 0.0005878624999695603
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027911799999856157,
+      "transfer_seconds": 0.0004528999998001382,
+      "inference_seconds": 0.00946029999977327,
+      "end_to_end_seconds": 0.037824999999429565,
+      "per_sample_inference_seconds": 0.0005912687499858293
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.015536999999312684,
+      "transfer_seconds": 0.0004062999978486914,
+      "inference_seconds": 0.009858599998551654,
+      "end_to_end_seconds": 0.02580189999571303,
+      "per_sample_inference_seconds": 0.0006161624999094784
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.015909100002318155,
+      "transfer_seconds": 0.00038700000004610047,
+      "inference_seconds": 0.009439099998417078,
+      "end_to_end_seconds": 0.025735200000781333,
+      "per_sample_inference_seconds": 0.0005899437499010673
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019933699997636722,
+      "transfer_seconds": 0.00037140000131330453,
+      "inference_seconds": 0.009328799998911563,
+      "end_to_end_seconds": 0.02963389999786159,
+      "per_sample_inference_seconds": 0.0005830499999319727
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023627300000953255,
+      "transfer_seconds": 0.00037429999792948365,
+      "inference_seconds": 0.008158600001479499,
+      "end_to_end_seconds": 0.03216020000036224,
+      "per_sample_inference_seconds": 0.0005099125000924687
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01973799999905168,
+      "transfer_seconds": 0.00038780000249971636,
+      "inference_seconds": 0.008387400001083734,
+      "end_to_end_seconds": 0.02851320000263513,
+      "per_sample_inference_seconds": 0.0005242125000677333
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022458300001744647,
+      "transfer_seconds": 0.00043710000318242237,
+      "inference_seconds": 0.008403200001339428,
+      "end_to_end_seconds": 0.0312986000062665,
+      "per_sample_inference_seconds": 0.0005252000000837143
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.035471299997880124,
+      "transfer_seconds": 0.00039029999970807694,
+      "inference_seconds": 0.007964000000356464,
+      "end_to_end_seconds": 0.043825599997944664,
+      "per_sample_inference_seconds": 0.000497750000022279
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024045999998634215,
+      "transfer_seconds": 0.00036560000080498867,
+      "inference_seconds": 0.007824499996786471,
+      "end_to_end_seconds": 0.032236099996225676,
+      "per_sample_inference_seconds": 0.0004890312497991545
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02499829999942449,
+      "transfer_seconds": 0.0003829000015684869,
+      "inference_seconds": 0.00790479999704985,
+      "end_to_end_seconds": 0.033285999998042826,
+      "per_sample_inference_seconds": 0.0004940499998156156
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.018997299997863593,
+      "transfer_seconds": 0.0003419999993639067,
+      "inference_seconds": 0.009623600002669264,
+      "end_to_end_seconds": 0.028962899999896763,
+      "per_sample_inference_seconds": 0.000601475000166829
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.04150160000062897,
+      "transfer_seconds": 0.0003753000019059982,
+      "inference_seconds": 0.009345000002213055,
+      "end_to_end_seconds": 0.05122190000474802,
+      "per_sample_inference_seconds": 0.000584062500138316
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01582110000163084,
+      "transfer_seconds": 0.0003510000024107285,
+      "inference_seconds": 0.009630600001401035,
+      "end_to_end_seconds": 0.025802700005442603,
+      "per_sample_inference_seconds": 0.0006019125000875647
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013918500000727363,
+      "transfer_seconds": 0.0003011999979207758,
+      "inference_seconds": 0.009244000000762753,
+      "end_to_end_seconds": 0.023463699999410892,
+      "per_sample_inference_seconds": 0.0005777500000476721
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023669099999096943,
+      "transfer_seconds": 0.0003405999996175524,
+      "inference_seconds": 0.009386900001118192,
+      "end_to_end_seconds": 0.03339659999983269,
+      "per_sample_inference_seconds": 0.000586681250069887
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.04709079999884125,
+      "transfer_seconds": 0.00041730000157258473,
+      "inference_seconds": 0.009817199999815784,
+      "end_to_end_seconds": 0.05732530000022962,
+      "per_sample_inference_seconds": 0.0006135749999884865
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021333699998649536,
+      "transfer_seconds": 0.000362000002496643,
+      "inference_seconds": 0.009522200001811143,
+      "end_to_end_seconds": 0.03121790000295732,
+      "per_sample_inference_seconds": 0.0005951375001131964
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02485499999966123,
+      "transfer_seconds": 0.00038050000148359686,
+      "inference_seconds": 0.009430300000531133,
+      "end_to_end_seconds": 0.03466580000167596,
+      "per_sample_inference_seconds": 0.0005893937500331958
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019482499999867287,
+      "transfer_seconds": 0.00036420000105863437,
+      "inference_seconds": 0.00940210000044317,
+      "end_to_end_seconds": 0.02924880000136909,
+      "per_sample_inference_seconds": 0.0005876312500276981
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021471100000781007,
+      "transfer_seconds": 0.0003453999997873325,
+      "inference_seconds": 0.009366600002977066,
+      "end_to_end_seconds": 0.031183100003545405,
+      "per_sample_inference_seconds": 0.0005854125001860666
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019245100000262028,
+      "transfer_seconds": 0.0005315000016707927,
+      "inference_seconds": 0.009889999997540144,
+      "end_to_end_seconds": 0.029666599999472965,
+      "per_sample_inference_seconds": 0.000618124999846259
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014026900000317255,
+      "transfer_seconds": 0.0003068999976676423,
+      "inference_seconds": 0.009301899997808505,
+      "end_to_end_seconds": 0.023635699995793402,
+      "per_sample_inference_seconds": 0.0005813687498630316
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0256005000010191,
+      "transfer_seconds": 0.0003586999991966877,
+      "inference_seconds": 0.008534500000678236,
+      "end_to_end_seconds": 0.03449370000089402,
+      "per_sample_inference_seconds": 0.0005334062500423897
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01869019999867305,
+      "transfer_seconds": 0.00038380000114557333,
+      "inference_seconds": 0.007982699997228337,
+      "end_to_end_seconds": 0.027056699997046962,
+      "per_sample_inference_seconds": 0.0004989187498267711
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02537279999887687,
+      "transfer_seconds": 0.00035879999995813705,
+      "inference_seconds": 0.007858799999667099,
+      "end_to_end_seconds": 0.03359039999850211,
+      "per_sample_inference_seconds": 0.0004911749999791937
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03508650000003399,
+      "transfer_seconds": 0.0003814000010606833,
+      "inference_seconds": 0.008218700000725221,
+      "end_to_end_seconds": 0.0436866000018199,
+      "per_sample_inference_seconds": 0.0005136687500453263
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020044299999426585,
+      "transfer_seconds": 0.0003766000008909032,
+      "inference_seconds": 0.007946299996547168,
+      "end_to_end_seconds": 0.028367199996864656,
+      "per_sample_inference_seconds": 0.000496643749784198
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02298479999808478,
+      "transfer_seconds": 0.00033379999877070077,
+      "inference_seconds": 0.0078055000012682285,
+      "end_to_end_seconds": 0.03112409999812371,
+      "per_sample_inference_seconds": 0.0004878437500792643
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022933000000193715,
+      "transfer_seconds": 0.00036840000029769726,
+      "inference_seconds": 0.009398900001542643,
+      "end_to_end_seconds": 0.032700300002034055,
+      "per_sample_inference_seconds": 0.0005874312500964152
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030629300003056414,
+      "transfer_seconds": 0.00038099999801488593,
+      "inference_seconds": 0.009603599999536527,
+      "end_to_end_seconds": 0.04061390000060783,
+      "per_sample_inference_seconds": 0.000600224999971033
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.037159700001211604,
+      "transfer_seconds": 0.00037850000080652535,
+      "inference_seconds": 0.009441999998671236,
+      "end_to_end_seconds": 0.046980200000689365,
+      "per_sample_inference_seconds": 0.0005901249999169522
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020586899998306762,
+      "transfer_seconds": 0.0003832000002148561,
+      "inference_seconds": 0.009646200000133831,
+      "end_to_end_seconds": 0.03061629999865545,
+      "per_sample_inference_seconds": 0.0006028875000083644
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0275459000004048,
+      "transfer_seconds": 0.0003798000034294091,
+      "inference_seconds": 0.009543000000121538,
+      "end_to_end_seconds": 0.037468700003955746,
+      "per_sample_inference_seconds": 0.0005964375000075961
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029922300000180257,
+      "transfer_seconds": 0.00035539999953471124,
+      "inference_seconds": 0.009561699996993411,
+      "end_to_end_seconds": 0.03983939999670838,
+      "per_sample_inference_seconds": 0.0005976062498120882
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025071600000956096,
+      "transfer_seconds": 0.00037930000326014124,
+      "inference_seconds": 0.00937790000170935,
+      "end_to_end_seconds": 0.034828800005925586,
+      "per_sample_inference_seconds": 0.0005861187501068343
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.045792500000970904,
+      "transfer_seconds": 0.0003988999997091014,
+      "inference_seconds": 0.009456399999180576,
+      "end_to_end_seconds": 0.05564779999986058,
+      "per_sample_inference_seconds": 0.000591024999948786
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.036114200000156416,
+      "transfer_seconds": 0.0003986000010627322,
+      "inference_seconds": 0.009329100001195911,
+      "end_to_end_seconds": 0.04584190000241506,
+      "per_sample_inference_seconds": 0.0005830687500747445
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026663299999199808,
+      "transfer_seconds": 0.00038019999919924885,
+      "inference_seconds": 0.009338500000012573,
+      "end_to_end_seconds": 0.03638199999841163,
+      "per_sample_inference_seconds": 0.0005836562500007858
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01285979999738629,
+      "transfer_seconds": 0.00029150000045774505,
+      "inference_seconds": 0.01031169999987469,
+      "end_to_end_seconds": 0.023462999997718725,
+      "per_sample_inference_seconds": 0.0006444812499921682
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.04642420000163838,
+      "transfer_seconds": 0.00036920000275131315,
+      "inference_seconds": 0.009714899999380577,
+      "end_to_end_seconds": 0.05650830000377027,
+      "per_sample_inference_seconds": 0.0006071812499612861
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0192280999981449,
+      "transfer_seconds": 0.0003203999985998962,
+      "inference_seconds": 0.009713799998280592,
+      "end_to_end_seconds": 0.029262299995025387,
+      "per_sample_inference_seconds": 0.000607112499892537
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027849499998410465,
+      "transfer_seconds": 0.00033830000029411167,
+      "inference_seconds": 0.009797900002013193,
+      "end_to_end_seconds": 0.03798570000071777,
+      "per_sample_inference_seconds": 0.0006123687501258246
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024946400000771973,
+      "transfer_seconds": 0.0003603000004659407,
+      "inference_seconds": 0.01034810000055586,
+      "end_to_end_seconds": 0.035654800001793774,
+      "per_sample_inference_seconds": 0.0006467562500347412
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.04249509999863221,
+      "transfer_seconds": 0.00043619999996735714,
+      "inference_seconds": 0.009790199997951277,
+      "end_to_end_seconds": 0.05272149999655085,
+      "per_sample_inference_seconds": 0.0006118874998719548
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02451920000021346,
+      "transfer_seconds": 0.0003781000013987068,
+      "inference_seconds": 0.010351500000979286,
+      "end_to_end_seconds": 0.03524880000259145,
+      "per_sample_inference_seconds": 0.0006469687500612054
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.009655199999542674,
+      "transfer_seconds": 0.0002849000011337921,
+      "inference_seconds": 0.009746899999299785,
+      "end_to_end_seconds": 0.01968699999997625,
+      "per_sample_inference_seconds": 0.0006091812499562366
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02448509999885573,
+      "transfer_seconds": 0.0004805999997188337,
+      "inference_seconds": 0.009737200001836754,
+      "end_to_end_seconds": 0.03470290000041132,
+      "per_sample_inference_seconds": 0.0006085750001147971
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013514099999156315,
+      "transfer_seconds": 0.0003209999995306134,
+      "inference_seconds": 0.009675299999798881,
+      "end_to_end_seconds": 0.02351039999848581,
+      "per_sample_inference_seconds": 0.0006047062499874301
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019720600001164712,
+      "transfer_seconds": 0.0003398000008019153,
+      "inference_seconds": 0.009923199999320786,
+      "end_to_end_seconds": 0.029983600001287414,
+      "per_sample_inference_seconds": 0.0006201999999575492
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03314989999853424,
+      "transfer_seconds": 0.0003808999972534366,
+      "inference_seconds": 0.008944400000473252,
+      "end_to_end_seconds": 0.042475199996260926,
+      "per_sample_inference_seconds": 0.0005590250000295782
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0377781999995932,
+      "transfer_seconds": 0.00036779999936698005,
+      "inference_seconds": 0.008852400002069771,
+      "end_to_end_seconds": 0.04699840000102995,
+      "per_sample_inference_seconds": 0.0005532750001293607
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026022399997600587,
+      "transfer_seconds": 0.0004399999997986015,
+      "inference_seconds": 0.009418899997399421,
+      "end_to_end_seconds": 0.03588129999479861,
+      "per_sample_inference_seconds": 0.0005886812498374638
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02583249999952386,
+      "transfer_seconds": 0.0004723999991256278,
+      "inference_seconds": 0.008863300001394236,
+      "end_to_end_seconds": 0.035168200000043726,
+      "per_sample_inference_seconds": 0.0005539562500871398
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029941799999505747,
+      "transfer_seconds": 0.0003816999997070525,
+      "inference_seconds": 0.008328299998538569,
+      "end_to_end_seconds": 0.03865179999775137,
+      "per_sample_inference_seconds": 0.0005205187499086605
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014146900000923779,
+      "transfer_seconds": 0.0003493000003800262,
+      "inference_seconds": 0.008631400000012945,
+      "end_to_end_seconds": 0.02312760000131675,
+      "per_sample_inference_seconds": 0.0005394625000008091
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0450888000013947,
+      "transfer_seconds": 0.0004884999980276916,
+      "inference_seconds": 0.010265599998092512,
+      "end_to_end_seconds": 0.055842899997514905,
+      "per_sample_inference_seconds": 0.000641599999880782
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023958699999639066,
+      "transfer_seconds": 0.00038700000004610047,
+      "inference_seconds": 0.009724999999889405,
+      "end_to_end_seconds": 0.03407069999957457,
+      "per_sample_inference_seconds": 0.0006078124999930878
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026916099999652943,
+      "transfer_seconds": 0.00036040000122739,
+      "inference_seconds": 0.009751199999300297,
+      "end_to_end_seconds": 0.03702770000018063,
+      "per_sample_inference_seconds": 0.0006094499999562686
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022753900000680005,
+      "transfer_seconds": 0.00037259999953676015,
+      "inference_seconds": 0.009752599999046652,
+      "end_to_end_seconds": 0.03287909999926342,
+      "per_sample_inference_seconds": 0.0006095374999404157
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016152000000147382,
+      "transfer_seconds": 0.0002898999991884921,
+      "inference_seconds": 0.010444900002767099,
+      "end_to_end_seconds": 0.026886800002102973,
+      "per_sample_inference_seconds": 0.0006528062501729437
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03679200000260607,
+      "transfer_seconds": 0.00035209999987273477,
+      "inference_seconds": 0.00992480000059004,
+      "end_to_end_seconds": 0.04706890000306885,
+      "per_sample_inference_seconds": 0.0006203000000368775
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02791810000053374,
+      "transfer_seconds": 0.00035289999868837185,
+      "inference_seconds": 0.009715500000311295,
+      "end_to_end_seconds": 0.03798649999953341,
+      "per_sample_inference_seconds": 0.0006072187500194559
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0191545000016049,
+      "transfer_seconds": 0.0004116000018257182,
+      "inference_seconds": 0.010481699999218108,
+      "end_to_end_seconds": 0.030047800002648728,
+      "per_sample_inference_seconds": 0.0006551062499511318
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02161839999826043,
+      "transfer_seconds": 0.00037310000334400684,
+      "inference_seconds": 0.00981560000218451,
+      "end_to_end_seconds": 0.031807100003788946,
+      "per_sample_inference_seconds": 0.0006134750001365319
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012949399999342859,
+      "transfer_seconds": 0.0003493000003800262,
+      "inference_seconds": 0.009665499997936422,
+      "end_to_end_seconds": 0.022964199997659307,
+      "per_sample_inference_seconds": 0.0006040937498710264
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024334499998076353,
+      "transfer_seconds": 0.00044329999946057796,
+      "inference_seconds": 0.009745200000907062,
+      "end_to_end_seconds": 0.03452299999844399,
+      "per_sample_inference_seconds": 0.0006090750000566914
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02568310000060592,
+      "transfer_seconds": 0.0003324999997857958,
+      "inference_seconds": 0.008267699999123579,
+      "end_to_end_seconds": 0.03428329999951529,
+      "per_sample_inference_seconds": 0.0005167312499452237
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029825900001014816,
+      "transfer_seconds": 0.00036689999978989363,
+      "inference_seconds": 0.008657900001708185,
+      "end_to_end_seconds": 0.038850700002512895,
+      "per_sample_inference_seconds": 0.0005411187501067616
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02929710000171326,
+      "transfer_seconds": 0.0007001999983913265,
+      "inference_seconds": 0.00868110000010347,
+      "end_to_end_seconds": 0.03867840000020806,
+      "per_sample_inference_seconds": 0.0005425687500064669
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03323909999744501,
+      "transfer_seconds": 0.0003556000010576099,
+      "inference_seconds": 0.008905099999537924,
+      "end_to_end_seconds": 0.042499799998040544,
+      "per_sample_inference_seconds": 0.0005565687499711203
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026397500001621665,
+      "transfer_seconds": 0.0004375000025902409,
+      "inference_seconds": 0.008339100000739563,
+      "end_to_end_seconds": 0.03517410000495147,
+      "per_sample_inference_seconds": 0.0005211937500462227
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.031459100002393825,
+      "transfer_seconds": 0.0003723999980138615,
+      "inference_seconds": 0.009762199999386212,
+      "end_to_end_seconds": 0.0415936999997939,
+      "per_sample_inference_seconds": 0.0006101374999616382
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03210829999807174,
+      "transfer_seconds": 0.00036950000139768235,
+      "inference_seconds": 0.00975280000056955,
+      "end_to_end_seconds": 0.042230600000038976,
+      "per_sample_inference_seconds": 0.0006095500000355969
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024076800000329968,
+      "transfer_seconds": 0.0003695999985211529,
+      "inference_seconds": 0.010318299999198643,
+      "end_to_end_seconds": 0.034764699998049764,
+      "per_sample_inference_seconds": 0.0006448937499499152
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.018979299999045907,
+      "transfer_seconds": 0.0003673999999591615,
+      "inference_seconds": 0.010282200000801822,
+      "end_to_end_seconds": 0.02962889999980689,
+      "per_sample_inference_seconds": 0.0006426375000501139
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014289099999587052,
+      "transfer_seconds": 0.0002860000022337772,
+      "inference_seconds": 0.009666900001320755,
+      "end_to_end_seconds": 0.024242000003141584,
+      "per_sample_inference_seconds": 0.0006041812500825472
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.018705500002397457,
+      "transfer_seconds": 0.00033819999953266233,
+      "inference_seconds": 0.01025619999927585,
+      "end_to_end_seconds": 0.02929990000120597,
+      "per_sample_inference_seconds": 0.0006410124999547406
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01671880000139936,
+      "transfer_seconds": 0.0003166999995301012,
+      "inference_seconds": 0.008824499996990198,
+      "end_to_end_seconds": 0.025859999997919658,
+      "per_sample_inference_seconds": 0.0005515312498118874
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027199200001632562,
+      "transfer_seconds": 0.00036980000004405156,
+      "inference_seconds": 0.008906400002160808,
+      "end_to_end_seconds": 0.03647540000383742,
+      "per_sample_inference_seconds": 0.0005566500001350505
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02932150000196998,
+      "transfer_seconds": 0.00034280000181752257,
+      "inference_seconds": 0.00918689999889466,
+      "end_to_end_seconds": 0.03885120000268216,
+      "per_sample_inference_seconds": 0.0005741812499309162
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.008161400000972208,
+      "transfer_seconds": 0.00027240000054007396,
+      "inference_seconds": 0.008591399997385452,
+      "end_to_end_seconds": 0.017025199998897733,
+      "per_sample_inference_seconds": 0.0005369624998365907
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.015597800000250572,
+      "transfer_seconds": 0.00027580000096349977,
+      "inference_seconds": 0.008179700002074242,
+      "end_to_end_seconds": 0.024053300003288314,
+      "per_sample_inference_seconds": 0.0005112312501296401
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023564099999930477,
+      "transfer_seconds": 0.00037799999699927866,
+      "inference_seconds": 0.008274899999378249,
+      "end_to_end_seconds": 0.032216999996308004,
+      "per_sample_inference_seconds": 0.0005171812499611406
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.015798500000528293,
+      "transfer_seconds": 0.0004397999982757028,
+      "inference_seconds": 0.009000099998957012,
+      "end_to_end_seconds": 0.025238399997761007,
+      "per_sample_inference_seconds": 0.0005625062499348132
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022417600001062965,
+      "transfer_seconds": 0.00036410000029718503,
+      "inference_seconds": 0.008947500002250308,
+      "end_to_end_seconds": 0.03172920000361046,
+      "per_sample_inference_seconds": 0.0005592187501406443
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.035122000001138076,
+      "transfer_seconds": 0.0003864999998768326,
+      "inference_seconds": 0.008522500000253785,
+      "end_to_end_seconds": 0.044031000001268694,
+      "per_sample_inference_seconds": 0.0005326562500158616
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02945220000037807,
+      "transfer_seconds": 0.00040409999928670004,
+      "inference_seconds": 0.009203199999319622,
+      "end_to_end_seconds": 0.03905949999898439,
+      "per_sample_inference_seconds": 0.0005751999999574764
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.008539600003132364,
+      "transfer_seconds": 0.0003051999992749188,
+      "inference_seconds": 0.00908039999922039,
+      "end_to_end_seconds": 0.017925200001627672,
+      "per_sample_inference_seconds": 0.0005675249999512744
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03866829999969923,
+      "transfer_seconds": 0.0005041000003984664,
+      "inference_seconds": 0.009109600003284868,
+      "end_to_end_seconds": 0.048282000003382564,
+      "per_sample_inference_seconds": 0.0005693500002053042
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.009112800002185395,
+      "transfer_seconds": 0.0003405999996175524,
+      "inference_seconds": 0.009093599997868296,
+      "end_to_end_seconds": 0.018546999999671243,
+      "per_sample_inference_seconds": 0.0005683499998667685
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026240600000164704,
+      "transfer_seconds": 0.00039819999801693484,
+      "inference_seconds": 0.00964179999937187,
+      "end_to_end_seconds": 0.03628059999755351,
+      "per_sample_inference_seconds": 0.0006026124999607418
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013702500000363216,
+      "transfer_seconds": 0.0003269000008003786,
+      "inference_seconds": 0.009767999999894528,
+      "end_to_end_seconds": 0.023797400001058122,
+      "per_sample_inference_seconds": 0.000610499999993408
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025337200000649318,
+      "transfer_seconds": 0.0003711000026669353,
+      "inference_seconds": 0.009717799999634735,
+      "end_to_end_seconds": 0.03542610000295099,
+      "per_sample_inference_seconds": 0.000607362499977171
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025831400002061855,
+      "transfer_seconds": 0.00047059999997145496,
+      "inference_seconds": 0.009955899997294182,
+      "end_to_end_seconds": 0.03625789999932749,
+      "per_sample_inference_seconds": 0.0006222437498308864
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020013100001960993,
+      "transfer_seconds": 0.0003614999986893963,
+      "inference_seconds": 0.00980639999761479,
+      "end_to_end_seconds": 0.03018099999826518,
+      "per_sample_inference_seconds": 0.0006128999998509244
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02638400000068941,
+      "transfer_seconds": 0.0004101000013179146,
+      "inference_seconds": 0.00997280000228784,
+      "end_to_end_seconds": 0.03676690000429517,
+      "per_sample_inference_seconds": 0.00062330000014299
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03846440000052098,
+      "transfer_seconds": 0.00041150000106426887,
+      "inference_seconds": 0.008675799999764422,
+      "end_to_end_seconds": 0.04755170000134967,
+      "per_sample_inference_seconds": 0.0005422374999852764
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.034853699999075616,
+      "transfer_seconds": 0.00040019999869400635,
+      "inference_seconds": 0.007853999999497319,
+      "end_to_end_seconds": 0.04310789999726694,
+      "per_sample_inference_seconds": 0.0004908749999685824
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.037012299999332754,
+      "transfer_seconds": 0.00040079999962472357,
+      "inference_seconds": 0.007842099999834318,
+      "end_to_end_seconds": 0.045255199998791795,
+      "per_sample_inference_seconds": 0.0004901312499896449
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014080200002354104,
+      "transfer_seconds": 0.0003457000020716805,
+      "inference_seconds": 0.008070299998507835,
+      "end_to_end_seconds": 0.02249620000293362,
+      "per_sample_inference_seconds": 0.0005043937499067397
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027001800001016818,
+      "transfer_seconds": 0.00038469999708468094,
+      "inference_seconds": 0.008263700001407415,
+      "end_to_end_seconds": 0.035650199999508914,
+      "per_sample_inference_seconds": 0.0005164812500879634
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.045194999998784624,
+      "transfer_seconds": 0.00043309999819030054,
+      "inference_seconds": 0.009767899999133078,
+      "end_to_end_seconds": 0.055395999996108,
+      "per_sample_inference_seconds": 0.0006104937499458174
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022570799999812152,
+      "transfer_seconds": 0.00041509999937261455,
+      "inference_seconds": 0.009742000002006534,
+      "end_to_end_seconds": 0.0327279000011913,
+      "per_sample_inference_seconds": 0.0006088750001254084
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016000499999790918,
+      "transfer_seconds": 0.00042389999725855887,
+      "inference_seconds": 0.009466200001043035,
+      "end_to_end_seconds": 0.02589059999809251,
+      "per_sample_inference_seconds": 0.0005916375000651897
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.009362299999338575,
+      "transfer_seconds": 0.00030189999961294234,
+      "inference_seconds": 0.009930599997460376,
+      "end_to_end_seconds": 0.019594799996411894,
+      "per_sample_inference_seconds": 0.0006206624998412735
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.04307669999980135,
+      "transfer_seconds": 0.000410699998610653,
+      "inference_seconds": 0.009741199999552919,
+      "end_to_end_seconds": 0.05322859999796492,
+      "per_sample_inference_seconds": 0.0006088249999720574
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028185699997266056,
+      "transfer_seconds": 0.00042630000098142773,
+      "inference_seconds": 0.009743700000399258,
+      "end_to_end_seconds": 0.03835569999864674,
+      "per_sample_inference_seconds": 0.0006089812500249536
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.008133399998769164,
+      "transfer_seconds": 0.00026980000257026404,
+      "inference_seconds": 0.009267100002034567,
+      "end_to_end_seconds": 0.017670300003373995,
+      "per_sample_inference_seconds": 0.0005791937501271605
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014540799998940201,
+      "transfer_seconds": 0.0003195999997842591,
+      "inference_seconds": 0.009326699997473042,
+      "end_to_end_seconds": 0.024187099996197503,
+      "per_sample_inference_seconds": 0.0005829187498420652
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02533699999912642,
+      "transfer_seconds": 0.00033489999987068586,
+      "inference_seconds": 0.009627800001908327,
+      "end_to_end_seconds": 0.03529970000090543,
+      "per_sample_inference_seconds": 0.0006017375001192704
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.04195790000085253,
+      "transfer_seconds": 0.000378400000045076,
+      "inference_seconds": 0.009866899999906309,
+      "end_to_end_seconds": 0.05220320000080392,
+      "per_sample_inference_seconds": 0.0006166812499941443
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026323300000512972,
+      "transfer_seconds": 0.00038160000258358195,
+      "inference_seconds": 0.009362100001453655,
+      "end_to_end_seconds": 0.03606700000455021,
+      "per_sample_inference_seconds": 0.0005851312500908534
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02838540000084322,
+      "transfer_seconds": 0.00041340000097989105,
+      "inference_seconds": 0.010569399997621076,
+      "end_to_end_seconds": 0.03936819999944419,
+      "per_sample_inference_seconds": 0.0006605874998513173
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03410960000110208,
+      "transfer_seconds": 0.00043030000233557075,
+      "inference_seconds": 0.00959810000131256,
+      "end_to_end_seconds": 0.04413800000475021,
+      "per_sample_inference_seconds": 0.000599881250082035
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030137500001728768,
+      "transfer_seconds": 0.00040210000224760734,
+      "inference_seconds": 0.009901500001433305,
+      "end_to_end_seconds": 0.04044110000540968,
+      "per_sample_inference_seconds": 0.0006188437500895816
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025556100001267623,
+      "transfer_seconds": 0.00045250000039231963,
+      "inference_seconds": 0.00997760000245762,
+      "end_to_end_seconds": 0.03598620000411756,
+      "per_sample_inference_seconds": 0.0006236000001536013
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023576699997647665,
+      "transfer_seconds": 0.000445699999545468,
+      "inference_seconds": 0.009765399998286739,
+      "end_to_end_seconds": 0.03378779999547987,
+      "per_sample_inference_seconds": 0.0006103374998929212
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030264699998951983,
+      "transfer_seconds": 0.0003713999976753257,
+      "inference_seconds": 0.00938509999832604,
+      "end_to_end_seconds": 0.04002119999495335,
+      "per_sample_inference_seconds": 0.0005865687498953776
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019216900000174064,
+      "transfer_seconds": 0.0003281999997852836,
+      "inference_seconds": 0.009638499999709893,
+      "end_to_end_seconds": 0.02918359999966924,
+      "per_sample_inference_seconds": 0.0006024062499818683
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014372400000866037,
+      "transfer_seconds": 0.00032669999927747995,
+      "inference_seconds": 0.00930569999763975,
+      "end_to_end_seconds": 0.024004799997783266,
+      "per_sample_inference_seconds": 0.0005816062498524843
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03071009999985108,
+      "transfer_seconds": 0.00040330000047106296,
+      "inference_seconds": 0.009383399999933317,
+      "end_to_end_seconds": 0.04049680000025546,
+      "per_sample_inference_seconds": 0.0005864624999958323
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025318300002254546,
+      "transfer_seconds": 0.0004239000008965377,
+      "inference_seconds": 0.009741899997607106,
+      "end_to_end_seconds": 0.03548410000075819,
+      "per_sample_inference_seconds": 0.0006088687498504441
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03757179999956861,
+      "transfer_seconds": 0.0005227000001468696,
+      "inference_seconds": 0.010098599999764701,
+      "end_to_end_seconds": 0.04819309999948018,
+      "per_sample_inference_seconds": 0.0006311624999852938
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03168700000242097,
+      "transfer_seconds": 0.00037789999987580813,
+      "inference_seconds": 0.009384200002386933,
+      "end_to_end_seconds": 0.041449100004683714,
+      "per_sample_inference_seconds": 0.0005865125001491833
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024595299997599795,
+      "transfer_seconds": 0.0004068000016559381,
+      "inference_seconds": 0.009538500002236106,
+      "end_to_end_seconds": 0.03454060000149184,
+      "per_sample_inference_seconds": 0.0005961562501397566
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019976499999756925,
+      "transfer_seconds": 0.0003375000014784746,
+      "inference_seconds": 0.009314799997810042,
+      "end_to_end_seconds": 0.02962879999904544,
+      "per_sample_inference_seconds": 0.0005821749998631276
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02176799999870127,
+      "transfer_seconds": 0.0003715999991982244,
+      "inference_seconds": 0.009759900000062771,
+      "end_to_end_seconds": 0.031899499997962266,
+      "per_sample_inference_seconds": 0.0006099937500039232
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.04182500000024447,
+      "transfer_seconds": 0.0005959000009170268,
+      "inference_seconds": 0.00980859999981476,
+      "end_to_end_seconds": 0.05222950000097626,
+      "per_sample_inference_seconds": 0.0006130374999884225
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028258199999982025,
+      "transfer_seconds": 0.00043260000165901147,
+      "inference_seconds": 0.009481299999606563,
+      "end_to_end_seconds": 0.0381721000012476,
+      "per_sample_inference_seconds": 0.0005925812499754102
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020615099998394726,
+      "transfer_seconds": 0.0003347999991092365,
+      "inference_seconds": 0.009365599999000551,
+      "end_to_end_seconds": 0.030315499996504514,
+      "per_sample_inference_seconds": 0.0005853499999375344
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01499580000017886,
+      "transfer_seconds": 0.0003183999979228247,
+      "inference_seconds": 0.013056499999947846,
+      "end_to_end_seconds": 0.02837069999804953,
+      "per_sample_inference_seconds": 0.0008160312499967404
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027730700003303355,
+      "transfer_seconds": 0.00037370000063674524,
+      "inference_seconds": 0.00956199999927776,
+      "end_to_end_seconds": 0.03766640000321786,
+      "per_sample_inference_seconds": 0.00059762499995486
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.015374099999462487,
+      "transfer_seconds": 0.00039620000097784214,
+      "inference_seconds": 0.009766800001671072,
+      "end_to_end_seconds": 0.0255371000021114,
+      "per_sample_inference_seconds": 0.000610425000104442
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01572899999882793,
+      "transfer_seconds": 0.0003664999967440963,
+      "inference_seconds": 0.00952310000138823,
+      "end_to_end_seconds": 0.025618599996960256,
+      "per_sample_inference_seconds": 0.0005951937500867643
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020443699999304954,
+      "transfer_seconds": 0.00044999999954598024,
+      "inference_seconds": 0.009509999999863794,
+      "end_to_end_seconds": 0.03040369999871473,
+      "per_sample_inference_seconds": 0.0005943749999914871
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025832100000116043,
+      "transfer_seconds": 0.00036610000097425655,
+      "inference_seconds": 0.00973849999718368,
+      "end_to_end_seconds": 0.03593669999827398,
+      "per_sample_inference_seconds": 0.00060865624982398
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017750400002114475,
+      "transfer_seconds": 0.0003221000006305985,
+      "inference_seconds": 0.00934610000331304,
+      "end_to_end_seconds": 0.027418600006058114,
+      "per_sample_inference_seconds": 0.000584131250207065
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.04316679999828921,
+      "transfer_seconds": 0.00035460000071907416,
+      "inference_seconds": 0.00936109999747714,
+      "end_to_end_seconds": 0.05288249999648542,
+      "per_sample_inference_seconds": 0.0005850687498423213
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02183090000107768,
+      "transfer_seconds": 0.0003008999992744066,
+      "inference_seconds": 0.014156799999909708,
+      "end_to_end_seconds": 0.036288600000261795,
+      "per_sample_inference_seconds": 0.0008847999999943568
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.018311600000743056,
+      "transfer_seconds": 0.00035679999928106554,
+      "inference_seconds": 0.009384000000864035,
+      "end_to_end_seconds": 0.028052400000888156,
+      "per_sample_inference_seconds": 0.0005865000000540022
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029997199999343138,
+      "transfer_seconds": 0.0004044999986945186,
+      "inference_seconds": 0.009854100000666222,
+      "end_to_end_seconds": 0.04025579999870388,
+      "per_sample_inference_seconds": 0.0006158812500416389
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023254100000485778,
+      "transfer_seconds": 0.000420000000303844,
+      "inference_seconds": 0.00951100000020233,
+      "end_to_end_seconds": 0.03318510000099195,
+      "per_sample_inference_seconds": 0.0005944375000126456
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012913499998830957,
+      "transfer_seconds": 0.0003224000029149465,
+      "inference_seconds": 0.009523600001557497,
+      "end_to_end_seconds": 0.0227595000033034,
+      "per_sample_inference_seconds": 0.0005952250000973436
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02354639999975916,
+      "transfer_seconds": 0.000459999999293359,
+      "inference_seconds": 0.009586500000295928,
+      "end_to_end_seconds": 0.03359289999934845,
+      "per_sample_inference_seconds": 0.0005991562500184955
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024962699997558957,
+      "transfer_seconds": 0.00041879999844240956,
+      "inference_seconds": 0.009743599999637809,
+      "end_to_end_seconds": 0.035125099995639175,
+      "per_sample_inference_seconds": 0.000608974999977363
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020384899999044137,
+      "transfer_seconds": 0.0003619999988586642,
+      "inference_seconds": 0.009409999998752028,
+      "end_to_end_seconds": 0.03015689999665483,
+      "per_sample_inference_seconds": 0.0005881249999220017
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01500579999992624,
+      "transfer_seconds": 0.00037850000080652535,
+      "inference_seconds": 0.009350500000437023,
+      "end_to_end_seconds": 0.024734800001169788,
+      "per_sample_inference_seconds": 0.0005844062500273139
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017954699997062562,
+      "transfer_seconds": 0.00038869999843882397,
+      "inference_seconds": 0.012206600000354229,
+      "end_to_end_seconds": 0.030549999995855615,
+      "per_sample_inference_seconds": 0.0007629125000221393
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016535999999177875,
+      "transfer_seconds": 0.0003986000010627322,
+      "inference_seconds": 0.010731900001701433,
+      "end_to_end_seconds": 0.02766650000194204,
+      "per_sample_inference_seconds": 0.0006707437501063396
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028161399997770786,
+      "transfer_seconds": 0.00035850000131176785,
+      "inference_seconds": 0.009391499999765074,
+      "end_to_end_seconds": 0.03791139999884763,
+      "per_sample_inference_seconds": 0.0005869687499853171
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028732099999615457,
+      "transfer_seconds": 0.00039290000131586567,
+      "inference_seconds": 0.010264299999107607,
+      "end_to_end_seconds": 0.03938930000003893,
+      "per_sample_inference_seconds": 0.0006415187499442254
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03249419999701786,
+      "transfer_seconds": 0.0003768999995372724,
+      "inference_seconds": 0.009398999998666113,
+      "end_to_end_seconds": 0.042270099995221244,
+      "per_sample_inference_seconds": 0.0005874374999166321
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019357400000444613,
+      "transfer_seconds": 0.00035990000105812214,
+      "inference_seconds": 0.011547699999937322,
+      "end_to_end_seconds": 0.03126500000144006,
+      "per_sample_inference_seconds": 0.0007217312499960826
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030699800001457334,
+      "transfer_seconds": 0.00035910000224248506,
+      "inference_seconds": 0.00950860000011744,
+      "end_to_end_seconds": 0.04056750000381726,
+      "per_sample_inference_seconds": 0.00059428750000734
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014584800002921838,
+      "transfer_seconds": 0.0003117000014754012,
+      "inference_seconds": 0.010099200000695419,
+      "end_to_end_seconds": 0.024995700005092658,
+      "per_sample_inference_seconds": 0.0006312000000434637
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01888399999734247,
+      "transfer_seconds": 0.0003857000010611955,
+      "inference_seconds": 0.009987900000851369,
+      "end_to_end_seconds": 0.029257599999255035,
+      "per_sample_inference_seconds": 0.0006242437500532105
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022013000001606997,
+      "transfer_seconds": 0.0003494000011414755,
+      "inference_seconds": 0.010015800002292963,
+      "end_to_end_seconds": 0.032378200005041435,
+      "per_sample_inference_seconds": 0.0006259875001433102
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027297100001305807,
+      "transfer_seconds": 0.0004257000000507105,
+      "inference_seconds": 0.009871900001598988,
+      "end_to_end_seconds": 0.037594700002955506,
+      "per_sample_inference_seconds": 0.0006169937500999367
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.007654799999727402,
+      "transfer_seconds": 0.00030329999935929663,
+      "inference_seconds": 0.00970959999904153,
+      "end_to_end_seconds": 0.017667699998128228,
+      "per_sample_inference_seconds": 0.0006068499999400956
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027786000002379296,
+      "transfer_seconds": 0.0003665000003820751,
+      "inference_seconds": 0.009407100002135849,
+      "end_to_end_seconds": 0.03755960000489722,
+      "per_sample_inference_seconds": 0.0005879437501334905
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03540269999939483,
+      "transfer_seconds": 0.0003741999971680343,
+      "inference_seconds": 0.009648300001572352,
+      "end_to_end_seconds": 0.04542519999813521,
+      "per_sample_inference_seconds": 0.000603018750098272
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030656099999760045,
+      "transfer_seconds": 0.0003805999986070674,
+      "inference_seconds": 0.00938010000027134,
+      "end_to_end_seconds": 0.04041679999863845,
+      "per_sample_inference_seconds": 0.0005862562500169588
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017605099998036167,
+      "transfer_seconds": 0.0003150000011373777,
+      "inference_seconds": 0.009323999998741783,
+      "end_to_end_seconds": 0.027244099997915328,
+      "per_sample_inference_seconds": 0.0005827499999213615
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0295975000008184,
+      "transfer_seconds": 0.0004034000012325123,
+      "inference_seconds": 0.009363799999846378,
+      "end_to_end_seconds": 0.03936470000189729,
+      "per_sample_inference_seconds": 0.0005852374999903986
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.014874599997710902,
+      "transfer_seconds": 0.00028390000079525635,
+      "inference_seconds": 0.010408499998447951,
+      "end_to_end_seconds": 0.02556699999695411,
+      "per_sample_inference_seconds": 0.0006505312499029969
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019859700001688907,
+      "transfer_seconds": 0.0003020000003743917,
+      "inference_seconds": 0.009609399996406864,
+      "end_to_end_seconds": 0.029771099998470163,
+      "per_sample_inference_seconds": 0.000600587499775429
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.007482400000299094,
+      "transfer_seconds": 0.00024589999884483404,
+      "inference_seconds": 0.009682900003099348,
+      "end_to_end_seconds": 0.017411200002243277,
+      "per_sample_inference_seconds": 0.0006051812501937093
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025134799998340895,
+      "transfer_seconds": 0.0004212000021652784,
+      "inference_seconds": 0.010151700000278652,
+      "end_to_end_seconds": 0.035707700000784826,
+      "per_sample_inference_seconds": 0.0006344812500174157
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024527899997337954,
+      "transfer_seconds": 0.0003448999996180646,
+      "inference_seconds": 0.013383299999986775,
+      "end_to_end_seconds": 0.038256099996942794,
+      "per_sample_inference_seconds": 0.0008364562499991735
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.036593799999536714,
+      "transfer_seconds": 0.0003598000002966728,
+      "inference_seconds": 0.009355099999083905,
+      "end_to_end_seconds": 0.04630869999891729,
+      "per_sample_inference_seconds": 0.000584693749942744
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025960499999200692,
+      "transfer_seconds": 0.0003228999994462356,
+      "inference_seconds": 0.009357300001283875,
+      "end_to_end_seconds": 0.0356406999999308,
+      "per_sample_inference_seconds": 0.0005848312500802422
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016787099997600308,
+      "transfer_seconds": 0.00029150000045774505,
+      "inference_seconds": 0.009379400002217153,
+      "end_to_end_seconds": 0.026458000000275206,
+      "per_sample_inference_seconds": 0.0005862125001385721
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.039320299998507835,
+      "transfer_seconds": 0.0003943999981856905,
+      "inference_seconds": 0.01131810000151745,
+      "end_to_end_seconds": 0.051032799998210976,
+      "per_sample_inference_seconds": 0.0007073812500948407
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013085500002489425,
+      "transfer_seconds": 0.00038249999852268957,
+      "inference_seconds": 0.009402699997735908,
+      "end_to_end_seconds": 0.022870699998748023,
+      "per_sample_inference_seconds": 0.0005876687498584943
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02981539999746019,
+      "transfer_seconds": 0.00036729999919771217,
+      "inference_seconds": 0.009697500001493609,
+      "end_to_end_seconds": 0.03988019999815151,
+      "per_sample_inference_seconds": 0.0006060937500933505
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.018817400003172224,
+      "transfer_seconds": 0.0003823000006377697,
+      "inference_seconds": 0.009364300000015646,
+      "end_to_end_seconds": 0.02856400000382564,
+      "per_sample_inference_seconds": 0.0005852687500009779
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029440700000122888,
+      "transfer_seconds": 0.00034699999741860665,
+      "inference_seconds": 0.009401700001035351,
+      "end_to_end_seconds": 0.039189399998576846,
+      "per_sample_inference_seconds": 0.0005876062500647095
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01760640000065905,
+      "transfer_seconds": 0.0003136000013910234,
+      "inference_seconds": 0.011070600001403363,
+      "end_to_end_seconds": 0.028990600003453437,
+      "per_sample_inference_seconds": 0.0006919125000877102
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03263919999881182,
+      "transfer_seconds": 0.0004566999996313825,
+      "inference_seconds": 0.009577900000294903,
+      "end_to_end_seconds": 0.042673799998738104,
+      "per_sample_inference_seconds": 0.0005986187500184315
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.00763359999837121,
+      "transfer_seconds": 0.0002386999985901639,
+      "inference_seconds": 0.009364999998069834,
+      "end_to_end_seconds": 0.017237299995031208,
+      "per_sample_inference_seconds": 0.0005853124998793646
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03218619999825023,
+      "transfer_seconds": 0.0003391999998711981,
+      "inference_seconds": 0.009391999999934342,
+      "end_to_end_seconds": 0.04191739999805577,
+      "per_sample_inference_seconds": 0.0005869999999958964
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021495599998161197,
+      "transfer_seconds": 0.0004077000012330245,
+      "inference_seconds": 0.009406199998920783,
+      "end_to_end_seconds": 0.031309499998315005,
+      "per_sample_inference_seconds": 0.000587887499932549
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013589000001957174,
+      "transfer_seconds": 0.0002500000009604264,
+      "inference_seconds": 0.01071800000136136,
+      "end_to_end_seconds": 0.02455700000427896,
+      "per_sample_inference_seconds": 0.000669875000085085
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028250399998796638,
+      "transfer_seconds": 0.00030590000096708536,
+      "inference_seconds": 0.013354200000321725,
+      "end_to_end_seconds": 0.04191050000008545,
+      "per_sample_inference_seconds": 0.0008346375000201078
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019441500000539236,
+      "transfer_seconds": 0.0003341999981785193,
+      "inference_seconds": 0.009347600000182865,
+      "end_to_end_seconds": 0.02912329999890062,
+      "per_sample_inference_seconds": 0.0005842250000114291
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026922900000499794,
+      "transfer_seconds": 0.0003178999977535568,
+      "inference_seconds": 0.009362000000692206,
+      "end_to_end_seconds": 0.03660279999894556,
+      "per_sample_inference_seconds": 0.0005851250000432628
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027665100002195686,
+      "transfer_seconds": 0.00028949999978067353,
+      "inference_seconds": 0.009386599998833844,
+      "end_to_end_seconds": 0.037341200000810204,
+      "per_sample_inference_seconds": 0.0005866624999271153
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021832700000231853,
+      "transfer_seconds": 0.00036050000198883936,
+      "inference_seconds": 0.014102799999818671,
+      "end_to_end_seconds": 0.036296000002039364,
+      "per_sample_inference_seconds": 0.000881424999988667
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021957300003123237,
+      "transfer_seconds": 0.00033399999665562063,
+      "inference_seconds": 0.009403000000020256,
+      "end_to_end_seconds": 0.031694299999799114,
+      "per_sample_inference_seconds": 0.000587687500001266
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012629100001504412,
+      "transfer_seconds": 0.0003465999980107881,
+      "inference_seconds": 0.009449299999687355,
+      "end_to_end_seconds": 0.022424999999202555,
+      "per_sample_inference_seconds": 0.0005905812499804597
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02972139999837964,
+      "transfer_seconds": 0.0005161999979463872,
+      "inference_seconds": 0.009798499999305932,
+      "end_to_end_seconds": 0.04003609999563196,
+      "per_sample_inference_seconds": 0.0006124062499566207
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01430179999806569,
+      "transfer_seconds": 0.0003843000013148412,
+      "inference_seconds": 0.00940959999934421,
+      "end_to_end_seconds": 0.02409569999872474,
+      "per_sample_inference_seconds": 0.0005880999999590131
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.008021300000109477,
+      "transfer_seconds": 0.00031370000215247273,
+      "inference_seconds": 0.012736700002278667,
+      "end_to_end_seconds": 0.021071700004540617,
+      "per_sample_inference_seconds": 0.0007960437501424167
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.032722500000090804,
+      "transfer_seconds": 0.000411300003179349,
+      "inference_seconds": 0.010107599999173544,
+      "end_to_end_seconds": 0.0432414000024437,
+      "per_sample_inference_seconds": 0.0006317249999483465
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029450699999870267,
+      "transfer_seconds": 0.00041849999979604036,
+      "inference_seconds": 0.009683699998277007,
+      "end_to_end_seconds": 0.039552899997943314,
+      "per_sample_inference_seconds": 0.0006052312498923129
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03885259999879054,
+      "transfer_seconds": 0.0004149999986111652,
+      "inference_seconds": 0.009561099999700673,
+      "end_to_end_seconds": 0.048828699997102376,
+      "per_sample_inference_seconds": 0.0005975687499812921
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03992799999832641,
+      "transfer_seconds": 0.0004055999997945037,
+      "inference_seconds": 0.009407300000020768,
+      "end_to_end_seconds": 0.049740899998141686,
+      "per_sample_inference_seconds": 0.000587956250001298
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0344262999969942,
+      "transfer_seconds": 0.00039010000182315707,
+      "inference_seconds": 0.009403800002473872,
+      "end_to_end_seconds": 0.04422020000129123,
+      "per_sample_inference_seconds": 0.000587737500154617
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025255699998524506,
+      "transfer_seconds": 0.0003189999988535419,
+      "inference_seconds": 0.009553199997753836,
+      "end_to_end_seconds": 0.035127899995131884,
+      "per_sample_inference_seconds": 0.0005970749998596148
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017769000001862878,
+      "transfer_seconds": 0.0004954000032739714,
+      "inference_seconds": 0.009671200001321267,
+      "end_to_end_seconds": 0.027935600006458117,
+      "per_sample_inference_seconds": 0.0006044500000825792
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030004300002474338,
+      "transfer_seconds": 0.0003791999988607131,
+      "inference_seconds": 0.009395500001119217,
+      "end_to_end_seconds": 0.03977900000245427,
+      "per_sample_inference_seconds": 0.0005872187500699511
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.039908300001116004,
+      "transfer_seconds": 0.00040159999844036065,
+      "inference_seconds": 0.009386699999595294,
+      "end_to_end_seconds": 0.04969659999915166,
+      "per_sample_inference_seconds": 0.0005866687499747059
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03289820000281907,
+      "transfer_seconds": 0.00040779999835649505,
+      "inference_seconds": 0.00951590000113356,
+      "end_to_end_seconds": 0.04282190000230912,
+      "per_sample_inference_seconds": 0.0005947437500708475
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03143940000154544,
+      "transfer_seconds": 0.0007521000006818213,
+      "inference_seconds": 0.01014719999875524,
+      "end_to_end_seconds": 0.0423387000009825,
+      "per_sample_inference_seconds": 0.0006341999999222026
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.037904400000115857,
+      "transfer_seconds": 0.0004688000008172821,
+      "inference_seconds": 0.010209599997324403,
+      "end_to_end_seconds": 0.04858279999825754,
+      "per_sample_inference_seconds": 0.0006380999998327752
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.007688400000915863,
+      "transfer_seconds": 0.00032810000266181305,
+      "inference_seconds": 0.01134989999991376,
+      "end_to_end_seconds": 0.019366400003491435,
+      "per_sample_inference_seconds": 0.00070936874999461
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.033368699998391094,
+      "transfer_seconds": 0.0004076000004715752,
+      "inference_seconds": 0.011954900001001079,
+      "end_to_end_seconds": 0.04573119999986375,
+      "per_sample_inference_seconds": 0.0007471812500625674
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03108550000251853,
+      "transfer_seconds": 0.0004081999977643136,
+      "inference_seconds": 0.010009900001023198,
+      "end_to_end_seconds": 0.04150360000130604,
+      "per_sample_inference_seconds": 0.0006256187500639498
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01787319999857573,
+      "transfer_seconds": 0.0003933000007236842,
+      "inference_seconds": 0.009793299999728333,
+      "end_to_end_seconds": 0.028059799999027746,
+      "per_sample_inference_seconds": 0.0006120812499830208
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016579999999521533,
+      "transfer_seconds": 0.00037590000283671543,
+      "inference_seconds": 0.00988580000193906,
+      "end_to_end_seconds": 0.02684170000429731,
+      "per_sample_inference_seconds": 0.0006178625001211913
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03907769999932498,
+      "transfer_seconds": 0.000428999999712687,
+      "inference_seconds": 0.010057399998913752,
+      "end_to_end_seconds": 0.049564099997951416,
+      "per_sample_inference_seconds": 0.0006285874999321095
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028563100000610575,
+      "transfer_seconds": 0.00038470000072265975,
+      "inference_seconds": 0.009744799997861264,
+      "end_to_end_seconds": 0.0386925999991945,
+      "per_sample_inference_seconds": 0.000609049999866329
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.045634699999936856,
+      "transfer_seconds": 0.00036779999936698005,
+      "inference_seconds": 0.010293600000295555,
+      "end_to_end_seconds": 0.05629609999959939,
+      "per_sample_inference_seconds": 0.0006433500000184722
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024892699999327306,
+      "transfer_seconds": 0.0003372999999555759,
+      "inference_seconds": 0.009819199996854877,
+      "end_to_end_seconds": 0.03504919999613776,
+      "per_sample_inference_seconds": 0.0006136999998034298
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02231709999978193,
+      "transfer_seconds": 0.0003131000012217555,
+      "inference_seconds": 0.009783900000911672,
+      "end_to_end_seconds": 0.03241410000191536,
+      "per_sample_inference_seconds": 0.0006114937500569795
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02660969999851659,
+      "transfer_seconds": 0.00032330000249203295,
+      "inference_seconds": 0.00977930000226479,
+      "end_to_end_seconds": 0.03671230000327341,
+      "per_sample_inference_seconds": 0.0006112062501415494
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013156299999536714,
+      "transfer_seconds": 0.00028309999834164046,
+      "inference_seconds": 0.009698500001832144,
+      "end_to_end_seconds": 0.0231378999997105,
+      "per_sample_inference_seconds": 0.000606156250114509
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027455400002509123,
+      "transfer_seconds": 0.000405700000555953,
+      "inference_seconds": 0.009812000000238186,
+      "end_to_end_seconds": 0.03767310000330326,
+      "per_sample_inference_seconds": 0.0006132500000148866
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.035013599997910205,
+      "transfer_seconds": 0.00043419999929028563,
+      "inference_seconds": 0.009777300001587719,
+      "end_to_end_seconds": 0.04522509999878821,
+      "per_sample_inference_seconds": 0.0006110812500992324
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023849400000472087,
+      "transfer_seconds": 0.0004077000012330245,
+      "inference_seconds": 0.010063699999591336,
+      "end_to_end_seconds": 0.03432080000129645,
+      "per_sample_inference_seconds": 0.0006289812499744585
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03327450000142562,
+      "transfer_seconds": 0.00037740000334451906,
+      "inference_seconds": 0.009782500001165317,
+      "end_to_end_seconds": 0.04343440000593546,
+      "per_sample_inference_seconds": 0.0006114062500728323
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021009899999626214,
+      "transfer_seconds": 0.0003187000002071727,
+      "inference_seconds": 0.00978660000328091,
+      "end_to_end_seconds": 0.031115200003114296,
+      "per_sample_inference_seconds": 0.0006116625002050569
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03054870000050869,
+      "transfer_seconds": 0.00042359999861218967,
+      "inference_seconds": 0.009959899998648325,
+      "end_to_end_seconds": 0.0409321999977692,
+      "per_sample_inference_seconds": 0.0006224937499155203
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030803599998762365,
+      "transfer_seconds": 0.00041319999945699237,
+      "inference_seconds": 0.00982780000049388,
+      "end_to_end_seconds": 0.04104459999871324,
+      "per_sample_inference_seconds": 0.0006142375000308675
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03450110000267159,
+      "transfer_seconds": 0.0003539000026648864,
+      "inference_seconds": 0.00974369999676128,
+      "end_to_end_seconds": 0.04459870000209776,
+      "per_sample_inference_seconds": 0.00060898124979758
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026008900000306312,
+      "transfer_seconds": 0.000459999999293359,
+      "inference_seconds": 0.010090899999340763,
+      "end_to_end_seconds": 0.036559799998940434,
+      "per_sample_inference_seconds": 0.0006306812499587977
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01775920000000042,
+      "transfer_seconds": 0.00031319999834522605,
+      "inference_seconds": 0.009836099998210557,
+      "end_to_end_seconds": 0.027908499996556202,
+      "per_sample_inference_seconds": 0.0006147562498881598
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02255890000014915,
+      "transfer_seconds": 0.0003648000019893516,
+      "inference_seconds": 0.009762199999386212,
+      "end_to_end_seconds": 0.032685900001524715,
+      "per_sample_inference_seconds": 0.0006101374999616382
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026310299999749986,
+      "transfer_seconds": 0.00039570000080857426,
+      "inference_seconds": 0.009771900000487221,
+      "end_to_end_seconds": 0.03647790000104578,
+      "per_sample_inference_seconds": 0.0006107437500304513
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03161809999801335,
+      "transfer_seconds": 0.0005516000019269995,
+      "inference_seconds": 0.010288100002071587,
+      "end_to_end_seconds": 0.042457800002011936,
+      "per_sample_inference_seconds": 0.0006430062501294742
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01709320000009029,
+      "transfer_seconds": 0.00039770000148564577,
+      "inference_seconds": 0.009755900002346607,
+      "end_to_end_seconds": 0.027246800003922544,
+      "per_sample_inference_seconds": 0.0006097437501466629
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01824019999912707,
+      "transfer_seconds": 0.0003150000011373777,
+      "inference_seconds": 0.010069299998576753,
+      "end_to_end_seconds": 0.028624499998841202,
+      "per_sample_inference_seconds": 0.000629331249911047
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023085400000127265,
+      "transfer_seconds": 0.00036440000258153304,
+      "inference_seconds": 0.009840999999141786,
+      "end_to_end_seconds": 0.033290800001850585,
+      "per_sample_inference_seconds": 0.0006150624999463616
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02555430000211345,
+      "transfer_seconds": 0.000420000000303844,
+      "inference_seconds": 0.010930000000371365,
+      "end_to_end_seconds": 0.03690430000278866,
+      "per_sample_inference_seconds": 0.0006831250000232103
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022616799997194903,
+      "transfer_seconds": 0.0003231999980926048,
+      "inference_seconds": 0.009741999998368556,
+      "end_to_end_seconds": 0.03268199999365606,
+      "per_sample_inference_seconds": 0.0006088749998980347
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016659099997923477,
+      "transfer_seconds": 0.0003785999979299959,
+      "inference_seconds": 0.009775899998203386,
+      "end_to_end_seconds": 0.026813599994056858,
+      "per_sample_inference_seconds": 0.0006109937498877116
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01243869999962044,
+      "transfer_seconds": 0.00029009999707341194,
+      "inference_seconds": 0.009884900002361974,
+      "end_to_end_seconds": 0.022613699999055825,
+      "per_sample_inference_seconds": 0.0006178062501476234
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02632369999992079,
+      "transfer_seconds": 0.00046070000098552555,
+      "inference_seconds": 0.010127500001544831,
+      "end_to_end_seconds": 0.03691190000245115,
+      "per_sample_inference_seconds": 0.000632968750096552
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02427180000086082,
+      "transfer_seconds": 0.0004422999991220422,
+      "inference_seconds": 0.01005040000018198,
+      "end_to_end_seconds": 0.034764500000164844,
+      "per_sample_inference_seconds": 0.0006281500000113738
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023661499999434454,
+      "transfer_seconds": 0.0003074999985983595,
+      "inference_seconds": 0.01153360000171233,
+      "end_to_end_seconds": 0.035502599999745144,
+      "per_sample_inference_seconds": 0.0007208500001070206
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01747120000072755,
+      "transfer_seconds": 0.00031230000240611844,
+      "inference_seconds": 0.013476100000843871,
+      "end_to_end_seconds": 0.03125960000397754,
+      "per_sample_inference_seconds": 0.000842256250052742
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02291999999943073,
+      "transfer_seconds": 0.00029400000130408444,
+      "inference_seconds": 0.009770500000740867,
+      "end_to_end_seconds": 0.03298450000147568,
+      "per_sample_inference_seconds": 0.0006106562500463042
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028144899999460904,
+      "transfer_seconds": 0.0003599999981815927,
+      "inference_seconds": 0.00975569999718573,
+      "end_to_end_seconds": 0.038260599994828226,
+      "per_sample_inference_seconds": 0.0006097312498241081
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.032751499998994404,
+      "transfer_seconds": 0.00039939999987836927,
+      "inference_seconds": 0.009429600002476946,
+      "end_to_end_seconds": 0.04258050000134972,
+      "per_sample_inference_seconds": 0.0005893500001548091
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02352180000161752,
+      "transfer_seconds": 0.00037460000021383166,
+      "inference_seconds": 0.009679800001322292,
+      "end_to_end_seconds": 0.033576200003153645,
+      "per_sample_inference_seconds": 0.0006049875000826432
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01682230000005802,
+      "transfer_seconds": 0.0003051999992749188,
+      "inference_seconds": 0.009339700001874007,
+      "end_to_end_seconds": 0.026467200001206947,
+      "per_sample_inference_seconds": 0.0005837312501171255
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012965899997652741,
+      "transfer_seconds": 0.0002625999986776151,
+      "inference_seconds": 0.009368799997901078,
+      "end_to_end_seconds": 0.022597299994231435,
+      "per_sample_inference_seconds": 0.0005855499998688174
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020706400002381997,
+      "transfer_seconds": 0.0003228999994462356,
+      "inference_seconds": 0.009417100001883227,
+      "end_to_end_seconds": 0.03044640000371146,
+      "per_sample_inference_seconds": 0.0005885687501177017
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017534999999043066,
+      "transfer_seconds": 0.00033650000113993883,
+      "inference_seconds": 0.0093708999993396,
+      "end_to_end_seconds": 0.027242399999522604,
+      "per_sample_inference_seconds": 0.000585681249958725
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017373899998347042,
+      "transfer_seconds": 0.00029460000223480165,
+      "inference_seconds": 0.009393500000442145,
+      "end_to_end_seconds": 0.02706200000102399,
+      "per_sample_inference_seconds": 0.0005870937500276341
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016852300002938136,
+      "transfer_seconds": 0.0002963999977509957,
+      "inference_seconds": 0.009342900000774534,
+      "end_to_end_seconds": 0.026491600001463667,
+      "per_sample_inference_seconds": 0.0005839312500484084
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01581850000002305,
+      "transfer_seconds": 0.0002706000013859011,
+      "inference_seconds": 0.009388200000103097,
+      "end_to_end_seconds": 0.02547730000151205,
+      "per_sample_inference_seconds": 0.0005867625000064436
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.042760899999848334,
+      "transfer_seconds": 0.0004102000020793639,
+      "inference_seconds": 0.009434600000531645,
+      "end_to_end_seconds": 0.052605700002459344,
+      "per_sample_inference_seconds": 0.0005896625000332278
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024222500000178115,
+      "transfer_seconds": 0.0002955999989353586,
+      "inference_seconds": 0.009481299999606563,
+      "end_to_end_seconds": 0.03399939999872004,
+      "per_sample_inference_seconds": 0.0005925812499754102
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02556940000067698,
+      "transfer_seconds": 0.0003332999986014329,
+      "inference_seconds": 0.009369199997308897,
+      "end_to_end_seconds": 0.03527189999658731,
+      "per_sample_inference_seconds": 0.000585574999831806
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.027034299997467315,
+      "transfer_seconds": 0.00034809999851859175,
+      "inference_seconds": 0.00936580000052345,
+      "end_to_end_seconds": 0.036748199996509356,
+      "per_sample_inference_seconds": 0.0005853625000327156
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02209900000161724,
+      "transfer_seconds": 0.00030310000147437677,
+      "inference_seconds": 0.011746399999537971,
+      "end_to_end_seconds": 0.03414850000262959,
+      "per_sample_inference_seconds": 0.0007341499999711232
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021012599998357473,
+      "transfer_seconds": 0.0003825999992841389,
+      "inference_seconds": 0.009357499999168795,
+      "end_to_end_seconds": 0.030752699996810406,
+      "per_sample_inference_seconds": 0.0005848437499480497
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029813900000590365,
+      "transfer_seconds": 0.0004260000023350585,
+      "inference_seconds": 0.009461999998165993,
+      "end_to_end_seconds": 0.03970190000109142,
+      "per_sample_inference_seconds": 0.0005913749998853746
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.018524800001614494,
+      "transfer_seconds": 0.00030760000299778767,
+      "inference_seconds": 0.01049340000099619,
+      "end_to_end_seconds": 0.02932580000560847,
+      "per_sample_inference_seconds": 0.0006558375000622618
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012760600002366118,
+      "transfer_seconds": 0.00033850000181701034,
+      "inference_seconds": 0.009361500000522938,
+      "end_to_end_seconds": 0.022460600004706066,
+      "per_sample_inference_seconds": 0.0005850937500326836
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012598799999977928,
+      "transfer_seconds": 0.00035960000241175294,
+      "inference_seconds": 0.009372199998324504,
+      "end_to_end_seconds": 0.022330600000714185,
+      "per_sample_inference_seconds": 0.0005857624998952815
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021820300000399584,
+      "transfer_seconds": 0.0003713000005518552,
+      "inference_seconds": 0.012521599997853627,
+      "end_to_end_seconds": 0.03471319999880507,
+      "per_sample_inference_seconds": 0.0007825999998658517
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026308600001357263,
+      "transfer_seconds": 0.0004219999973429367,
+      "inference_seconds": 0.009698500001832144,
+      "end_to_end_seconds": 0.036429100000532344,
+      "per_sample_inference_seconds": 0.000606156250114509
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017385299997840775,
+      "transfer_seconds": 0.0002952999966510106,
+      "inference_seconds": 0.009352900000521913,
+      "end_to_end_seconds": 0.0270334999950137,
+      "per_sample_inference_seconds": 0.0005845562500326196
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01712749999933294,
+      "transfer_seconds": 0.0003203000014764257,
+      "inference_seconds": 0.009780700002011145,
+      "end_to_end_seconds": 0.02722850000282051,
+      "per_sample_inference_seconds": 0.0006112937501256965
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030349499997100793,
+      "transfer_seconds": 0.000369099998351885,
+      "inference_seconds": 0.01119250000192551,
+      "end_to_end_seconds": 0.04191109999737819,
+      "per_sample_inference_seconds": 0.0006995312501203443
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01359009999941918,
+      "transfer_seconds": 0.00030899999910616316,
+      "inference_seconds": 0.012979300001461525,
+      "end_to_end_seconds": 0.02687839999998687,
+      "per_sample_inference_seconds": 0.0008112062500913453
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016363599999749567,
+      "transfer_seconds": 0.0003757999984372873,
+      "inference_seconds": 0.009364099998492748,
+      "end_to_end_seconds": 0.026103499996679602,
+      "per_sample_inference_seconds": 0.0005852562499057967
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012618900000234134,
+      "transfer_seconds": 0.0002789999998640269,
+      "inference_seconds": 0.009374500001285924,
+      "end_to_end_seconds": 0.022272400001384085,
+      "per_sample_inference_seconds": 0.0005859062500803702
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012572100000397768,
+      "transfer_seconds": 0.0003336000008857809,
+      "inference_seconds": 0.00934659999984433,
+      "end_to_end_seconds": 0.022252300001127878,
+      "per_sample_inference_seconds": 0.0005841624999902706
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026591500001813984,
+      "transfer_seconds": 0.00039169999945443124,
+      "inference_seconds": 0.009360299998661503,
+      "end_to_end_seconds": 0.03634349999992992,
+      "per_sample_inference_seconds": 0.000585018749916344
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012159500001871493,
+      "transfer_seconds": 0.0003171999996993691,
+      "inference_seconds": 0.009369399998831796,
+      "end_to_end_seconds": 0.021846100000402657,
+      "per_sample_inference_seconds": 0.0005855874999269872
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028093100001569837,
+      "transfer_seconds": 0.00031369999851449393,
+      "inference_seconds": 0.009403500000189524,
+      "end_to_end_seconds": 0.037810300000273855,
+      "per_sample_inference_seconds": 0.0005877187500118453
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012584500000230037,
+      "transfer_seconds": 0.00030479999986710027,
+      "inference_seconds": 0.00932720000128029,
+      "end_to_end_seconds": 0.022216500001377426,
+      "per_sample_inference_seconds": 0.0005829500000800181
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01767699999982142,
+      "transfer_seconds": 0.00027910000062547624,
+      "inference_seconds": 0.010674599998310441,
+      "end_to_end_seconds": 0.028630699998757336,
+      "per_sample_inference_seconds": 0.0006671624998944026
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03155920000062906,
+      "transfer_seconds": 0.0003131000012217555,
+      "inference_seconds": 0.009260500002710614,
+      "end_to_end_seconds": 0.04113280000456143,
+      "per_sample_inference_seconds": 0.0005787812501694134
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025818899997830158,
+      "transfer_seconds": 0.000319799997669179,
+      "inference_seconds": 0.009446699998079566,
+      "end_to_end_seconds": 0.0355853999935789,
+      "per_sample_inference_seconds": 0.0005904187498799729
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02120650000142632,
+      "transfer_seconds": 0.0003469000002951361,
+      "inference_seconds": 0.009350300002552103,
+      "end_to_end_seconds": 0.03090370000427356,
+      "per_sample_inference_seconds": 0.0005843937501595065
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023319500000070548,
+      "transfer_seconds": 0.00037940000038361177,
+      "inference_seconds": 0.010150399997655768,
+      "end_to_end_seconds": 0.03384929999810993,
+      "per_sample_inference_seconds": 0.0006343999998534855
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03136359999916749,
+      "transfer_seconds": 0.00043870000081369653,
+      "inference_seconds": 0.009557399996992899,
+      "end_to_end_seconds": 0.041359699996974086,
+      "per_sample_inference_seconds": 0.0005973374998120562
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03532199999972363,
+      "transfer_seconds": 0.0004064999993715901,
+      "inference_seconds": 0.009678499998699408,
+      "end_to_end_seconds": 0.04540699999779463,
+      "per_sample_inference_seconds": 0.000604906249918713
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028640200001973426,
+      "transfer_seconds": 0.00031650000164518133,
+      "inference_seconds": 0.009368800001539057,
+      "end_to_end_seconds": 0.038325500005157664,
+      "per_sample_inference_seconds": 0.0005855500000961911
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022398100001737475,
+      "transfer_seconds": 0.00028559999918797985,
+      "inference_seconds": 0.009895200000755722,
+      "end_to_end_seconds": 0.03257890000168118,
+      "per_sample_inference_seconds": 0.0006184500000472326
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01735959999859915,
+      "transfer_seconds": 0.00045509999836212955,
+      "inference_seconds": 0.009381899999425514,
+      "end_to_end_seconds": 0.027196599996386794,
+      "per_sample_inference_seconds": 0.0005863687499640946
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.011919600001419894,
+      "transfer_seconds": 0.00036330000148154795,
+      "inference_seconds": 0.009389000002556713,
+      "end_to_end_seconds": 0.021671900005458156,
+      "per_sample_inference_seconds": 0.0005868125001597946
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016910300000745337,
+      "transfer_seconds": 0.00028509999901871197,
+      "inference_seconds": 0.009517099999357015,
+      "end_to_end_seconds": 0.026712499999121064,
+      "per_sample_inference_seconds": 0.0005948187499598134
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023923099997773534,
+      "transfer_seconds": 0.0003469000002951361,
+      "inference_seconds": 0.009403800002473872,
+      "end_to_end_seconds": 0.03367380000054254,
+      "per_sample_inference_seconds": 0.000587737500154617
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02304790000198409,
+      "transfer_seconds": 0.00033179999809362926,
+      "inference_seconds": 0.009403699998074444,
+      "end_to_end_seconds": 0.03278339999815216,
+      "per_sample_inference_seconds": 0.0005877312498796528
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02778269999907934,
+      "transfer_seconds": 0.0003157999999530148,
+      "inference_seconds": 0.011015400003088871,
+      "end_to_end_seconds": 0.03911390000212123,
+      "per_sample_inference_seconds": 0.0006884625001930544
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02804420000029495,
+      "transfer_seconds": 0.0003231999980926048,
+      "inference_seconds": 0.011543799999344628,
+      "end_to_end_seconds": 0.03991119999773218,
+      "per_sample_inference_seconds": 0.0007214874999590393
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030755399999179645,
+      "transfer_seconds": 0.0004259000015736092,
+      "inference_seconds": 0.009804900000744965,
+      "end_to_end_seconds": 0.04098620000149822,
+      "per_sample_inference_seconds": 0.0006128062500465603
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03157139999893843,
+      "transfer_seconds": 0.00035260000004200265,
+      "inference_seconds": 0.009603700000297977,
+      "end_to_end_seconds": 0.04152769999927841,
+      "per_sample_inference_seconds": 0.0006002312500186235
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.041204699999070726,
+      "transfer_seconds": 0.00047360000098706223,
+      "inference_seconds": 0.010136299999430776,
+      "end_to_end_seconds": 0.051814599999488564,
+      "per_sample_inference_seconds": 0.0006335187499644235
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028251300002011703,
+      "transfer_seconds": 0.00032160000046133064,
+      "inference_seconds": 0.009382300002471311,
+      "end_to_end_seconds": 0.037955200004944345,
+      "per_sample_inference_seconds": 0.0005863937501544569
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026738500000647036,
+      "transfer_seconds": 0.0003302999975858256,
+      "inference_seconds": 0.009800100000575185,
+      "end_to_end_seconds": 0.03686889999880805,
+      "per_sample_inference_seconds": 0.000612506250035949
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022609399999055313,
+      "transfer_seconds": 0.0004262000002199784,
+      "inference_seconds": 0.009654400000727037,
+      "end_to_end_seconds": 0.03269000000000233,
+      "per_sample_inference_seconds": 0.0006034000000454398
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017017199999827426,
+      "transfer_seconds": 0.00030559999868273735,
+      "inference_seconds": 0.009367200000269804,
+      "end_to_end_seconds": 0.026689999998779967,
+      "per_sample_inference_seconds": 0.0005854500000168628
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012161700000433484,
+      "transfer_seconds": 0.00032759999885456637,
+      "inference_seconds": 0.009398800000781193,
+      "end_to_end_seconds": 0.021888100000069244,
+      "per_sample_inference_seconds": 0.0005874250000488246
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0296624000002339,
+      "transfer_seconds": 0.0006342999986372888,
+      "inference_seconds": 0.009411200000613462,
+      "end_to_end_seconds": 0.03970789999948465,
+      "per_sample_inference_seconds": 0.0005882000000383414
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030445899999904213,
+      "transfer_seconds": 0.0004110999980184715,
+      "inference_seconds": 0.009664599998359336,
+      "end_to_end_seconds": 0.04052159999628202,
+      "per_sample_inference_seconds": 0.0006040374998974585
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0216104000028281,
+      "transfer_seconds": 0.00030780000088270754,
+      "inference_seconds": 0.009363900000607828,
+      "end_to_end_seconds": 0.031282100004318636,
+      "per_sample_inference_seconds": 0.0005852437500379892
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03096450000157347,
+      "transfer_seconds": 0.0003770000002987217,
+      "inference_seconds": 0.01039889999810839,
+      "end_to_end_seconds": 0.04174039999998058,
+      "per_sample_inference_seconds": 0.0006499312498817744
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03420960000221385,
+      "transfer_seconds": 0.00034809999851859175,
+      "inference_seconds": 0.009686099998361897,
+      "end_to_end_seconds": 0.044243799999094335,
+      "per_sample_inference_seconds": 0.0006053812498976185
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02172470000004978,
+      "transfer_seconds": 0.00034869999944930896,
+      "inference_seconds": 0.009384000000864035,
+      "end_to_end_seconds": 0.03145740000036312,
+      "per_sample_inference_seconds": 0.0005865000000540022
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.056551699999545235,
+      "transfer_seconds": 0.0004315000005590264,
+      "inference_seconds": 0.00941429999875254,
+      "end_to_end_seconds": 0.0663974999988568,
+      "per_sample_inference_seconds": 0.0005883937499220337
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028104199998779222,
+      "transfer_seconds": 0.00032809999902383424,
+      "inference_seconds": 0.009387300000526011,
+      "end_to_end_seconds": 0.03781959999832907,
+      "per_sample_inference_seconds": 0.0005867062500328757
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02874770000198623,
+      "transfer_seconds": 0.0003857000010611955,
+      "inference_seconds": 0.009374299999763025,
+      "end_to_end_seconds": 0.03850770000281045,
+      "per_sample_inference_seconds": 0.0005858937499851891
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01958580000064103,
+      "transfer_seconds": 0.00045419999878504314,
+      "inference_seconds": 0.009925400001520757,
+      "end_to_end_seconds": 0.02996540000094683,
+      "per_sample_inference_seconds": 0.0006203375000950473
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.019439899999269983,
+      "transfer_seconds": 0.00033629999961704016,
+      "inference_seconds": 0.009775999998964835,
+      "end_to_end_seconds": 0.029552199997851858,
+      "per_sample_inference_seconds": 0.0006109999999353022
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0319999999992433,
+      "transfer_seconds": 0.00033690000054775737,
+      "inference_seconds": 0.00990779999847291,
+      "end_to_end_seconds": 0.04224469999826397,
+      "per_sample_inference_seconds": 0.0006192374999045569
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02255910000167205,
+      "transfer_seconds": 0.0003781000013987068,
+      "inference_seconds": 0.011258899998210836,
+      "end_to_end_seconds": 0.03419610000128159,
+      "per_sample_inference_seconds": 0.0007036812498881773
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016804799997771624,
+      "transfer_seconds": 0.0003862999983539339,
+      "inference_seconds": 0.009839499998633983,
+      "end_to_end_seconds": 0.02703059999475954,
+      "per_sample_inference_seconds": 0.0006149687499146239
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016828800002258504,
+      "transfer_seconds": 0.00030699999842909165,
+      "inference_seconds": 0.009755099999892991,
+      "end_to_end_seconds": 0.026890900000580586,
+      "per_sample_inference_seconds": 0.0006096937499933119
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030689700000948505,
+      "transfer_seconds": 0.000354799998603994,
+      "inference_seconds": 0.009775499998795567,
+      "end_to_end_seconds": 0.04081999999834807,
+      "per_sample_inference_seconds": 0.0006109687499247229
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013350000001082662,
+      "transfer_seconds": 0.00031039999885251746,
+      "inference_seconds": 0.011702399999194313,
+      "end_to_end_seconds": 0.025362799999129493,
+      "per_sample_inference_seconds": 0.0007313999999496446
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017475599997851532,
+      "transfer_seconds": 0.00030499999775202014,
+      "inference_seconds": 0.009732900001836242,
+      "end_to_end_seconds": 0.027513499997439794,
+      "per_sample_inference_seconds": 0.0006083062501147651
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017490999998699408,
+      "transfer_seconds": 0.0003971999976783991,
+      "inference_seconds": 0.012116099998820573,
+      "end_to_end_seconds": 0.03000429999519838,
+      "per_sample_inference_seconds": 0.0007572562499262858
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02665770000021439,
+      "transfer_seconds": 0.00036220000038156286,
+      "inference_seconds": 0.00973359999989043,
+      "end_to_end_seconds": 0.03675350000048638,
+      "per_sample_inference_seconds": 0.0006083499999931519
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02603580000140937,
+      "transfer_seconds": 0.0004386000000522472,
+      "inference_seconds": 0.010064599999168422,
+      "end_to_end_seconds": 0.03653900000063004,
+      "per_sample_inference_seconds": 0.0006290374999480264
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01261520000116434,
+      "transfer_seconds": 0.00026499999876250513,
+      "inference_seconds": 0.009797899998375215,
+      "end_to_end_seconds": 0.02267809999830206,
+      "per_sample_inference_seconds": 0.0006123687498984509
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022849199998745462,
+      "transfer_seconds": 0.00040749999971012585,
+      "inference_seconds": 0.009872599999653175,
+      "end_to_end_seconds": 0.03312929999810876,
+      "per_sample_inference_seconds": 0.0006170374999783235
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02349099999992177,
+      "transfer_seconds": 0.00039879999894765206,
+      "inference_seconds": 0.009789899999304907,
+      "end_to_end_seconds": 0.03367969999817433,
+      "per_sample_inference_seconds": 0.0006118687499565567
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021188100003200816,
+      "transfer_seconds": 0.0003203999985998962,
+      "inference_seconds": 0.009785699996427866,
+      "end_to_end_seconds": 0.03129419999822858,
+      "per_sample_inference_seconds": 0.0006116062497767416
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025901199998770608,
+      "transfer_seconds": 0.00034809999851859175,
+      "inference_seconds": 0.009766799998033093,
+      "end_to_end_seconds": 0.03601609999532229,
+      "per_sample_inference_seconds": 0.0006104249998770683
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017034199998306576,
+      "transfer_seconds": 0.0004254000014043413,
+      "inference_seconds": 0.009859900001174537,
+      "end_to_end_seconds": 0.027319500000885455,
+      "per_sample_inference_seconds": 0.0006162437500734086
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013598900000943104,
+      "transfer_seconds": 0.00037629999860655516,
+      "inference_seconds": 0.009782699999050237,
+      "end_to_end_seconds": 0.023757899998599896,
+      "per_sample_inference_seconds": 0.0006114187499406398
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.029743899998720735,
+      "transfer_seconds": 0.00036329999784356914,
+      "inference_seconds": 0.009360600000945851,
+      "end_to_end_seconds": 0.039467799997510156,
+      "per_sample_inference_seconds": 0.0005850375000591157
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.007590699999127537,
+      "transfer_seconds": 0.0002544999988458585,
+      "inference_seconds": 0.011970899999141693,
+      "end_to_end_seconds": 0.01981609999711509,
+      "per_sample_inference_seconds": 0.0007481812499463558
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.032966499999020016,
+      "transfer_seconds": 0.000351400001818547,
+      "inference_seconds": 0.009650100000726525,
+      "end_to_end_seconds": 0.04296800000156509,
+      "per_sample_inference_seconds": 0.0006031312500454078
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.025666800000180956,
+      "transfer_seconds": 0.0004259000015736092,
+      "inference_seconds": 0.010102800002641743,
+      "end_to_end_seconds": 0.03619550000439631,
+      "per_sample_inference_seconds": 0.0006314250001651089
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.007474699999875156,
+      "transfer_seconds": 0.00034729999970295466,
+      "inference_seconds": 0.012430700000550132,
+      "end_to_end_seconds": 0.020252700000128243,
+      "per_sample_inference_seconds": 0.0007769187500343833
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022350200000801124,
+      "transfer_seconds": 0.0004479000017454382,
+      "inference_seconds": 0.00965870000072755,
+      "end_to_end_seconds": 0.03245680000327411,
+      "per_sample_inference_seconds": 0.0006036687500454718
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0404703000021982,
+      "transfer_seconds": 0.0003625999997893814,
+      "inference_seconds": 0.009368999999423977,
+      "end_to_end_seconds": 0.05020190000141156,
+      "per_sample_inference_seconds": 0.0005855624999639986
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02195949999804725,
+      "transfer_seconds": 0.0003215000033378601,
+      "inference_seconds": 0.009424600000784267,
+      "end_to_end_seconds": 0.031705600002169376,
+      "per_sample_inference_seconds": 0.0005890375000490167
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.023131300000386545,
+      "transfer_seconds": 0.0003342000018164981,
+      "inference_seconds": 0.009733099999721162,
+      "end_to_end_seconds": 0.033198600001924206,
+      "per_sample_inference_seconds": 0.0006083187499825726
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0251840999990236,
+      "transfer_seconds": 0.00031260000105248764,
+      "inference_seconds": 0.009363199998915661,
+      "end_to_end_seconds": 0.03485989999899175,
+      "per_sample_inference_seconds": 0.0005851999999322288
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021343399999750545,
+      "transfer_seconds": 0.00035909999860450625,
+      "inference_seconds": 0.009650500000134343,
+      "end_to_end_seconds": 0.031352999998489395,
+      "per_sample_inference_seconds": 0.0006031562500083965
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03001860000222223,
+      "transfer_seconds": 0.00035059999936493114,
+      "inference_seconds": 0.009457399999519112,
+      "end_to_end_seconds": 0.03982660000110627,
+      "per_sample_inference_seconds": 0.0005910874999699445
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0391038000016124,
+      "transfer_seconds": 0.00039280000055441633,
+      "inference_seconds": 0.009827599998970982,
+      "end_to_end_seconds": 0.0493242000011378,
+      "per_sample_inference_seconds": 0.0006142249999356864
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.024470100001053652,
+      "transfer_seconds": 0.0002918999998655636,
+      "inference_seconds": 0.009790799998881994,
+      "end_to_end_seconds": 0.03455279999980121,
+      "per_sample_inference_seconds": 0.0006119249999301246
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021633600001223385,
+      "transfer_seconds": 0.00030979999792180024,
+      "inference_seconds": 0.009389700000610901,
+      "end_to_end_seconds": 0.03133309999975609,
+      "per_sample_inference_seconds": 0.0005868562500381813
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.021206000001257053,
+      "transfer_seconds": 0.000371000001905486,
+      "inference_seconds": 0.009382500000356231,
+      "end_to_end_seconds": 0.03095950000351877,
+      "per_sample_inference_seconds": 0.0005864062500222644
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012383999997837236,
+      "transfer_seconds": 0.0002995999966515228,
+      "inference_seconds": 0.009380600000440609,
+      "end_to_end_seconds": 0.022064199994929368,
+      "per_sample_inference_seconds": 0.000586287500027538
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03238250000140397,
+      "transfer_seconds": 0.0003150999982608482,
+      "inference_seconds": 0.009348299998237053,
+      "end_to_end_seconds": 0.04204589999790187,
+      "per_sample_inference_seconds": 0.0005842687498898158
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02606720000039786,
+      "transfer_seconds": 0.00035059999936493114,
+      "inference_seconds": 0.0093827999990026,
+      "end_to_end_seconds": 0.03580059999876539,
+      "per_sample_inference_seconds": 0.0005864249999376625
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012127800000598654,
+      "transfer_seconds": 0.00029119999817339703,
+      "inference_seconds": 0.009351699998660479,
+      "end_to_end_seconds": 0.02177069999743253,
+      "per_sample_inference_seconds": 0.0005844812499162799
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02266079999753856,
+      "transfer_seconds": 0.00030730000071343966,
+      "inference_seconds": 0.012345299997832626,
+      "end_to_end_seconds": 0.03531339999608463,
+      "per_sample_inference_seconds": 0.0007715812498645391
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02594159999716794,
+      "transfer_seconds": 0.000316099998599384,
+      "inference_seconds": 0.009418699999514502,
+      "end_to_end_seconds": 0.03567639999528183,
+      "per_sample_inference_seconds": 0.0005886687499696563
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01729200000045239,
+      "transfer_seconds": 0.0003203999985998962,
+      "inference_seconds": 0.009483000001637265,
+      "end_to_end_seconds": 0.02709540000068955,
+      "per_sample_inference_seconds": 0.0005926875001023291
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03194219999932102,
+      "transfer_seconds": 0.0003464999972493388,
+      "inference_seconds": 0.009726899999805028,
+      "end_to_end_seconds": 0.042015599996375386,
+      "per_sample_inference_seconds": 0.0006079312499878142
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.031188400000246475,
+      "transfer_seconds": 0.0003556000010576099,
+      "inference_seconds": 0.009379999999509891,
+      "end_to_end_seconds": 0.040924000000813976,
+      "per_sample_inference_seconds": 0.0005862499999693682
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.028611500001716195,
+      "transfer_seconds": 0.0004023000001325272,
+      "inference_seconds": 0.009373699998832308,
+      "end_to_end_seconds": 0.03838750000068103,
+      "per_sample_inference_seconds": 0.0005858562499270192
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.044485800000984455,
+      "transfer_seconds": 0.00035630000274977647,
+      "inference_seconds": 0.0103092999997898,
+      "end_to_end_seconds": 0.05515140000352403,
+      "per_sample_inference_seconds": 0.0006443312499868625
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.018412999997963198,
+      "transfer_seconds": 0.000382099999114871,
+      "inference_seconds": 0.009330900000350084,
+      "end_to_end_seconds": 0.028125999997428153,
+      "per_sample_inference_seconds": 0.0005831812500218803
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02749050000056741,
+      "transfer_seconds": 0.000340000002324814,
+      "inference_seconds": 0.009366999998746905,
+      "end_to_end_seconds": 0.03719750000163913,
+      "per_sample_inference_seconds": 0.0005854374999216816
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017397600000549573,
+      "transfer_seconds": 0.0002919999969890341,
+      "inference_seconds": 0.011917200001335004,
+      "end_to_end_seconds": 0.029606799998873612,
+      "per_sample_inference_seconds": 0.0007448250000834378
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.012467900000046939,
+      "transfer_seconds": 0.0003871000008075498,
+      "inference_seconds": 0.009481000000960194,
+      "end_to_end_seconds": 0.022336000001814682,
+      "per_sample_inference_seconds": 0.0005925625000600121
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01755340000090655,
+      "transfer_seconds": 0.0003071999999519903,
+      "inference_seconds": 0.009368700000777608,
+      "end_to_end_seconds": 0.027229300001636147,
+      "per_sample_inference_seconds": 0.0005855437500486005
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01818210000055842,
+      "transfer_seconds": 0.00033260000054724514,
+      "inference_seconds": 0.009398099999089027,
+      "end_to_end_seconds": 0.027912800000194693,
+      "per_sample_inference_seconds": 0.0005873812499430642
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.016588400001637638,
+      "transfer_seconds": 0.00033350000012433156,
+      "inference_seconds": 0.011653800000203773,
+      "end_to_end_seconds": 0.028575700001965743,
+      "per_sample_inference_seconds": 0.0007283625000127358
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01827930000217748,
+      "transfer_seconds": 0.0003054000007978175,
+      "inference_seconds": 0.009407699999428587,
+      "end_to_end_seconds": 0.027992400002403883,
+      "per_sample_inference_seconds": 0.0005879812499642867
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02777119999882416,
+      "transfer_seconds": 0.0003709999982675072,
+      "inference_seconds": 0.009367499998916173,
+      "end_to_end_seconds": 0.03750969999600784,
+      "per_sample_inference_seconds": 0.0005854687499322608
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.026424799998494564,
+      "transfer_seconds": 0.00038270000004558824,
+      "inference_seconds": 0.009377000002132263,
+      "end_to_end_seconds": 0.036184500000672415,
+      "per_sample_inference_seconds": 0.0005860625001332664
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017625200001930352,
+      "transfer_seconds": 0.00036859999818261713,
+      "inference_seconds": 0.009380899999086978,
+      "end_to_end_seconds": 0.027374699999199947,
+      "per_sample_inference_seconds": 0.0005863062499429361
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022126799998659408,
+      "transfer_seconds": 0.00029999999969732016,
+      "inference_seconds": 0.009364599998662015,
+      "end_to_end_seconds": 0.03179139999701874,
+      "per_sample_inference_seconds": 0.000585287499916376
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020147699997323798,
+      "transfer_seconds": 0.0002941999991890043,
+      "inference_seconds": 0.009390699997311458,
+      "end_to_end_seconds": 0.02983259999382426,
+      "per_sample_inference_seconds": 0.0005869187498319661
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.0212643000013486,
+      "transfer_seconds": 0.000307099999190541,
+      "inference_seconds": 0.009385699999256758,
+      "end_to_end_seconds": 0.0309570999997959,
+      "per_sample_inference_seconds": 0.0005866062499535474
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.030992800002422882,
+      "transfer_seconds": 0.00039880000258563086,
+      "inference_seconds": 0.00966569999945932,
+      "end_to_end_seconds": 0.041057300004467834,
+      "per_sample_inference_seconds": 0.0006041062499662075
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.01745900000241818,
+      "transfer_seconds": 0.000311100000544684,
+      "inference_seconds": 0.009356400001706788,
+      "end_to_end_seconds": 0.02712650000466965,
+      "per_sample_inference_seconds": 0.0005847750001066743
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03275199999916367,
+      "transfer_seconds": 0.0003491000024951063,
+      "inference_seconds": 0.009546400000544963,
+      "end_to_end_seconds": 0.04264750000220374,
+      "per_sample_inference_seconds": 0.0005966500000340602
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013124500001140404,
+      "transfer_seconds": 0.00029689999792026356,
+      "inference_seconds": 0.011326100000587758,
+      "end_to_end_seconds": 0.024747499999648426,
+      "per_sample_inference_seconds": 0.0007078812500367349
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.022797199999331497,
+      "transfer_seconds": 0.0004085000000486616,
+      "inference_seconds": 0.009416199998668162,
+      "end_to_end_seconds": 0.03262189999804832,
+      "per_sample_inference_seconds": 0.0005885124999167601
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02155299999867566,
+      "transfer_seconds": 0.00030189999961294234,
+      "inference_seconds": 0.009361799999169307,
+      "end_to_end_seconds": 0.03121669999745791,
+      "per_sample_inference_seconds": 0.0005851124999480817
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03678860000218265,
+      "transfer_seconds": 0.00033620000249356963,
+      "inference_seconds": 0.009417499997653067,
+      "end_to_end_seconds": 0.046542300002329284,
+      "per_sample_inference_seconds": 0.0005885937498533167
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017190900001878617,
+      "transfer_seconds": 0.0002810000005410984,
+      "inference_seconds": 0.013571800001955125,
+      "end_to_end_seconds": 0.03104370000437484,
+      "per_sample_inference_seconds": 0.0008482375001221953
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02728429999842774,
+      "transfer_seconds": 0.0003120000001217704,
+      "inference_seconds": 0.0121024000000034,
+      "end_to_end_seconds": 0.03969869999855291,
+      "per_sample_inference_seconds": 0.0007564000000002125
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02561730000161333,
+      "transfer_seconds": 0.000338400001055561,
+      "inference_seconds": 0.014026299999386538,
+      "end_to_end_seconds": 0.03998200000205543,
+      "per_sample_inference_seconds": 0.0008766437499616586
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.03250020000268705,
+      "transfer_seconds": 0.00034640000012586825,
+      "inference_seconds": 0.00946009999825037,
+      "end_to_end_seconds": 0.04230670000106329,
+      "per_sample_inference_seconds": 0.0005912562498906482
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02637020000111079,
+      "transfer_seconds": 0.0003031999985978473,
+      "inference_seconds": 0.009631400000216672,
+      "end_to_end_seconds": 0.03630479999992531,
+      "per_sample_inference_seconds": 0.000601962500013542
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.017186999997647945,
+      "transfer_seconds": 0.00030730000071343966,
+      "inference_seconds": 0.009472900001128437,
+      "end_to_end_seconds": 0.02696719999948982,
+      "per_sample_inference_seconds": 0.0005920562500705273
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.020966599997336743,
+      "transfer_seconds": 0.00033199999961652793,
+      "inference_seconds": 0.009379499999340624,
+      "end_to_end_seconds": 0.030678099996293895,
+      "per_sample_inference_seconds": 0.000586218749958789
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.034323600000789156,
+      "transfer_seconds": 0.0003102000009675976,
+      "inference_seconds": 0.009360500000184402,
+      "end_to_end_seconds": 0.043994300001941156,
+      "per_sample_inference_seconds": 0.0005850312500115251
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.02198149999821908,
+      "transfer_seconds": 0.00029880000147386454,
+      "inference_seconds": 0.009373900000355206,
+      "end_to_end_seconds": 0.03165420000004815,
+      "per_sample_inference_seconds": 0.0005858687500222004
+    },
+    {
+      "batch_size": 16,
+      "load_seconds": 0.013056700001470745,
+      "transfer_seconds": 0.00027540000155568123,
+      "inference_seconds": 0.009336000002804212,
+      "end_to_end_seconds": 0.022668100005830638,
+      "per_sample_inference_seconds": 0.0005835000001752633
+    },
+    {
+      "batch_size": 6,
+      "load_seconds": 0.01758010000048671,
+      "transfer_seconds": 0.0002204000011261087,
+      "inference_seconds": 0.004394700001284946,
+      "end_to_end_seconds": 0.022195200002897764,
+      "per_sample_inference_seconds": 0.0007324500002141576
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reviewed diameter-clearance case input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["bore_part_id", "bore_interface_id", "shaft_part_id", "shaft_interface_id", "minimum", "maximum"],
+  "properties": {
+    "bore_part_id": {"type": "string"},
+    "bore_interface_id": {"type": "string"},
+    "shaft_part_id": {"type": "string"},
+    "shaft_interface_id": {"type": "string"},
+    "minimum": {"type": "number", "description": "Minimum allowed diametral clearance in mm"},
+    "maximum": {"type": "number", "description": "Maximum allowed diametral clearance in mm"}
+  }
+}

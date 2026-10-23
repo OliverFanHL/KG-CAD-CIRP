@@ -1,0 +1,50 @@
+# CLM extension of the frozen full study. Source paths and evaluation settings
+# match research_v2/study_analysis.yaml; CLM outputs stay in their own tree.
+project:
+  seed: 42
+study:
+  descriptor_path: outputs/descriptors/tmcad_descriptors.csv
+  schema_path: outputs/descriptors/quantile_schema.json
+  questions_path: configs/questions_compact.yaml
+  jev_results_path: outputs/study/full/jev_results.jsonl
+  laya_results_path: outputs/study/full/laya_results.jsonl
+  clm_results_path: outputs/study/clm/clm_results.jsonl
+  cohort_path: outputs/study/full/cohort.csv
+  mesh_dir: outputs/study/full/mesh
+  geometry_checkpoint: outputs/study/full/geometry_encoder.pt
+  geometry_embeddings: outputs/study/full/geometry_embeddings.csv
+  pair_pool_path: outputs/study/full/retrieval_judgments.csv
+  judgments_path: outputs/study/full/annotations/judged_pairs.csv
+  evaluation_dir: outputs/study/clm/evaluation
+cad:
+  state_variant: compact
+  include_numeric_context: true
+  include_profile_arrays: false
+jev:
+  model: jev-latest
+laya:
+  required: true
+  repository: convaiinnovations/laya
+  subfolder: typed-decisions
+  revision: null
+laya_finetune:
+  checkpoint_dir: kaggle_laya/jev_tmcad_laya_ft_result/laya_checkpoint
+  results_path: kaggle_laya/jev_tmcad_laya_ft_result/laya_results.jsonl
+clm:
+  model: clm-latest
+  checkpoint_path: models/clm/CLM_v0.1-8B.pt
+  encoder_backend: transformers
+  encoder_model: Qwen/Qwen3-8B
+  encoder_device: auto
+  encoder_batch_size: 4
+  emb_url: http://127.0.0.1:8090/v1/embeddings
+  emb_model: qwen3-8b
+  encoder_revision: b968826d9c46dd6066d109eabc6255188de91218
+  timeout_seconds: 300
+  retry_attempts: 3
+classification:
+  c_grid: [0.01, 0.1, 1.0, 10.0]
+retrieval:
+  query_scope: preselected
+  ks: [1, 5, 10]
+  fusion_weights: [0.0, 0.25, 0.5, 0.75, 1.0]

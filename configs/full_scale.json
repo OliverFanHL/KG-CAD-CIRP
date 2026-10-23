@@ -1,0 +1,16 @@
+{
+  "seed": 17,
+  "workers": 8,
+  "step_timeout_seconds": 90,
+  "k": 5,
+  "geometry_kinds": ["embedding", "descriptor"],
+  "methods": ["category", "geometry", "geometry_class", "flat_full", "kg_no_geometry", "kg_no_class", "kg_no_constraints", "kg_full"],
+  "weights": {"geometry": 1, "category": 1, "class_reference": 1, "semantic": 1},
+  "envelope_validation_quantiles": [0.25, 0.75],
+  "bootstrap_samples": 2000,
+  "batch_size": 128,
+  "functional_queries": "annotations/ai_reference/scenarios.json",
+  "knowledge": "annotations/source_supported",
+  "knowledge_policy": "include_source_supported",
+  "notes": "Equal weights frozen before full-gallery results. No test-set optimization. Class benchmark is auxiliary, not functional truth."
+}

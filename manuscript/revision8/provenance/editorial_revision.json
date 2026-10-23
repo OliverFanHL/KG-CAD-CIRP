@@ -1,0 +1,19 @@
+{
+  "revision": 8,
+  "source_revision": 7,
+  "experimental_results_changed": false,
+  "data_sha256": {
+    "family_metrics.csv": "f1a23d1b2f65b9d1396c3262ba1cc14ec1f5063c9879bed4bc31cc7de76eb0e8",
+    "paired_tests.csv": "c011eff35dec33afa26e92d597b412a00405f5713504fd2da18557dfb1eba100",
+    "remaining_local_three_pass.csv": "d0000b95d725410d4aa9a26068bcaa8ac85d6668034577a077bed09b437b7687",
+    "summary.csv": "3a239e698b9cb5971c34926b6c1846614e2bff61ed7700a1cddcc783f3a9bb80"
+  },
+  "source_main_sha256": "c2ddead2ac9f3d777d0ed77d553ece2020105b498c4fc61d3d4b18b07bbdf743",
+  "source_supplement_sha256": "949ecc71e8f88b4cced4e6a179154d2d5549a30eb9f2c7e7a808a09c65741d76",
+  "retained_scope": "Same fixed data, response collections, fallback policy, means, SDs and inference.",
+  "editorial_changes": [
+    "Remove acquisition/accounting logs from the scientific narrative.",
+    "Consolidate supplement into four methodology/results sections.",
+    "Keep reproducibility records in data archives rather than document prose."
+  ]
+}

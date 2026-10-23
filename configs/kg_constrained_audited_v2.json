@@ -1,0 +1,21 @@
+{
+  "version": "kg-constrained-audited-v2",
+  "seed": 20261020,
+  "annotation_path": "annotations/intent_batch2_audited_v2/judgments.json",
+  "annotation_audit_path": "outputs/annotation_quality_audit_v2/quality_gate.json",
+  "evaluation_plan": "docs/KG_CONSTRAINED_EVALUATION.md",
+  "source_run": "outputs/intent_batch2_matrix_reproduction",
+  "evidence_root": "outputs/intent_batch2_expanded_2x/evidence",
+  "output": "outputs/kg_constrained_audited_v2",
+  "cutoffs": [5, 10, 20],
+  "rrf_constant": 60,
+  "bootstrap_samples": 20000,
+  "practical_ndcg_delta": 0.02,
+  "primary_subset": "exemplar",
+  "primary_comparators": ["geometry_class_filter", "intent_filter", "kg_no_class", "rrf_filter", "kg_no_geometry"],
+  "classification_corruption_fractions": [0.1, 0.3],
+  "robustness_seeds": [101, 202, 303, 404, 505],
+  "constraint_guards_mm": [0.0, 0.2, 0.5],
+  "near_duplicate_threshold": 0.000001,
+  "notes": "Frozen methods and existing 49 query variants re-evaluated with audited v2 labels. Additional focused constrained-query comparisons are exploratory, separately corrected and reported; no new tasks, learned weights, geometry predicates or models."
+}

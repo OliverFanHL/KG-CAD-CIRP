@@ -1,0 +1,34 @@
+project:
+  seed: 42
+  dataset_root: 'D:\\Postdoc\\research\\jepa_cad\\TMCAD'
+  output_root: 'outputs'
+
+splits:
+  train: 0.70
+  val: 0.10
+  test: 0.20
+
+cad:
+  tessellation_relative_tolerance: 0.005
+  angular_profile_bins: 72
+  axial_profile_bins: 12
+  include_numeric_context: true
+  include_profile_arrays: true
+
+jev:
+  model: 'jev-latest'
+  cache_db: 'outputs/cache/jev_cache.sqlite'
+  results_jsonl: 'outputs/jev/jev_results.jsonl'
+  retry_attempts: 5
+  retry_base_seconds: 1.5
+  timeout_seconds: 30.0
+  request_pause_seconds: 0.0
+
+retrieval:
+  ks: [1, 5, 10]
+  semantic_weight: 0.50
+  max_queries_for_qualitative: 12
+  qualitative_top_k: 5
+
+classification:
+  ece_bins: 10

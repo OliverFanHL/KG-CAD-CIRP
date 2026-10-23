@@ -1,0 +1,134 @@
+classification:
+  id: part_class
+  instructions: >-
+    Classify this single mechanical CAD part into exactly one TMCAD category.
+    Use only the geometry-derived evidence in the structured state. Do not infer
+    information that is not supported by the provided descriptors.
+  criteria:
+    bearing: >-
+      A component whose primary function is to support relative rotation with low
+      friction, commonly having concentric annular or race-like geometry and often
+      multiple coaxial cylindrical surfaces or rolling-element structure.
+    bolt-screw: >-
+      A threaded fastener with an elongated shank and a head or driving feature;
+      its overall geometry is typically strongly axial and may contain detailed
+      thread-like surface complexity.
+    bracket: >-
+      A structural mounting or support component used to connect, locate, or carry
+      other components. Brackets are commonly prismatic or irregular, with mounting
+      faces, arms, ribs, or fastening interfaces rather than predominantly rotational
+      geometry.
+    coupling: >-
+      A component used to connect two shafts or coaxial rotating members, commonly
+      sleeve-, hub-, or flange-like with a central rotational axis and one or more
+      bores or coaxial interfaces.
+    flange: >-
+      A projecting rim, disk, or plate used for connection, location, or sealing,
+      commonly disk-like with a central opening and often a circumferential fastening
+      pattern.
+    gear: >-
+      A rotational power-transmission component with repeated circumferential teeth
+      or similarly periodic radial features around a central axis.
+    nut: >-
+      A compact internally threaded fastener, commonly hexagonal or otherwise
+      faceted externally with a central axial opening; it is much shorter than a
+      bolt or shaft.
+    pulley: >-
+      A rotational wheel or sheave intended to engage a belt, rope, or similar
+      flexible element, commonly disk-like with a central hub/bore and one or more
+      circumferential grooves.
+    shaft: >-
+      An elongated rotational member used to transmit torque, motion, or support
+      rotating components. Shafts are predominantly axial and commonly consist of
+      one or more stepped cylindrical regions.
+    spring: >-
+      An elastic compliant component, typically with open coiled, helical, wave, or
+      similarly low-fill geometry designed to deform and store mechanical energy.
+
+semantic_signature:
+  geom__predominantly_rotational:
+    instructions: >-
+      Does the geometry-derived state provide strong evidence that the part is
+      predominantly organized around a single rotational axis?
+  geom__predominantly_prismatic:
+    instructions: >-
+      Does the state provide strong evidence that the part is predominantly
+      prismatic, block-like, plate-like, or planar rather than rotational?
+  geom__elongated_axial_form:
+    instructions: >-
+      Does the part have a clearly elongated axial form, with one principal extent
+      substantially larger than the other two?
+  geom__disk_or_ring_form:
+    instructions: >-
+      Does the part have a disk-, wheel-, annulus-, or ring-like global form, with
+      two large transverse extents and a substantially smaller thickness?
+  geom__compact_form:
+    instructions: >-
+      Is the part globally compact, with all three principal extents of comparable
+      scale rather than strongly elongated or thin?
+  geom__low_material_fill:
+    instructions: >-
+      Does the state indicate a relatively open, hollow, sparse, or low-solid-fill
+      geometry inside its bounding volume?
+  geom__strong_cylindrical_character:
+    instructions: >-
+      Is cylindrical surface geometry a dominant or highly characteristic part of
+      this component?
+  geom__strong_planar_character:
+    instructions: >-
+      Are planar faces a dominant or highly characteristic part of this component?
+  geom__high_geometric_repetition:
+    instructions: >-
+      Does the state provide evidence of substantial repeated or periodic geometric
+      structure rather than mostly unique local geometry?
+  geom__circumferential_periodicity:
+    instructions: >-
+      Does the angular profile or topology provide evidence of repeated features
+      distributed around a central axis?
+  geom__stepped_axial_profile:
+    instructions: >-
+      Does the geometry indicate a meaningful change of radial size along a main
+      axis, consistent with a stepped shaft-, hub-, or headed-fastener-like profile?
+  geom__head_or_end_asymmetry:
+    instructions: >-
+      Does one end of the main axial profile differ substantially from the other,
+      suggesting a head, shoulder, flange, or other end-dominant feature?
+  func__mounting_or_support_character:
+    instructions: >-
+      Based on the geometry-derived evidence, is this part plausibly organized as a
+      mounting or structural support component rather than a primarily rotational
+      transmission element?
+  func__coaxial_connection_character:
+    instructions: >-
+      Does the part plausibly have a coaxial connection or hub-like character, as
+      expected for components that join or locate rotating members?
+  func__torque_transmission_character:
+    instructions: >-
+      Does the geometry plausibly indicate a rotational torque-transmission role?
+  func__rolling_support_character:
+    instructions: >-
+      Does the geometry plausibly indicate a bearing-like rotational support role?
+  func__elastic_compliance_character:
+    instructions: >-
+      Does the geometry plausibly indicate an intentionally compliant or spring-like
+      mechanical role?
+  func__threaded_fastener_character:
+    instructions: >-
+      Does the geometry plausibly indicate a threaded-fastener-like component such
+      as a bolt, screw, or nut?
+  func__belt_engagement_character:
+    instructions: >-
+      Does the geometry plausibly indicate a pulley- or sheave-like role for belt or
+      rope engagement?
+  mfg__turning_oriented_geometry:
+    instructions: >-
+      Is the overall geometry strongly compatible with manufacture dominated by
+      turning or other axisymmetric machining operations?
+  mfg__milling_oriented_geometry:
+    instructions: >-
+      Is the overall geometry strongly compatible with manufacture dominated by
+      milling of prismatic or planar features?
+  geom__topology_complexity_high:
+    instructions: >-
+      Does the geometry-derived state indicate relatively high topological or
+      surface complexity compared with ordinary mechanical parts?

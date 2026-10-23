@@ -1,0 +1,14 @@
+{
+  "seed": 17,
+  "parts_per_class_split": 2,
+  "maximum_parts": 60,
+  "maximum_geometry_parts": 40,
+  "maximum_step_bytes": 5000000,
+  "mesh_deflection_mm": 0.05,
+  "reference_bounds_mm": {"dev": 100, "test": 150},
+  "geometry_kinds": ["embedding", "descriptor"],
+  "methods": ["category", "geometry", "geometry_class", "flat_full", "kg_no_geometry", "kg_no_class", "kg_no_constraints", "kg_full"],
+  "k": 5,
+  "previews": true,
+  "timeout_seconds": 300
+}

@@ -1,0 +1,4 @@
+* -text
+*.zip.part* binary
+*.npz binary
+*.pt binary

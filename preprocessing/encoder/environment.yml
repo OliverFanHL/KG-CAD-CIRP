@@ -1,0 +1,17 @@
+name: jev-tmcad
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - cadquery
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pyyaml
+  - tqdm
+  - pip
+  - pip:
+      - typesafe-sdk
+      - python-dotenv
+      - pytest

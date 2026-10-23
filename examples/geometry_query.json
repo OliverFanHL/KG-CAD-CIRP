@@ -1,0 +1,10 @@
+{
+  "query_id": "real_geometry_example",
+  "scenario_id": "geometry_example",
+  "split": "test",
+  "text": "Similar CAD geometry to an independently selected training exemplar",
+  "function_ids": [],
+  "category_ids": [],
+  "reference_part_id": "0ea773462d0b4464efb8",
+  "constraints": []
+}

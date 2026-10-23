@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "results_changed": false,
+  "new_experiments": false,
+  "immutable_source_csvs": 4,
+  "checked_annotations": 64,
+  "acquisition_SD_threshold_display_only": 0.001,
+  "figure_2_annotations": 20,
+  "figure_3_annotations": 44,
+  "documents": [
+    {
+      "document": "manuscript",
+      "pages": 9,
+      "native_tables": 2,
+      "embedded_figures": 4,
+      "numbered_latex_equations": 7,
+      "rendered_math_objects": 0,
+      "table_style": "Three horizontal rules with unshaded headers; no vertical or body rules",
+      "docx_sha256": "121c315e92ee9576058842a6d1ae2561bfdc44dca41be5d625bc8c2ea110cea3",
+      "rendered_pdf_sha256": "7edea9ce7458c7aee643a15bff820348c593555ed3a977072da27c43a30d3f67",
+      "page_sha256": [
+        "653cdafb47ceef68cf54a480766ed9401e469ad6fe06e2d53e1135017d6bb973",
+        "718faf5dac7d2c36bdd9084e72dde8eaa660847a840ef64652a1f1fbae70fe9a",
+        "c3a2fe103dfddbed0781d64b8083aa9b8ec1f372484feee595f44c48747e6bce",
+        "03474615c6849ceda5cc192d90328704a7ff8fe7fd6e8caf3bc31be6b5d9ad6a",
+        "39976d8a77421086f2efde642f4dfda1204df9a669155115aa4e584d57964dd2",
+        "0368c134e74c8128ed74ab296dfb0a7bf5225898bc9ba0564cf0c0b4cce72a05",
+        "6ddd88e57fc61038bc2a1aec7c96a04cfb13e77633918f6fa9b9ed9c1d592751",
+        "76826b5516dfa40506551142b1ed33f3a44fe3829a330ee9c6317e6639f9d049",
+        "0bd991d343346a56f0830dbf8dd223e6541072169be80d012c82e95fc68d2e1c"
+      ]
+    },
+    {
+      "document": "supplement",
+      "pages": 3,
+      "native_tables": 2,
+      "embedded_figures": 0,
+      "numbered_latex_equations": 0,
+      "rendered_math_objects": 0,
+      "table_style": "Three horizontal rules with unshaded headers; no vertical or body rules",
+      "docx_sha256": "0f3161adcbf44f002308d78f3b144e00764b9c7837ad37d62c04aeff0029515d",
+      "rendered_pdf_sha256": "3026c80f5a7193f88193b4434d4ffcdb8bb11d55865a2180d70d6067109d2940",
+      "page_sha256": [
+        "23a9776077fe6b2d8f3b3bbfbe69675d9a98b303e00fd6a52952bae5c4f8a2d0",
+        "08d525185dc2e11c8f1bd0cf5f98af50fb15238746b107eddb2ebd633a512378",
+        "91151278145f5a01cb70bd7924ac301f0b21ab7dd41e8d0a4a95c30d666b5b73"
+      ]
+    }
+  ],
+  "checks": [
+    "CSV identity",
+    "All plotted means and SDs",
+    "Three-line Word tables and unrendered LaTeX formulas",
+    "Embedded source figures",
+    "Resolved caption/equation cross-references",
+    "Complete nineteen-reference list",
+    "No title-border residue",
+    "Rendered every document page"
+  ]
+}

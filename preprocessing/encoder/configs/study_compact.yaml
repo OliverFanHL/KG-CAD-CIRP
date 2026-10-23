@@ -1,0 +1,61 @@
+project:
+  seed: 42
+
+study:
+  descriptor_path: outputs/descriptors/tmcad_descriptors.csv
+  schema_path: outputs/descriptors/quantile_schema.json
+  questions_path: configs/questions_compact.yaml
+  jev_results_path: outputs/study/jev_compact_results.jsonl
+  jev_cache_path: outputs/study/jev_compact_cache.sqlite
+  jev_dry_run_path: outputs/study/jev_compact_dry_run.jsonl
+  laya_results_path: outputs/study/laya_compact_results.jsonl
+  cohort_path: outputs/study/cohort.csv
+  mesh_dir: outputs/study/mesh
+  geometry_checkpoint: outputs/study/geometry_encoder.pt
+  geometry_embeddings: outputs/study/geometry_embeddings.csv
+  pair_pool_path: outputs/study/retrieval_compact_judgments.csv
+  evaluation_dir: outputs/study/compact_evaluation
+
+cohort:
+  source: existing_jev
+  per_class: {train: 100, val: 20, test: 40}
+
+cad:
+  state_variant: compact
+  include_numeric_context: true
+  include_profile_arrays: false
+
+mesh:
+  points: 512
+  neighbors: 16
+  tolerance: 0.003
+
+geometry:
+  device: auto
+  epochs: 80
+  patience: 12
+  batch_size: 16
+  embedding_dim: 128
+  learning_rate: 0.001
+  weight_decay: 0.0001
+
+jev:
+  model: jev-latest
+  retry_attempts: 5
+  retry_base_seconds: 1.5
+  timeout_seconds: 30.0
+
+laya:
+  required: true
+  repository: convaiinnovations/laya
+  subfolder: typed-decisions
+  revision: null
+
+classification:
+  c_grid: [0.01, 0.1, 1.0, 10.0]
+
+retrieval:
+  ks: [1, 5, 10]
+  fusion_weights: [0.0, 0.25, 0.5, 0.75, 1.0]
+  pool_top_k: 10
+  pool_random_k: 10

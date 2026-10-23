@@ -1,0 +1,22 @@
+[
+  {
+    "file": "manuscript.docx",
+    "paragraphs": 105,
+    "tables": 2,
+    "figures": 4,
+    "numbered_latex_equations": 7,
+    "rendered_math_objects": 0,
+    "table_style": "Three horizontal rules; no vertical or body rules; no shading",
+    "references": 19
+  },
+  {
+    "file": "supplement.docx",
+    "paragraphs": 23,
+    "tables": 2,
+    "figures": 0,
+    "numbered_latex_equations": 0,
+    "rendered_math_objects": 0,
+    "table_style": "Three horizontal rules; no vertical or body rules; no shading",
+    "references": 0
+  }
+]

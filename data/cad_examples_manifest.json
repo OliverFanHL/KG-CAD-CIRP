@@ -1,0 +1,72 @@
+[
+  {
+    "part_id": "9e2e9852899124858993",
+    "label": "bearing",
+    "split": "train",
+    "relative_path": "bearing/0.stp",
+    "file_sha256": "05c1051142a3627621e03ab671726e246cec42135e077809f979bbd296f1e02f"
+  },
+  {
+    "part_id": "7793a0c48c8ec2630815",
+    "label": "bolt-screw",
+    "split": "test",
+    "relative_path": "bolt_screw/bolt/0.stp",
+    "file_sha256": "f0365c6b37df5a02f625f6ccfae0adcbd081196dffc3898cbdea1be978ea124e"
+  },
+  {
+    "part_id": "91a9d1b2098d4e92d3d8",
+    "label": "bracket",
+    "split": "val",
+    "relative_path": "bracket/0.stp",
+    "file_sha256": "5d0e0ed068c5699e210fd77e4ae257a94b54025614ce644211445b0032be7e18"
+  },
+  {
+    "part_id": "f11fc7bb3a63f23473f6",
+    "label": "coupling",
+    "split": "train",
+    "relative_path": "coupling/0.stp",
+    "file_sha256": "106fcd3881a90f55623630565793dad6cd0f273b50983816bb6cacd937b4fc72"
+  },
+  {
+    "part_id": "2dbed7e0055dbfbdbdea",
+    "label": "flange",
+    "split": "train",
+    "relative_path": "flange/0.stp",
+    "file_sha256": "19794d2169f0a541147214818a9a78302aebbda9a3509ecea99712828d61f24b"
+  },
+  {
+    "part_id": "800b13b3b44e1ef53114",
+    "label": "gear",
+    "split": "train",
+    "relative_path": "gear/0.stp",
+    "file_sha256": "49b18c64b39619f5f2b0e1f7eac1d5c455f5cbbd369d3da04b0a98f5d077179a"
+  },
+  {
+    "part_id": "2018f6d36ff74cbdc328",
+    "label": "nut",
+    "split": "val",
+    "relative_path": "nut/0.stp",
+    "file_sha256": "42bf6872493e30a847b8aefb4bf59bb3bb5ccb451d264270a7cd94dcd21338ee"
+  },
+  {
+    "part_id": "2a6ba5fb4bbbf941a650",
+    "label": "pulley",
+    "split": "test",
+    "relative_path": "pulley/0.stp",
+    "file_sha256": "66c963c81f25a75ae84c186ad8f46dfc56f0df0e78a4be972b0b55684726f264"
+  },
+  {
+    "part_id": "9e159dd21fd267ccf103",
+    "label": "shaft",
+    "split": "test",
+    "relative_path": "shaft/0.stp",
+    "file_sha256": "6cd1588dd18f4c90e12ec0f22d41f20a6a89cee2f72740c1c5e56dccd09fc7cc"
+  },
+  {
+    "part_id": "65e9012bb0969e78d432",
+    "label": "spring",
+    "split": "train",
+    "relative_path": "spring/0.stp",
+    "file_sha256": "4ab07a5c2a84691f29543d54de5e53d344d963af5cdaf5a8867d83529426def4"
+  }
+]
