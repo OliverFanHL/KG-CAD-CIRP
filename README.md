@@ -1,14 +1,11 @@
 # Knowledge-guided relational evidence for functional CAD retrieval
 
-Code, data, and publication materials for functional CAD retrieval using geometric similarity, category-derived priors, dimensional screening, and source-linked visual evidence.
+Research code and datasets for functional CAD retrieval using geometric similarity, category-derived priors, dimensional screening, and source-linked visual evidence.
 
-## Read the study
+## Explore the repository
 
 | Material | Location |
 |---|---|
-| Manuscript | [Editable Word document](publication/manuscript/manuscript.docx) · [LaTeX source](publication/manuscript/manuscript.tex) |
-| Supplementary methods and results | [Editable Word document](publication/supplement/supplement.docx) · [LaTeX source](publication/supplement/supplement.tex) |
-| Publication figures | [Figures and editable artwork](publication/figures/README.md) |
 | Numerical results | [Results guide and tables](results/README.md) |
 | Supporting datasets | [Data guide](data/README.md) |
 | Saved LLM outputs and examples | [Response files, evidence records, and usage examples](data/observations/README.md) |
@@ -50,18 +47,17 @@ Data preparation verifies the supplied artifacts and exposes them under `data/`.
 
 | Directory | Purpose |
 |---|---|
-| `publication/` | Manuscript, supplement, final figures, bibliography, and publication tables |
 | `results/` | Final numerical tables, query-level results, and validation evidence |
 | `data/` | Queries, AI-reference annotations, role requirements, CAD examples, encoder assets, and prepared source evidence |
 | `cadkg/` | Geometry, knowledge graph, retrieval, evaluation, and annotation software |
-| `scripts/` | Prepare data, reproduce results, generate figures, and build editable documents |
+| `scripts/` | Prepare data, reproduce results, inspect LLM outputs, and validate the repository |
 | `configs/` | Retrieval settings and the study specification |
 | `preprocessing/` | Encoder and geometry preprocessing implementation |
 | `tests/` | Core software and geometry checks |
 | `docs/` | Methodology, reproduction, and validation guides |
 | `archive/` | Sealed provenance and internal replay dependencies; not required reading |
 
-The complete raw TMCAD corpus is obtained from the source cited in the manuscript. Representative STEP models, labels, source hashes, the selected encoder, saved observations, and all inputs for the primary offline reproduction are supplied. Dataset and upstream materials retain their original rights; no new blanket license is assigned.
+Representative STEP models, labels, source hashes, the selected encoder, saved observations, and all inputs for the primary offline reproduction are supplied. See the [data guide](data/README.md) for the complete raw TMCAD corpus source. Dataset and upstream materials retain their original rights; no new blanket license is assigned.
 
 ## Example usage
 

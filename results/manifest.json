@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "results/component_controls.csv",
+      "sha256": "d0000b95d725410d4aa9a26068bcaa8ac85d6668034577a077bed09b437b7687",
+      "bytes": 1221
+    },
+    {
+      "path": "results/family_differences.csv",
+      "sha256": "4305c2ff49bef18162047c0fef30a70ba1503f6adfa021a82aba87e559aea1d5",
+      "bytes": 5675
+    },
+    {
+      "path": "results/family_metrics.csv",
+      "sha256": "f1a23d1b2f65b9d1396c3262ba1cc14ec1f5063c9879bed4bc31cc7de76eb0e8",
+      "bytes": 81381
+    },
+    {
+      "path": "results/paired_tests.csv",
+      "sha256": "c011eff35dec33afa26e92d597b412a00405f5713504fd2da18557dfb1eba100",
+      "bytes": 1090
+    },
+    {
+      "path": "results/per_query.csv",
+      "sha256": "293afaa17b1821acaa17e2744d867912fd0922389eee0027f4601df6e6dc8e6e",
+      "bytes": 2199247
+    },
+    {
+      "path": "results/run_metrics.csv",
+      "sha256": "f8e1b86b4fca6ba99c53176af6cb008c304ca60a8068cfd0c123e5fdd4260600",
+      "bytes": 6883
+    },
+    {
+      "path": "results/summary.csv",
+      "sha256": "3a239e698b9cb5971c34926b6c1846614e2bff61ed7700a1cddcc783f3a9bb80",
+      "bytes": 5357
+    },
+    {
+      "path": "results/top5_rankings.json",
+      "sha256": "bcc15a5cd12547420f37f14baab6ed9675217fc11135f211b19ab2d77d6d77cc",
+      "bytes": 4298726
+    }
+  ]
+}

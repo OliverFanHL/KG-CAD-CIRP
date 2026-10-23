@@ -11,6 +11,7 @@ dist/
 *.key
 ~$*
 TMCAD/
+publication/
 archive/workspace/outputs/
 archive/workspace/annotations/
 data/catalog/catalog.json

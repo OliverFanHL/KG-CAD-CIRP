@@ -16,15 +16,6 @@ The metrics-only workflow regenerates role means, collection means, summary stat
 
 Outputs are written to `results/reproduced_metrics/` and `results/reproduced/`. The program refuses an existing destination; use, for example, `--output results/reproduced_check` for another execution. Each destination contains `release_replay_audit.json`, and a full run records execution details in `replay.log`.
 
-## Figures and documents
-
-```text
-python -m pip install -r publication/requirements.txt
-python -m scripts.generate_figures
-```
-
-This regenerates Figures 2–3 from `results/summary.csv` and `results/family_metrics.csv`. It makes no model calls and does not rerun statistical tests. `python -m scripts.build_documents` rebuilds editable Word documents from the final LaTeX sources and tables; Word must update its fields and pagination. The supplied reviewed documents and artwork are available directly in [publication](../publication/README.md).
-
 ## Geometry and encoder
 
 `data/encoder/` includes the selected epoch-17 checkpoint, selection metadata, cohort, and descriptor/embedding exports. Encoder and geometry preprocessing source/configurations are under `preprocessing/encoder/`. Raw-data rebuilding requires the original TMCAD corpus, its source hashes and splits, and the upstream optional CAD/PyTorch environment. It is distinct from reproducing the primary saved-input analysis. Neither retraining nor fresh model collection was performed for this repository organization.

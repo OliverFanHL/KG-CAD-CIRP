@@ -12,7 +12,6 @@ All files describe the study's 264-query primary panel, 1,816-candidate gallery,
 | [family_differences.csv](family_differences.csv) | Role-level effects underlying the primary contrasts |
 | [component_controls.csv](component_controls.csv) | Fixed-encoder component controls repeated in three execution orders |
 | [top5_rankings.json](top5_rankings.json) | Evaluated top-five gallery indices, joined through `data/rankings/cohorts.json` after preparation |
-| [figure_annotations.json](figure_annotations.json) | Full-precision numerical annotations underlying the publication figures |
 | [validation/](validation/) | Reproduction and publication-integrity checks |
 
 Means weight six size conditions within each exemplar, four exemplars within each role, then eleven roles equally. SD uses the three collection means with denominator two. Lower/upper fields retain uncertainty from unresolved reference judgments. The primary nDCG@5 endpoints are point identified under those bounds.
