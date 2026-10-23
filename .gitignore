@@ -15,6 +15,7 @@ publication/
 archive/workspace/outputs/
 archive/workspace/annotations/
 data/catalog/catalog.json
+data/annotations/judgments.json
 data/catalog/bundle_manifest.json
 data/knowledge/knowledge.json
 data/knowledge/graph.json

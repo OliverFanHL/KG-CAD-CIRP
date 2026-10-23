@@ -45,6 +45,7 @@ def main():
     def publish(source,destination):
         expose(WORK/source,ROOT/destination)
         index.append(dict(path=destination,sha256=sha(ROOT/destination)))
+    publish('annotations/intent_feature_review_v5/judgments.json','data/annotations/judgments.json')
     for n in ['catalog.json','bundle_manifest.json']:
         publish('outputs/intent_batch2_matrix_reproduction/bundle/'+n,'data/catalog/'+n)
     for n in ['knowledge.json','graph.json']:

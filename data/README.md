@@ -2,12 +2,12 @@
 
 The study uses TMCAD geometry and category labels, authored engineering roles and requirements, AI-reference relevance judgments, measured geometry, and saved visual-model observations.
 
-Run `python -m scripts.prepare_data` once. This verifies all artifact hashes and prepares the larger datasets in the locations below. Queries, annotations, metadata, and representative CAD models are directly browsable without preparation.
+Run `python -m scripts.prepare_data` once. This verifies all artifact hashes and prepares the larger datasets in the locations below. Queries, metadata, annotation templates, and representative CAD models are directly browsable without preparation.
 
 | Location | Contents |
 |---|---|
 | `queries/queries.json` | The 264 primary queries: eleven roles × four exemplars × six size conditions |
-| `annotations/judgments.json` | 19,976 AI-reference role–part judgments; two unresolved grades remain explicit |
+| `annotations/judgments.json` (prepared) | 19,976 AI-reference role–part judgments; two unresolved grades remain explicit |
 | `annotations/templates/` | Blank annotation templates; no fabricated expert responses |
 | `study/knowledge_rules.json` | The four visual requirements and bindings for each role |
 | `study/role_only_contract.json` | Matched holistic-observer contract |

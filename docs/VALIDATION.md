@@ -8,7 +8,7 @@ The code, data workflows, numerical results, and documentation were checked on W
 | Full offline reproduction through the public command | Nine artifacts match recorded SHA-256 hashes exactly; zero API calls |
 | Clean tracked-file checkout | Data preparation and full nine-artifact reproduction pass without local untracked inputs |
 | Statistical-table reproduction | Five tables match exactly |
-| Data preparation | 3,490 archived files verified; 3,054 source inputs exposed under the public data layout |
+| Data preparation | 3,490 archived files verified; 3,055 source inputs exposed under the public data layout |
 | Numerical result integrity | Checked-in result files match their recorded SHA-256 hashes |
 | LLM usage examples | Both documented commands succeed; raw-response lookup also verified for all three observation designs |
 
