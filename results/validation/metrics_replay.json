@@ -2,6 +2,7 @@
   "status": "PASS",
   "mode": "metrics-only",
   "api_calls": 0,
+  "verified_inputs": 0,
   "comparisons": {
     "family_metrics.csv": {
       "expected_sha256": "f1a23d1b2f65b9d1396c3262ba1cc14ec1f5063c9879bed4bc31cc7de76eb0e8",
@@ -28,6 +29,5 @@
       "actual_sha256": "4305c2ff49bef18162047c0fef30a70ba1503f6adfa021a82aba87e559aea1d5",
       "exact": true
     }
-  },
-  "path_adapter": "Historical paths resolved in memory; frozen bytes preserved."
+  }
 }

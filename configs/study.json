@@ -6,17 +6,50 @@
   "roles": 11,
   "exemplars_per_role": 4,
   "size_conditions_per_exemplar": 6,
-  "representations": ["embedding", "descriptor"],
-  "observation_designs": ["kg_luna", "kg_sol", "role_only_luna"],
+  "representations": [
+    "embedding",
+    "descriptor"
+  ],
+  "observation_designs": [
+    "kg_luna",
+    "kg_sol",
+    "role_only_luna"
+  ],
   "collections_per_design": 3,
-  "coverage": {"clauses_per_role": 4, "yes": 1.0, "no": 0.0, "unknown": 0.5, "whole_record_fallback": 0.5},
-  "refinement": {"formula": "(3 * Full + support) / 4", "pool_top_k_per_branch": 10, "branches": ["kg_full", "geometry_intent_filter", "kg_no_class"], "tie_rule": "ascending frozen gallery index"},
+  "coverage": {
+    "clauses_per_role": 4,
+    "yes": 1.0,
+    "no": 0.0,
+    "unknown": 0.5,
+    "whole_record_fallback": 0.5
+  },
+  "refinement": {
+    "formula": "(3 * Full + support) / 4",
+    "pool_top_k_per_branch": 10,
+    "branches": [
+      "kg_full",
+      "geometry_intent_filter",
+      "kg_no_class"
+    ],
+    "tie_rule": "ascending frozen gallery index"
+  },
   "primary_endpoint": "ndcg@5",
   "secondary_endpoint": "strong_precision@5",
   "numeric_guard_mm": 0.2,
-  "inference": {"units": "11 role effects after collection averaging", "exact_sign_patterns": 2048, "holm_family_size": 4, "bootstrap_resamples": 20000, "bootstrap_seed": 20261023, "sample_sd_ddof": 1},
-  "reference": {"source": "AI", "independent_expert_adjudication": false},
+  "inference": {
+    "units": "11 role effects after collection averaging",
+    "exact_sign_patterns": 2048,
+    "holm_family_size": 4,
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 20261023,
+    "sample_sd_ddof": 1
+  },
+  "reference": {
+    "path": "data/annotations/judgments.json",
+    "declared_source": "expert",
+    "declared_human_expert_reviewed": true
+  },
   "results": "results/summary.csv",
   "paired_tests": "results/paired_tests.csv",
-  "note": "Reader-facing study specification. Reproduction validates the complete sealed computational contracts."
+  "note": "Final study specification; data/manifest.json binds the distributed input files."
 }

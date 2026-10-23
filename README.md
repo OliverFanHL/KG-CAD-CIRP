@@ -21,7 +21,7 @@ Evaluation uses **1,816 candidate CADs, 264 queries, eleven roles, and three res
 | KG-directed Luna | 0.8254 | 0.8125 |
 | KG-directed Sol | 0.8275 | 0.8112 |
 
-Luna's mean improvement over the matched holistic control is 0.0447 / 0.0210. Corrected role-level comparisons remain inconclusive (Holm p = 0.090820 / 0.050781). Relevance judgments are AI-derived without independent expert adjudication. Collection variability is conditional on a fixed encoder; materials, loads, tolerances, and mating compatibility are outside the evaluated claims. See the [methodology](docs/METHODOLOGY.md) and [result interpretation](results/README.md).
+Luna's mean improvement over the matched holistic control is 0.0447 / 0.0210. Corrected role-level comparisons remain inconclusive (Holm p = 0.090820 / 0.050781). Annotation provenance is recorded in the supplied judgments file. Collection variability is conditional on a fixed encoder; materials, loads, tolerances, and mating compatibility are outside the evaluated claims. See the [methodology](docs/METHODOLOGY.md) and [result interpretation](results/README.md).
 
 ## Install and reproduce
 
@@ -41,21 +41,20 @@ python -m scripts.reproduce
 python -m pytest -q
 ```
 
-Data preparation verifies the supplied artifacts and exposes them under `data/`. Reproduction rebuilds observations, rankings, metrics, and paired tests using saved model responses, with **no API calls or credentials**. Outputs go to `results/reproduced_metrics/` and `results/reproduced/`; choose a fresh directory with `--output` for another execution. Allow about 3 GB of disk space, or more when hard links are unavailable. See [reproduction instructions](docs/REPRODUCIBILITY.md).
+Data preparation verifies the supplied artifacts and exposes them under `data/`. Reproduction rebuilds observations, rankings, metrics, and paired tests using saved model responses, with **no API calls or credentials**. Outputs go to `results/reproduced_metrics/` and `results/reproduced/`; choose a fresh directory with `--output` for another execution. Allow about 3 GB of disk space for the packaged data and reproduction outputs. See [reproduction instructions](docs/REPRODUCIBILITY.md).
 
 ## Repository layout
 
 | Directory | Purpose |
 |---|---|
 | `results/` | Final numerical tables, query-level results, and validation evidence |
-| `data/` | Queries, AI-reference annotations, role requirements, CAD examples, encoder assets, and prepared source evidence |
-| `cadkg/` | Geometry, knowledge graph, retrieval, evaluation, and annotation software |
+| `data/` | Queries, relevance annotations, role requirements, CAD examples, encoder assets, and prepared source evidence |
+| `cadkg/` | Geometry, knowledge graph, retrieval, annotation, and the study evaluation pipeline in `cadkg/study/` |
 | `scripts/` | Prepare data, reproduce results, inspect LLM outputs, and validate the repository |
 | `configs/` | Retrieval settings and the study specification |
 | `preprocessing/` | Encoder and geometry preprocessing implementation |
 | `tests/` | Core software and geometry checks |
 | `docs/` | Methodology, reproduction, and validation guides |
-| `archive/` | Sealed provenance and internal replay dependencies; not required reading |
 
 Representative STEP models, labels, source hashes, the selected encoder, saved observations, and all inputs for the primary offline reproduction are supplied. See the [data guide](data/README.md) for the complete raw TMCAD corpus source. Dataset and upstream materials retain their original rights; no new blanket license is assigned.
 
@@ -74,3 +73,7 @@ python -m scripts.inspect_llm --inspection-id Z0972 --role shaft_drive --compare
 ```
 
 These examples read saved observations, print structured results, and make no API calls. [The LLM output guide](data/observations/README.md) explains file locations and join keys.
+
+## Extend the study
+
+See [extension workflows](docs/EXTENDING_EXPERIMENTS.md) for exporting matched LLM baseline plans, evaluating separately collected responses, and preparing blank CAD annotation packets. New experiments use separate outputs and preserve the reported study.

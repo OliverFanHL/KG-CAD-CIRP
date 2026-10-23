@@ -47,6 +47,6 @@ Small saved examples are directly browsable on GitHub: [rejected shaft candidate
 - `directed_luna/`, `directed_sol/`: each model's first KG-directed collection.
 - `repeated_observations/`: the additional KG collections and three holistic Luna collections.
 
-Each collection provides the study contract, candidate pools, raw responses, source-linked geometric evidence, and support scores. Together these form three collections per observation design. Coverage H averages four clause states (yes = 1, no = 0, unknown = 0.5); holistic J uses the same nine-level range. Whole-record neutral fallback is 0.5. Raw observation records retain their recorded source identities and acquisition metadata.
+Each collection provides the study contract (`study.json`, including instructions, response schema, and job payloads), candidate pools, raw responses, source-linked geometric evidence, and support scores. Together these form three collections per observation design. Coverage H averages four clause states (yes = 1, no = 0, unknown = 0.5); holistic J uses the same nine-level range. Whole-record neutral fallback is 0.5. Raw observation records retain their recorded source identities and acquisition metadata.
 
 The main comparison changes the authored requirement decomposition, binding prompts, and coverage construction together. It does not isolate a graph-storage effect. Collection SD measures acquisition variability conditional on fixed representations and the fixed query panel.

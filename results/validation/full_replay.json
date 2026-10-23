@@ -2,6 +2,7 @@
   "status": "PASS",
   "mode": "full-offline-replay",
   "api_calls": 0,
+  "verified_inputs": 3090,
   "comparisons": {
     "graph_support.json": {
       "expected_sha256": "3022ccfd058b2cd7ad299f68e41f1dcb27370e5b16d1ed73ae570b549f127e20",
@@ -48,6 +49,5 @@
       "actual_sha256": "bcc15a5cd12547420f37f14baab6ed9675217fc11135f211b19ab2d77d6d77cc",
       "exact": true
     }
-  },
-  "path_adapter": "Historical paths resolved in memory; frozen bytes preserved."
+  }
 }
