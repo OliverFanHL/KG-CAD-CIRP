@@ -1,19 +1,21 @@
-# Release validation
+# Validation
 
-Validation performed on 23 October 2026 with Python 3.12.14 on Windows, from the relocated `finalized_repository` checkout.
+The publication layout was checked on Windows with Python 3.12.14.
 
-| Check | Observed result |
+| Check | Result |
 |---|---|
-| Core tests, including actual primitive STEP geometry | 57 passed |
-| CLI entry point | `python -m cadkg --help` succeeded |
-| Distribution packaging | `cadkg-0.1.0-py3-none-any.whl` built successfully without installing dependencies |
-| Split archive restoration | All 3,490 archived members restored and SHA-256 verified |
-| Full relocated offline replay | Exact SHA-256 equality for all nine compared artifacts; zero API calls |
-| Metrics-only replay | Exact SHA-256 equality for five aggregate/statistical CSVs |
-| Credential-pattern review | No selected textual file matched standalone OpenAI/GitHub credential or private-key signatures; `.env`, editor state and private QA excluded |
+| Core software and STEP geometry tests | 43 passed |
+| Full offline reproduction through the public command | Nine artifacts match recorded SHA-256 hashes exactly; zero API calls |
+| Clean tracked-file checkout | Data preparation and full nine-artifact reproduction pass without local untracked inputs |
+| Statistical-table reproduction | Five tables match exactly |
+| Data preparation | 3,490 archived files verified; 3,054 source inputs exposed under the public data layout |
+| Figure generation in an isolated build | Figures 2–3 generated; all 64 numerical annotations match; no annotation collisions |
+| Editable document build in an isolated build | Manuscript and supplement generated successfully from their final source paths |
+| Supplied publication assets | Word documents, figures, and numerical tables retain their approved bytes |
+| LLM usage examples | Both documented commands succeed; raw-response lookup also verified for all three observation designs |
 
-Machine-readable full and metric replay proofs are in `docs/validation/`. Full replay compares graph support, graph evidence, per-query metrics, family metrics, run metrics, summary, paired tests, family differences and top-five ranking indices. Original results are unchanged. A hash inventory check records release file consistency in `inventory_check.json`.
+Run `python -m scripts.validate` to verify the publication manifest, documentation links, and LaTeX figure/table paths. Machine-readable proofs are in [results/validation](../results/validation/).
 
-Windows is the locally tested platform. The adapter preserves archived newline conventions for other platforms; Linux execution is configured in CI and was not tested locally. A clean network dependency installation, full raw-STEP preprocessing, encoder retraining, fresh model collection and manuscript Word rendering were not rerun. Historical version pins are environment records, not a claim of fresh-platform installation testing. The encoder and AI-reference limitations in the manuscript remain applicable.
+The supplied reviewed Word files and artwork were preserved; isolated build outputs are not substituted for them. TeX compilation, Word pagination/field updates, encoder retraining, raw-corpus preprocessing, a fresh network dependency installation, and Linux execution were not rerun. Linux core/data/statistical checks are configured in CI. Tests for superseded experimental panels are retained with their implementations in the provenance archive.
 
-Original files and older runs remain preserved in the source workspace. The release excludes temporary caches, replay duplicates, redundant delivery ZIPs, old manuscript drafts and large regenerable sensitivity arrays. Full primary-study replay uses only included artifacts after restoration.
+These checks establish software and numerical consistency. They do not establish independent engineering validity of the AI-derived reference judgments.

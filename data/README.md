@@ -1,23 +1,30 @@
-# Research data and provenance
+# Supporting data
 
-Run `python -m scripts.restore_artifacts` from the repository root. Numbered `research_artifacts.zip.partNNN` files form one lossless ZIP, split below GitHub's per-file limit. The manifest lists every archived and directly checked-out source file with its SHA-256 and original location. Paths under `upstream/jev_tmcad_v0/` refer to the original neighboring encoder project.
+The study uses TMCAD geometry and category labels, authored engineering roles and requirements, AI-reference relevance judgments, measured geometry, and saved visual-model observations.
 
-| Restored location | Experimental role |
+Run `python -m scripts.prepare_data` once. This verifies all artifact hashes and prepares the larger datasets in the locations below. Queries, annotations, metadata, and representative CAD models are directly browsable without preparation.
+
+| Location | Contents |
 |---|---|
-| `annotations/source_supported/` | Sourced engineering category–role associations |
-| `annotations/intent_feature_review_v5/` | Immutable 1,816 × 11 AI-reference judgments, including two unresolved grades |
-| `annotations/intent_queries440_v6/` | Query definitions and manifest identifying the 264-query primary panel |
-| `outputs/intent_batch2_matrix_reproduction/bundle/` | Catalog, labels, splits, representations, probabilities, knowledge graph and integrity manifest |
-| `outputs/feature_review_v5/evidence/` | Source-linked dimensional/surface evidence and inspection provenance |
-| `outputs/query_diversity_v6/evaluation/` | Frozen initial ranking/score arrays, gallery order and evaluation protocol |
-| `outputs/llm_geometry_matched_v1/` | First Luna collection, neutral CAD images, clauses, prompts, responses and pool definitions |
-| `outputs/llm_geometry_sol_matched_v1/` | First Sol collection with the matched observation contract |
-| `outputs/llm_robustness_v7/` | Repeated KG/holistic collections, raw journals, H/J support, ranking indices, metrics and tests |
-| `outputs/robustness*_v7/` | Fixed-encoder local execution repeats and component controls |
-| `data/encoder/` | Original epoch-17 checkpoint, exports, descriptors, cohort and selection metadata |
+| `queries/queries.json` | The 264 primary queries: eleven roles × four exemplars × six size conditions |
+| `annotations/judgments.json` | 19,976 AI-reference role–part judgments; two unresolved grades remain explicit |
+| `annotations/templates/` | Blank annotation templates; no fabricated expert responses |
+| `study/knowledge_rules.json` | The four visual requirements and bindings for each role |
+| `study/role_only_contract.json` | Matched holistic-observer contract |
+| `study/relevance_rubric.md` | Relevance assessment rubric |
+| `study/qualitative_diagnostics.json` | Source-linked diagnostics supporting the qualitative examples |
+| `catalog/parts.csv` | Part IDs, source category labels, split membership, STEP paths, and source hashes |
+| `catalog/catalog.json` (prepared) | Representations, classifier probabilities, geometry measurements, and source metadata |
+| `knowledge/priors/` | Source-supported engineering category–role priors |
+| `knowledge/graph.json`, `knowledge/knowledge.json` (prepared) | Retrieval knowledge graph and supporting records |
+| `observations/` (prepared) | Neutral source images, raw model responses, clause evidence, and H/J coverage |
+| `geometry/evidence/` (prepared) | Independent surface/dimensional reference evidence |
+| `rankings/` (prepared) | Initial complete ranking arrays, gallery order, and evaluation settings |
+| `encoder/` | Selected checkpoint, cohort, model metadata, and prepared descriptor/embedding exports |
+| `cad_examples/` | Ten unmodified STEP examples, one per category |
 
-The repeated study uses 14,588 new responses and 4,168 historical observations, giving 18,756 observations. IDs join queries to roles, roles/parts to judgments and observations, and ranking indices to the frozen cohort order. Files named `protocol_freeze.json`, `evaluation_freeze.json` and `consumed_evidence_freeze.json` bind source bytes. Historical absolute paths are provenance, resolved in memory by the portable replay adapter.
+`cad_examples_manifest.json` joins examples to original part IDs, categories, splits, source paths, and hashes. Primary queries join observations and judgments through `query_id`, `scenario_id`/`family_id`, and `part_id`. Ranking indices refer to the ordered gallery in `rankings/cohorts.json`. `prepared_inputs.json` records prepared file paths and hashes.
 
-`cad_examples/` contains ten original STEP files, one per class. `cad_examples_manifest.json` records their original relative paths, part IDs, labels, splits and source hashes. These are illustrative examples, not a replacement for the full TMCAD corpus. The original source is identified in the manuscript bibliography under `zou2025brt` (BRep-based retrieval/TMCAD). Obtain the corpus from that source and respect its original terms. No additional dataset license is asserted here.
+The 9,799-part source corpus has ten categories. The full raw STEP corpus is obtained separately from the original TMCAD source cited as `zou2025brt` in the [bibliography](../publication/manuscript/references.bib). Category labels are not verified functions or compatibility labels. Judgments are AI-derived without independent engineering adjudication. Original dataset terms and attribution continue to apply.
 
-Earlier annotation versions and compact historical reports/tables are retained for traceability. Repeated replay arrays, large regenerable sensitivity arrays, full old result trees and the 5.98 GB raw corpus are excluded. The primary offline replay has its full required saved inputs. The inventory preserves relative source locations; it does not contain credentials.
+The saved response collections contain 18,756 observations across the KG-directed Luna, KG-directed Sol, and holistic Luna arms. Recorded neutral fallbacks remain in their assigned collections. No network request is needed to inspect or reproduce these data. Large artifacts are distributed losslessly with integrity metadata; preparation uses hard links when supported to avoid duplicate disk storage.

@@ -306,7 +306,7 @@ def run_technical(args):
                     preview(data["features"][:, :3], output / f"human_review/previews/{part['part_id']}.png", f"Training exemplar {part['part_id']} (normalized cache)")
     catalog["measurement_errors"] = errors
     catalog["audit"]["leakage"] = leakage_audit(catalog)
-    sources = ROOT / "annotations/source_supported"
+    sources = ROOT / "data/knowledge/priors"
     knowledge, graph = save_bundle(catalog, sources, output / "bundle", "include_source_supported")
     queries = []
     for split in ["dev", "test"]:
@@ -437,7 +437,7 @@ def run_pilot(args):
     errors = measure_catalog({"parts": candidates}) if candidates else []
     catalog["measurement_errors"] = errors
     catalog["audit"]["leakage"] = leakage_audit(catalog)
-    knowledge, graph = save_bundle(catalog, ROOT / "annotations" / "templates", args.output)
+    knowledge, graph = save_bundle(catalog, ROOT / "data/annotations" / "templates", args.output)
     config = config_from(args.config)
     retriever = Retriever(catalog, knowledge, graph, config)
     train = [p["part_id"] for p in catalog["parts"] if p["split"] == "train" and p["part_id"] in retriever.vectors]

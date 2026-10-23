@@ -1,0 +1,78 @@
+{
+  "roles": {
+    "support_body": "stationary support for a rotating shaft",
+    "shaft_connector": "mechanical connection joining two shafts",
+    "belt_wheel": "a rotating wheel that engages a drive belt",
+    "threaded_clamp": "threaded clamping using a headed externally threaded fastener",
+    "nut_retention": "retaining an externally threaded fastener using a separate nut",
+    "bracket_mount": "fixed mounting between angled or offset attachment faces",
+    "flanged_passage": "joining a central passage using a flanged connection",
+    "gear_mesh": "parallel-axis rotational transmission using cylindrical gear meshing",
+    "shaft_drive": "transmitting rotation using a drive shaft",
+    "compression_return": "axial compression return using a helical spring",
+    "tension_return": "axial tension return using a helical spring"
+  },
+  "instructions": "Inspect only the supplied neutral CAD surface views and assess visible geometric support for the requested role as a whole. Do not rank the part, infer its dataset class, assign reference relevance grades, or predict engineering performance. The six panels in row-major order are oblique, opposite, profile, axial, cut_X, cut_Y. The last two are uncapped visual clips: apparent clip openings are not proof of actual through-passages. All panels show the same CAD. Return one holistic role_support score from 0,0.125,0.25,0.375,0.5,0.625,0.75,0.875,1. Use 0 for visibly incompatible form,1 for strong visible geometric support for the requested role, and0.5 when support is unresolved or ambiguous. Intermediate levels express graded visible support between those anchors; the score is not a calibrated probability. Occlusion, simplified representation, too-small details and ambiguity must retain uncertainty rather than invented features. A missing modeled thread must not be invented. For absence statements retain uncertainty unless the relevant region is visible. Material, loads, tolerances, real functionality and scale cannot be established from these renderings. Cite supporting views and give a short literal geometric observation (at most22words); explain what cannot be seen when uncertain. Do not invent additional task requirements. Return only the required structured object.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "role_support": {
+        "type": "object",
+        "properties": {
+          "score": {
+            "type": "number",
+            "enum": [
+              0,
+              0.125,
+              0.25,
+              0.375,
+              0.5,
+              0.625,
+              0.75,
+              0.875,
+              1
+            ]
+          },
+          "views": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "oblique",
+                "opposite",
+                "profile",
+                "axial",
+                "cut_X",
+                "cut_Y"
+              ]
+            }
+          },
+          "observation": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "score",
+          "views",
+          "observation"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "role_support"
+    ],
+    "additionalProperties": false
+  },
+  "score_domain": [
+    0.0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0
+  ]
+}

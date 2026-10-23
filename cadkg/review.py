@@ -47,7 +47,7 @@ class Review:
         self.manifest = {r['part_id']: r for r in read_csv(self.run/'pool_manifest.csv')}
         self.bycode = {r['inspection_id']: r for r in self.manifest.values()}
         self.pools = read_json(self.run/'family_pools.json')
-        self.tasks = read_json(tasks or ROOT/'annotations/review_tasks.json')['tasks']
+        self.tasks = read_json(tasks or ROOT/'data/annotations/review_tasks.json')['tasks']
         self.bytask = {t['family_id']: t for t in self.tasks}
         self.families = {f['family_id']: f for f in self.protocol['families']}
         if set(self.bytask) != set(self.families) or set(self.pools) != set(self.families):

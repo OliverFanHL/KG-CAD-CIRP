@@ -1,0 +1,132 @@
+{
+  "evidence": {
+    "job_id": "kg_luna__r1__shaft_drive__9e159dd21fd267ccf103",
+    "source_job_id": "shaft_drive__9e159dd21fd267ccf103",
+    "arm": "kg_luna",
+    "replicate": 1,
+    "family_id": "shaft_drive",
+    "part_id": "9e159dd21fd267ccf103",
+    "historical": true,
+    "local_order_seed": null,
+    "model_resolved": "gpt-6-luna",
+    "response_id": "resp_0ccdec5b5c365d9a016ad92df3c8f487d0afa1e5cedd8a94b2",
+    "image_sha256": "7a4278a2ebcc75304f7b9581dc9700bac78669355244cd1e43aa60bebf3a73a9",
+    "valid_response": true,
+    "H": 1.0,
+    "observations": [
+      {
+        "predicate_id": "elongated_axis",
+        "observation": "A solid, elongated shaft body extends predominantly along one axis.",
+        "status": "yes",
+        "views": [
+          "oblique",
+          "profile"
+        ],
+        "required_triple": [
+          "part",
+          "has_form",
+          "elongated_shaft_body"
+        ]
+      },
+      {
+        "predicate_id": "journals",
+        "observation": "Multiple cylindrical stepped regions extend along the same elongated body.",
+        "status": "yes",
+        "views": [
+          "oblique",
+          "profile"
+        ],
+        "required_triple": [
+          "journal_regions",
+          "lie_along",
+          "shaft_body"
+        ]
+      },
+      {
+        "predicate_id": "drive_feature",
+        "observation": "Longitudinal splines are visibly formed at both ends of the shaft body.",
+        "status": "yes",
+        "views": [
+          "oblique",
+          "profile",
+          "cut_X",
+          "cut_Y"
+        ],
+        "required_triple": [
+          "drive_feature",
+          "belongs_to",
+          "shaft_body"
+        ]
+      },
+      {
+        "predicate_id": "rotary_body",
+        "observation": "The form is a stepped shaft with splined ends, not a headed screw.",
+        "status": "yes",
+        "views": [
+          "oblique",
+          "opposite",
+          "profile"
+        ],
+        "required_triple": [
+          "part",
+          "has_form",
+          "rotary_shaft"
+        ]
+      }
+    ],
+    "evidence_source": "Model-observed visible evidence; not independently verified engineering facts"
+  },
+  "image": "data/observations/images/9e159dd21fd267ccf103.png",
+  "raw_response_file": "data/observations/directed_luna/api_responses.jsonl",
+  "model_output": {
+    "job_id": "shaft_drive__9e159dd21fd267ccf103",
+    "response_id": "resp_0ccdec5b5c365d9a016ad92df3c8f487d0afa1e5cedd8a94b2",
+    "model_resolved": "gpt-6-luna",
+    "output_json": {
+      "drive_feature": {
+        "observation": "Longitudinal splines are visibly formed at both ends of the shaft body.",
+        "status": "yes",
+        "views": [
+          "oblique",
+          "profile",
+          "cut_X",
+          "cut_Y"
+        ]
+      },
+      "elongated_axis": {
+        "observation": "A solid, elongated shaft body extends predominantly along one axis.",
+        "status": "yes",
+        "views": [
+          "oblique",
+          "profile"
+        ]
+      },
+      "journals": {
+        "observation": "Multiple cylindrical stepped regions extend along the same elongated body.",
+        "status": "yes",
+        "views": [
+          "oblique",
+          "profile"
+        ]
+      },
+      "rotary_body": {
+        "observation": "The form is a stepped shaft with splined ends, not a headed screw.",
+        "status": "yes",
+        "views": [
+          "oblique",
+          "opposite",
+          "profile"
+        ]
+      }
+    },
+    "output_text": "{\n  \"drive_feature\": {\n    \"observation\": \"Longitudinal splines are visibly formed at both ends of the shaft body.\",\n    \"status\": \"yes\",\n    \"views\": [\"oblique\", \"profile\", \"cut_X\", \"cut_Y\"]\n  },\n  \"elongated_axis\": {\n    \"observation\": \"A solid, elongated shaft body extends predominantly along one axis.\",\n    \"status\": \"yes\",\n    \"views\": [\"oblique\", \"profile\"]\n  },\n  \"journals\": {\n    \"observation\": \"Multiple cylindrical stepped regions extend along the same elongated body.\",\n    \"status\": \"yes\",\n    \"views\": [\"oblique\", \"profile\"]\n  },\n  \"rotary_body\": {\n    \"observation\": \"The form is a stepped shaft with splined ends, not a headed screw.\",\n    \"status\": \"yes\",\n    \"views\": [\"oblique\", \"opposite\", \"profile\"]\n  }\n}",
+    "usage_tokens": {
+      "cache_write_input_tokens": 2535,
+      "cached_input_tokens": 0,
+      "input_tokens": 2538,
+      "output_tokens": 281
+    },
+    "status": "completed"
+  },
+  "inspection_id": "Z0972"
+}

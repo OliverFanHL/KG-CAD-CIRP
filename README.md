@@ -1,57 +1,80 @@
-# KG-CAD-CIRP
+# Knowledge-guided relational evidence for functional CAD retrieval
 
-Research code and archived evidence for **Knowledge-guided relational evidence for functional CAD retrieval**. The publication baseline is [manuscript revision 8](manuscript/revision8/README.md), identified by `manuscript/current_manuscript.json`.
+Code, data, and publication materials for functional CAD retrieval using geometric similarity, category-derived priors, dimensional screening, and source-linked visual evidence.
 
-The method combines geometric similarity, predicted category agreement, category–function priors and measured dimensional screening. Knowledge-guided visual observation then assesses four authored geometric clauses per role and their component bindings. Within a frozen candidate pool, coverage refines the initial score as `(3 × Full + H) / 4`. Source views, prompts, model responses, clause states and rankings remain traceable.
+## Read the study
 
-The primary panel contains **1,816 candidate CADs, 264 queries, eleven roles and three response collections per observer**. KG-directed Luna achieves mean nDCG@5 **0.8254 / 0.8125** (embedding / descriptor); Sol achieves **0.8275 / 0.8112**. Luna improves the matched holistic control by **0.0447 / 0.0210**, but corrected role-level tests remain inconclusive (Holm p **0.090820 / 0.050781**). Judgments are AI-derived, without independent expert adjudication. Three collections measure acquisition variability conditional on one fixed encoder; they do not measure retraining variability or establish engineering compatibility.
+| Material | Location |
+|---|---|
+| Manuscript | [Editable Word document](publication/manuscript/manuscript.docx) · [LaTeX source](publication/manuscript/manuscript.tex) |
+| Supplementary methods and results | [Editable Word document](publication/supplement/supplement.docx) · [LaTeX source](publication/supplement/supplement.tex) |
+| Publication figures | [Figures and editable artwork](publication/figures/README.md) |
+| Numerical results | [Results guide and tables](results/README.md) |
+| Supporting datasets | [Data guide](data/README.md) |
+| Saved LLM outputs and examples | [Response files, evidence records, and usage examples](data/observations/README.md) |
+
+## Method and findings
+
+An initial ranker combines geometry, exemplar-category agreement, and category–function priors, subject to measured size constraints. A visual observer assesses four geometric requirements and their component bindings for each role. Their deterministic coverage score refines the initial ranking within a fixed candidate pool. The matched holistic control uses the same images and score range.
+
+Evaluation uses **1,816 candidate CADs, 264 queries, eleven roles, and three response collections per observer**, with embedding and descriptor representations.
+
+| Observer | Embedding nDCG@5 | Descriptor nDCG@5 |
+|---|---:|---:|
+| KG-directed Luna | 0.8254 | 0.8125 |
+| KG-directed Sol | 0.8275 | 0.8112 |
+
+Luna's mean improvement over the matched holistic control is 0.0447 / 0.0210. Corrected role-level comparisons remain inconclusive (Holm p = 0.090820 / 0.050781). Relevance judgments are AI-derived without independent expert adjudication. Collection variability is conditional on a fixed encoder; materials, loads, tolerances, and mating compatibility are outside the evaluated claims. See the [methodology](docs/METHODOLOGY.md) and [result interpretation](results/README.md).
 
 ## Install and reproduce
 
-Use Python 3.12 (Python 3.10+ is supported by the core library). Run all commands from the repository root. PowerShell activation uses `.venv\Scripts\Activate.ps1`; on Unix use `source .venv/bin/activate`.
+Use Python 3.12. Create and activate an environment (`.venv\Scripts\Activate.ps1` on PowerShell; `source .venv/bin/activate` on Unix), then run from the repository root:
 
 ```text
 python -m venv .venv
-python -m pip install -e ".[technical,dev]"
-python -m scripts.restore_artifacts
-python -m pytest -q
-python -m scripts.reproduce_release --metrics-only
-python -m scripts.reproduce_release
 ```
 
-Activate the new environment before installation. `requirements-validated.txt` records the versions used in the original environment; broad supported ranges are in `pyproject.toml`. The artifact restore command uses only Python's standard library. It verifies archive parts and individual file hashes, and refuses to overwrite changed evidence. Allow roughly 3 GB of free space for unpacking and replay.
+After activation:
 
-The metrics-only command regenerates the five aggregate tables from archived per-query metrics. Full replay reconstructs observations from saved responses, reranks frozen initial arrays and recalculates per-query metrics, role means, SDs and paired tests. Both compare against original hashes, write fresh output directories and make **zero API calls**. Use `--output outputs/my_replay` for another fresh destination. See [reproduction details](docs/REPRODUCIBILITY.md).
+```text
+python -m pip install -e ".[technical,dev]"
+python -m scripts.prepare_data
+python -m scripts.reproduce --metrics-only
+python -m scripts.reproduce
+python -m pytest -q
+```
 
-For publication artwork, install `manuscript/revision8/requirements.txt`, change into that folder and run `python scripts/generate_figures.py`. `python scripts/build_word.py` rebuilds editable documents; Word must update its fields. Published manuscript files and numerical snapshots are included.
+Data preparation verifies the supplied artifacts and exposes them under `data/`. Reproduction rebuilds observations, rankings, metrics, and paired tests using saved model responses, with **no API calls or credentials**. Outputs go to `results/reproduced_metrics/` and `results/reproduced/`; choose a fresh directory with `--output` for another execution. Allow about 3 GB of disk space, or more when hard links are unavailable. See [reproduction instructions](docs/REPRODUCIBILITY.md).
 
-## Repository structure
+## Repository layout
 
-| Path | Contents |
+| Directory | Purpose |
 |---|---|
-| `cadkg/` | Shared catalog, geometry, knowledge graph, retrieval, metrics, CLI and local annotation interface |
-| `scripts/` | Versioned experiment preparation, acquisition, evaluation, audits and portable reproduction entry points |
-| `configs/` | Frozen experiment settings and retrieval configurations |
-| `annotations/` (restored) | Versioned labels, judgments, queries, engineering priors and provenance |
-| `outputs/` (restored) | Curated frozen experiment inputs, journals, source evidence, rankings and results |
-| `data/` | Lossless split research archive, hash manifest, encoder artifacts and representative STEP examples |
-| `preprocessing/encoder/` | Original upstream encoder and preprocessing implementation/configurations |
-| `manuscript/revision8/` | Current manuscript, supplement, figures, numerical snapshots and artwork scripts |
-| `tests/` | Retrieval, geometry, annotation and evaluation contract checks |
-| `docs/` | Methodology, study protocols, dataset/release and reproduction guides |
+| `publication/` | Manuscript, supplement, final figures, bibliography, and publication tables |
+| `results/` | Final numerical tables, query-level results, and validation evidence |
+| `data/` | Queries, AI-reference annotations, role requirements, CAD examples, encoder assets, and prepared source evidence |
+| `cadkg/` | Geometry, knowledge graph, retrieval, evaluation, and annotation software |
+| `scripts/` | Prepare data, reproduce results, generate figures, and build editable documents |
+| `configs/` | Retrieval settings and the study specification |
+| `preprocessing/` | Encoder and geometry preprocessing implementation |
+| `tests/` | Core software and geometry checks |
+| `docs/` | Methodology, reproduction, and validation guides |
+| `archive/` | Sealed provenance and internal replay dependencies; not required reading |
 
-The study directories retain their original names because frozen protocols bind their paths and bytes. Common runtime operations already use `cadkg`; historical sealed implementations remain byte-identical. New entry points provide portable orchestration rather than modifying the experimental algorithms.
+The complete raw TMCAD corpus is obtained from the source cited in the manuscript. Representative STEP models, labels, source hashes, the selected encoder, saved observations, and all inputs for the primary offline reproduction are supplied. Dataset and upstream materials retain their original rights; no new blanket license is assigned.
 
-## Datasets and experimental workflows
+## Example usage
 
-[Data guide](data/README.md) describes the archived inputs and their relationships. [Experiment map](docs/EXPERIMENT_INDEX.md) distinguishes the publication study from historical expansions. The source corpus is **TMCAD**, with 9,799 parts in ten categories. Source geometry and category labels do not establish verified function, material, load, fit or mating compatibility. The complete raw STEP corpus is obtained separately from the original TMCAD source cited in the manuscript; representative unmodified examples are included with a part-ID/hash manifest.
+After preparing the data, inspect the saved shaft-role evidence and model output for candidate Z0430:
 
-The included catalog contains the original split membership, labels, normalized representations, classifier probabilities and geometry measurements. Original encoder checkpoint, embeddings, descriptors, cohort and preprocessing code are also included. Frozen result replay needs no encoder training, full STEP corpus, external service or credentials. Rebuilding geometry or retraining requires the original corpus and optional upstream dependencies; see the reproduction guide.
+```text
+python -m scripts.inspect_llm --inspection-id Z0430 --role shaft_drive --raw
+```
 
-Live LLM runners remain available as historical implementations, but generating a fresh collection is a separate, paid experiment and will produce different observations. Read the corresponding frozen study protocol before using their explicit execution flags. Store keys only in process environment variables. No credentials are required for the documented replay.
+Compare candidate Z0972 across the three observation designs and their collections:
 
-## Verification and provenance
+```text
+python -m scripts.inspect_llm --inspection-id Z0972 --role shaft_drive --compare
+```
 
-See [validation report](docs/VALIDATION.md) for checks actually performed for this release. `data/artifacts_manifest.json` maps every curated original file to its source location, SHA-256, size and storage location. Original experiments were preserved locally. Temporary files, repeated replay copies, editor state, private QA renders and redundant delivery archives are omitted. Historical reports retain their original limitations and must not be treated as current manuscript results.
-
-No new blanket license is assigned in this consolidation. Dataset, upstream code and generated materials retain their original rights and attribution; consult [data provenance](data/README.md) before redistribution.
+These examples read saved observations, print structured results, and make no API calls. [The LLM output guide](data/observations/README.md) explains file locations and join keys.

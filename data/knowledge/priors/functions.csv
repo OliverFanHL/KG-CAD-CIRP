@@ -1,0 +1,4 @@
+function_id,label,aliases,reviewer,evidence,status,source_id
+support_rotating_shaft,support a rotating shaft,guide a rotating shaft|rotating shaft support,,https://evolution.skf.com/us/compromise-free/,source_supported,skf_shaft_support
+connect_shafts,connect two shafts,join two shafts|shaft connection,,https://www.ktr.com/se/en/products/couplings/,source_supported,ktr_shaft_connection
+participate_belt_drive,participate in a belt drive,belt drive component|engage a drive belt,,https://go.gates.com/Power-Transmission-Solutions-by-Gates.html,source_supported,gates_belt_components

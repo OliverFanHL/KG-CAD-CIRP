@@ -1,0 +1,42 @@
+% Generated from references.bib in main.tex citation order.
+\begin{thebibliography}{99}
+\setlength{\itemsep}{1pt}\setlength{\parsep}{0pt}
+\bibitem{liu2024datadriven}
+Liu A, Lu S, Tao F, Anwer N (2024) Integration of data science with product design towards data-driven design. CIRP Annals 73(2):509--532. DOI: \url{https://doi.org/10.1016/j.cirp.2024.06.003}.
+\bibitem{chu2006similarity}
+Chu CH, Hsu YC (2006) Similarity assessment of {3D} mechanical components for design reuse. Robotics and Computer-Integrated Manufacturing 22(4):332--341. DOI: \url{https://doi.org/10.1016/j.rcim.2005.07.005}.
+\bibitem{jayaraman2021uvnet}
+Jayaraman PK, Sanghi A, Lambourne JG, Willis KDD, Davies T, Shayani H, Morris N (2021) {UV-Net}: Learning from boundary representations. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition:11703--11712. \href{https://openaccess.thecvf.com/content/CVPR2021/html/Jayaraman_UV-Net_Learning_From_Boundary_Representations_CVPR_2021_paper.html}{Official proceedings} (accessed 21 October 2026).
+\bibitem{zou2025brt}
+Zou Q, Zhu L (2025) Bringing attention to {CAD}: Boundary representation learning via transformer. Computer-Aided Design 189:103940. DOI: \url{https://doi.org/10.1016/j.cad.2025.103940}.
+\bibitem{yang2020network}
+Yang H, Liu R, Kumara S (2020) Self-organizing network modelling of {3D} objects. CIRP Annals 69(1):409--412. DOI: \url{https://doi.org/10.1016/j.cirp.2020.04.099}.
+\bibitem{koh2003design}
+Koh H, Ha S, Kim T, Rho HM, Lee SH (2003) Design knowledge management with reconstructible structure. CIRP Annals 52(1):93--96. DOI: \url{https://doi.org/10.1016/S0007-8506(07)60539-3}.
+\bibitem{chandrasegaran2013knowledge}
+Chandrasegaran SK, Ramani K, Sriram RD, Horv{\'a}th I, Bernard A, Harik RF, Gao W (2013) The evolution, challenges, and future of knowledge representation in product design systems. Computer-Aided Design 45(2):204--228. DOI: \url{https://doi.org/10.1016/j.cad.2012.08.006}.
+\bibitem{qin2016ontology}
+Qin F, Gao S, Yang X, Li M, Bai J (2016) An ontology-based semantic retrieval approach for heterogeneous {3D CAD} models. Advanced Engineering Informatics 30(4):751--768. DOI: \url{https://doi.org/10.1016/j.aei.2016.10.001}.
+\bibitem{han2018semantics}
+Han Z, Mo R, Yang H, Hao L (2018) {CAD} assembly model retrieval based on multi-source semantics information and weighted bipartite graph. Computers in Industry 96:54--65. DOI: \url{https://doi.org/10.1016/j.compind.2018.01.003}.
+\bibitem{lupinetti2018multicriteria}
+Lupinetti K, Giannini F, Monti M, Pernot JP (2018) Multi-criteria retrieval of {CAD} assembly models. Journal of Computational Design and Engineering 5(1):41--53. DOI: \url{https://doi.org/10.1016/j.jcde.2017.11.003}.
+\bibitem{lupinetti2019survey}
+Lupinetti K, Pernot JP, Monti M, Giannini F (2019) Content-based {CAD} assembly model retrieval: Survey and future challenges. Computer-Aided Design 113:62--81. DOI: \url{https://doi.org/10.1016/j.cad.2019.03.005}.
+\bibitem{lv2026cognitive}
+Lv C, Liu S, Tong X, Bao J (2026) Cognitive {3D CAD} model retrieval: a multi-agent system for intent-driven, cross-modal search. Journal of Engineering Design 37(8):3144--3174. DOI: \url{https://doi.org/10.1080/09544828.2026.2617799}.
+\bibitem{theuner2025weaving}
+Theuner K, Elmgren TM, G{\"o}tling A, May MC, Akay H (2025) Weaving knowledge graphs and large language models ({LLMs}): Leveraging semantics for contextualized design knowledge retrieval. Procedia CIRP 134:1125--1130. DOI: \url{https://doi.org/10.1016/j.procir.2025.03.073}.
+\bibitem{kurscheid2026extracting}
+Kurscheid S, Reichelt C, Geng P, Tanz L, Eder D, Daub R (2026) Extracting information from {CAD} assemblies using large language models and retrieval-augmented generation. Procedia CIRP 146:343--348. DOI: \url{https://doi.org/10.1016/j.procir.2026.03.195}.
+\bibitem{khan2025leveraging}
+Khan MT, Chen L, Ng YH, Feng W, Tan NYJ, Moon SK (2025) Leveraging vision-language models for manufacturing feature recognition in computer-aided designs. Journal of Computing and Information Science in Engineering 25:104501. DOI: \url{https://doi.org/10.1115/1.4069266}.
+\bibitem{picard2025concept}
+Picard C, Edwards KM, Doris AC, Man B, Giannone G, Alam MF, Ahmed F (2025) From concept to manufacturing: evaluating vision-language models for engineering design. Artificial Intelligence Review 58:288. DOI: \url{https://doi.org/10.1007/s10462-025-11290-y}.
+\bibitem{cormack2009rrf}
+Cormack GV, Clarke CLA, B{\"u}ttcher S (2009) Reciprocal rank fusion outperforms {Condorcet} and individual rank learning methods. Proceedings of the 32nd International ACM SIGIR Conference on Research and Development in Information Retrieval:758--759. DOI: \url{https://doi.org/10.1145/1571941.1572114}.
+\bibitem{jarvelin2002gain}
+J{\"a}rvelin K, Kek{\"a}l{\"a}inen J (2002) Cumulated gain-based evaluation of {IR} techniques. ACM Transactions on Information Systems 20(4):422--446. DOI: \url{https://doi.org/10.1145/582415.582418}.
+\bibitem{holm1979procedure}
+Holm S (1979) A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics 6(2):65--70. \url{https://www.jstor.org/stable/4615733} (accessed 21 October 2026).
+\end{thebibliography}

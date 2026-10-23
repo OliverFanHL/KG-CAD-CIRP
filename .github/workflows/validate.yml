@@ -10,5 +10,6 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install -e '.[technical,dev]'
       - run: python -m pytest -q
-      - run: python -m scripts.restore_artifacts
-      - run: python -m scripts.reproduce_release --metrics-only
+      - run: python -m scripts.validate
+      - run: python -m scripts.prepare_data
+      - run: python -m scripts.reproduce --metrics-only

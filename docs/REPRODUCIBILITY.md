@@ -1,28 +1,32 @@
-# Reproduction guide
+# Reproduce the study
 
-## Primary publication results
-
-Use the root README installation and restore commands first. Python must run from the repository root. The replay adapter resolves original Windows paths against this checkout in memory and leaves archived files and frozen script hashes unchanged.
+Run commands from the repository root in an activated Python 3.12 environment.
 
 ```text
-python -m scripts.reproduce_release --metrics-only --output outputs/check_metrics
-python -m scripts.reproduce_release --output outputs/check_full
+python -m pip install -e ".[technical,dev]"
+python -m scripts.prepare_data
+python -m scripts.reproduce --metrics-only
+python -m scripts.reproduce
+python -m pytest -q
 ```
 
-Choose a new output directory for each execution. The metrics path recomputes five aggregate CSVs from the 17,424 archived query/method/collection metric rows. The full path reconstructs clause observations and holistic support from saved responses, repeats reranking from v6 complete arrays, applies independent numerical relevance rules and recomputes all outputs. SHA comparisons identify exact matches; zero new API calls are made. Original replay scripts refuse existing sealed outputs and use historical path assumptions, so use this adapter for a relocated checkout.
+Preparation verifies the distributed artifact parts and all restored file hashes, then exposes the study inputs under `data/`. Primary queries and final metric tables are already checked in. Full offline reproduction requires neither the raw STEP corpus, encoder retraining, model credentials, nor additional API calls.
 
-The manuscript's four primary exact sign-flip tests use eleven role effects after collection averaging, 2,048 sign patterns and one Holm family. Bootstrap intervals use 20,000 resamples with seed 20261023. Collection SDs use denominator two. AI labels and the two unknown judgments remain unchanged. No significance claim is added by this release.
+The metrics-only workflow regenerates role means, collection means, summary statistics, role effects, and paired tests from saved per-query metrics. The full workflow reconstructs observations from saved responses, reranks complete fixed source arrays, applies numerical relevance rules, and recalculates metrics and statistics. Nine output artifacts are checked against their recorded hashes. Saved files retain their numerical values and encoding conventions.
 
-## Geometry, initial retrieval and retraining
+Outputs are written to `results/reproduced_metrics/` and `results/reproduced/`. The program refuses an existing destination; use, for example, `--output results/reproduced_check` for another execution. Each destination contains `release_replay_audit.json`, and a full run records execution details in `replay.log`.
 
-`cadkg` provides `full-scale`, `intent-batch` and review commands (`python -m cadkg --help`). Frozen study configs are under `configs/`. Upstream geometry/encoder implementation and its original configuration/README are under `preprocessing/encoder/`; its optional environment is separate from core replay. The included checkpoint is the original validation-selected epoch 17, with seed 42 and exported embeddings. Retraining is not part of exact numerical replay, and no training-seed variation is claimed.
+## Figures and documents
 
-The legacy `full-scale --stage prepare` import expects a legacy root containing `jev_tmcad_v0/outputs/manifest.csv`, `descriptors/tmcad_descriptors.csv` and `study/full/geometry_embeddings.csv`; `--legacy-root` selects that root. The supplied exports live under `data/encoder/` and can be placed into that original layout for a raw-data rebuild. Original TMCAD files must occupy `TMCAD/<category>/<file>.stp` and match source hashes. Other preprocessing stages and encoder training use the upstream configuration and optional CAD/PyTorch dependencies. These expensive raw-data/training workflows were not rerun during consolidation; fixed outputs support the verified primary replay.
+```text
+python -m pip install -r publication/requirements.txt
+python -m scripts.generate_figures
+```
 
-## Artwork and Word documents
+This regenerates Figures 2–3 from `results/summary.csv` and `results/family_metrics.csv`. It makes no model calls and does not rerun statistical tests. `python -m scripts.build_documents` rebuilds editable Word documents from the final LaTeX sources and tables; Word must update its fields and pagination. The supplied reviewed documents and artwork are available directly in [publication](../publication/README.md).
 
-Install `manuscript/revision8/requirements.txt`, change to that directory and run `python scripts/generate_figures.py`, then optionally `python scripts/build_word.py`. Scripts use packaged numerical CSVs and do not collect data. The original private visual-QA validator depends on omitted Word-rendering intermediates; it is retained as history and is not the public numerical validation command.
+## Geometry and encoder
 
-## Fresh model acquisition
+`data/encoder/` includes the selected epoch-17 checkpoint, selection metadata, cohort, and descriptor/embedding exports. Encoder and geometry preprocessing source/configurations are under `preprocessing/encoder/`. Raw-data rebuilding requires the original TMCAD corpus, its source hashes and splits, and the upstream optional CAD/PyTorch environment. It is distinct from reproducing the primary saved-input analysis. Neither retraining nor fresh model collection was performed for this repository organization.
 
-Do not run API executors to reproduce saved results. Original acquisition scripts require an explicit execution flag and process-local credential. Prompts, schemas, limits, job pools and accounting are archived in each study directory. Fresh responses may differ, and a new acquisition must have its own protocol and output directory. No credentials or paid calls are needed by the supported release workflow.
+The study specification is in `configs/study.json`; `requirements-validated.txt` records the tested environment, while `pyproject.toml` declares supported core dependencies. The internal sealed execution workspace is maintained separately for byte-level provenance; readers need only the public commands above.

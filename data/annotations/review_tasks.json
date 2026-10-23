@@ -1,0 +1,265 @@
+{
+  "status": "draft_reviewer_instructions_not_expert_annotations",
+  "tasks": [
+    {
+      "family_id": "support_body",
+      "label": "Mountable shaft support",
+      "request": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only.",
+      "rules": {
+        "shortlist": "Stationary carrier with a visible circular support seat and mounting features.",
+        "conditional": "Plausible support body but seat or mounting interpretation is unresolved.",
+        "reject": "Shaft, generic pipe flange, fastener or visibly incompatible support form."
+      },
+      "features": [
+        {
+          "id": "stationary_body",
+          "label": "Stationary carrier or housing body"
+        },
+        {
+          "id": "shaft_seat",
+          "label": "Circular shaft-support seat"
+        },
+        {
+          "id": "mounting",
+          "label": "Mounting or attachment features"
+        }
+      ]
+    },
+    {
+      "family_id": "shaft_connector",
+      "label": "Complete shaft connection",
+      "request": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested.",
+      "rules": {
+        "shortlist": "Complete connection form with two coaxial shaft attachment regions, or clear keyed/clamping connection evidence.",
+        "conditional": "Plausible coupling form with one attachment region or retention feature unresolved.",
+        "reject": "No positive shaft attachment evidence; generic hollow reducer or unrelated part."
+      },
+      "features": [
+        {
+          "id": "connection_body",
+          "label": "Complete shaft-connection body"
+        },
+        {
+          "id": "two_regions",
+          "label": "Two coaxial shaft attachment regions or a keyed/clamping connection"
+        },
+        {
+          "id": "attachment",
+          "label": "Positive shaft attachment evidence; more than a plain reducer"
+        }
+      ]
+    },
+    {
+      "family_id": "belt_wheel",
+      "label": "Belt-contact wheel",
+      "request": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope.",
+      "rules": {
+        "shortlist": "Wheel with a recognizable belt groove or belt-type tooth/flange geometry.",
+        "conditional": "Toothed wheel whose belt-versus-gear interface remains ambiguous.",
+        "reject": "Plain mating flange, spring, bolt or wheel with an incompatible contact form."
+      },
+      "features": [
+        {
+          "id": "wheel",
+          "label": "Rotating wheel form"
+        },
+        {
+          "id": "belt_contact",
+          "label": "Circumferential groove or recognizable belt-contact tooth form"
+        },
+        {
+          "id": "belt_interface",
+          "label": "Belt interface distinguishable from generic gear teeth"
+        }
+      ]
+    },
+    {
+      "family_id": "threaded_clamp",
+      "label": "Headed threaded clamping",
+      "request": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design.",
+      "rules": {
+        "shortlist": "Head bearing surface and externally modeled helical thread on shank.",
+        "conditional": "Headed shank with simplified smooth thread representation; thread remains unverified.",
+        "reject": "Headless set screws, smooth pins without a head, nuts, hooks and non-fasteners."
+      },
+      "features": [
+        {
+          "id": "head",
+          "label": "Fastener head with a bearing surface"
+        },
+        {
+          "id": "shank",
+          "label": "External shank"
+        },
+        {
+          "id": "thread",
+          "label": "Visible external helical thread"
+        }
+      ]
+    },
+    {
+      "family_id": "nut_retention",
+      "label": "Nut retention",
+      "request": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener.",
+      "rules": {
+        "shortlist": "Internal thread visibly modeled with wrench flats or an explicit turning feature.",
+        "conditional": "Wrenchable bored nut-like body but internal thread absent or concealed in views.",
+        "reject": "Externally threaded bolts, smooth washers, large pipe flanges and plain sleeves."
+      },
+      "features": [
+        {
+          "id": "body",
+          "label": "Standalone bored nut-like body"
+        },
+        {
+          "id": "turning",
+          "label": "Wrench flats or turning features"
+        },
+        {
+          "id": "thread",
+          "label": "Visible internal helical thread"
+        }
+      ]
+    },
+    {
+      "family_id": "bracket_mount",
+      "label": "Fixed bracket mounting",
+      "request": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces.",
+      "rules": {
+        "shortlist": "Connected rigid angled or offset faces, with mounting holes or slots on two attachment regions.",
+        "conditional": "Plausible mounting body but second attachment region or holes are ambiguous.",
+        "reject": "Articulating hinges, single flat plates without another attachment region, rods and wheels."
+      },
+      "features": [
+        {
+          "id": "fixed",
+          "label": "Connected rigid mounting body"
+        },
+        {
+          "id": "faces",
+          "label": "Two angled or offset attachment regions"
+        },
+        {
+          "id": "mounting",
+          "label": "Mounting holes or slots in both regions"
+        }
+      ]
+    },
+    {
+      "family_id": "flanged_passage",
+      "label": "Bolted passage flange",
+      "request": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection.",
+      "rules": {
+        "shortlist": "Central open passage, surrounding bolt-hole pattern and a raised or recessed coaxial mating region.",
+        "conditional": "Flat bored bolt-circle plate or flange-like part without a clear mating register; fluid service is unverified.",
+        "reject": "Blind center, keyed shaft hubs without a passage role, threaded fasteners and toothed wheels."
+      },
+      "features": [
+        {
+          "id": "passage",
+          "label": "Open central passage"
+        },
+        {
+          "id": "bolt_circle",
+          "label": "Surrounding bolt-hole pattern"
+        },
+        {
+          "id": "register",
+          "label": "Raised or recessed coaxial mating region"
+        }
+      ]
+    },
+    {
+      "family_id": "gear_mesh",
+      "label": "External gear meshing",
+      "request": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing.",
+      "rules": {
+        "shortlist": "Visible repeated external spur/helical gear teeth and a cylindrical gear body.",
+        "conditional": "Toothed wheel with ambiguous gear-versus-belt tooth form; dimensions for a mate remain unknown.",
+        "reject": "Grooved pulley, flange-confined fine belt teeth, bevel-only gears, worm-only elements and smooth wheels."
+      },
+      "features": [
+        {
+          "id": "cylindrical",
+          "label": "Cylindrical external gear body"
+        },
+        {
+          "id": "teeth",
+          "label": "Repeated external spur or helical teeth"
+        },
+        {
+          "id": "profile",
+          "label": "Tooth form distinguishable from a belt pulley, bevel gear or worm"
+        }
+      ]
+    },
+    {
+      "family_id": "shaft_drive",
+      "label": "Rotary shaft transmission",
+      "request": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission.",
+      "rules": {
+        "shortlist": "Elongated journal body with keyway, spline, gear, crank/eccentric geometry or opposed drive features.",
+        "conditional": "Smooth or simply stepped round rod that may be a shaft but has no positive drive feature.",
+        "reject": "Thread-only linear screw, headed fastening screw, short hollow coupling and flat bracket."
+      },
+      "features": [
+        {
+          "id": "elongated",
+          "label": "Elongated journal body"
+        },
+        {
+          "id": "drive",
+          "label": "Keyway, spline, gear, crank or other positive rotational drive feature"
+        }
+      ]
+    },
+    {
+      "family_id": "compression_return",
+      "label": "Axial compression spring",
+      "request": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression.",
+      "rules": {
+        "shortlist": "Open-pitch helical coil, cylindrical/conical/barrel form, with axial ends and no extension hooks or torsion arms.",
+        "conditional": "Hook-free coil with pitch or seating/end geometry unclear, or a spring assembly with travel concealed.",
+        "reject": "Hook-ended tension coils, torsion coils with projecting arms, flat clips and solid threaded rods."
+      },
+      "features": [
+        {
+          "id": "coil",
+          "label": "Helical coil body"
+        },
+        {
+          "id": "travel",
+          "label": "Visible axial coil travel"
+        },
+        {
+          "id": "ends",
+          "label": "Axial seating ends without extension hooks or torsion arms"
+        }
+      ]
+    },
+    {
+      "family_id": "tension_return",
+      "label": "Axial tension return spring",
+      "request": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force.",
+      "rules": {
+        "shortlist": "Helical coil body with two opposed hooks or loops usable as attachment regions.",
+        "conditional": "Helical spring with only one visible hook, or an assembled extension-like form with the second interface concealed.",
+        "reject": "Bare open compression coil with no tensile attachments, torsion arms and flat clips."
+      },
+      "features": [
+        {
+          "id": "coil",
+          "label": "Helical coil body"
+        },
+        {
+          "id": "ends",
+          "label": "Two opposed hooks or loops"
+        },
+        {
+          "id": "attachments",
+          "label": "Ends form tensile attachment regions rather than torsion arms"
+        }
+      ]
+    }
+  ]
+}

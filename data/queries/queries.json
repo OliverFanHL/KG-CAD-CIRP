@@ -1,0 +1,4710 @@
+[
+  {
+    "query_id": "support_body_v6_new_exemplar_r1_c0",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "360af89fed333930b39f",
+    "constraints": []
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r1_c1",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 16.5819 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "360af89fed333930b39f",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 16.581882,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r1_c2",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 34 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "360af89fed333930b39f",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 34.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r1_c3",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 74 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "360af89fed333930b39f",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 74.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r1_c4",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 150 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "360af89fed333930b39f",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 150.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r1_c5",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 248.4 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "360af89fed333930b39f",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 248.4,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r2_c0",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "93ed5a9e8f5c887d0862",
+    "constraints": []
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r2_c1",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 16.5819 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "93ed5a9e8f5c887d0862",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 16.581882,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r2_c2",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 34 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "93ed5a9e8f5c887d0862",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 34.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r2_c3",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 74 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "93ed5a9e8f5c887d0862",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 74.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r2_c4",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 150 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "93ed5a9e8f5c887d0862",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 150.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r2_c5",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 248.4 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "93ed5a9e8f5c887d0862",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 248.4,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r3_c0",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "68307d0a22606e7b6f7e",
+    "constraints": []
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r3_c1",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 16.5819 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "68307d0a22606e7b6f7e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 16.581882,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r3_c2",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 34 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "68307d0a22606e7b6f7e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 34.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r3_c3",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 74 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "68307d0a22606e7b6f7e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 74.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r3_c4",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 150 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "68307d0a22606e7b6f7e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 150.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r3_c5",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 248.4 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "68307d0a22606e7b6f7e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 248.4,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r4_c0",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7f9be9d8e7e5a5515772",
+    "constraints": []
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r4_c1",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 16.5819 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7f9be9d8e7e5a5515772",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 16.581882,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r4_c2",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 34 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7f9be9d8e7e5a5515772",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 34.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r4_c3",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 74 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7f9be9d8e7e5a5515772",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 74.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r4_c4",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 150 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7f9be9d8e7e5a5515772",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 150.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "support_body_v6_new_exemplar_r4_c5",
+    "scenario_id": "support_body",
+    "split": "test",
+    "text": "Shortlist a stationary mountable body for supporting a rotating shaft, with visible circular bearing-seat or carrier geometry and mounting features. Exclude bare rotating shafts, generic pipe flanges and fasteners. Preliminary geometric discovery only. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 248.4 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "support_rotating_shaft"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7f9be9d8e7e5a5515772",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 248.4,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r1_c0",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "0dcce5538c10a4da1241",
+    "constraints": []
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r1_c1",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 34.1 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "0dcce5538c10a4da1241",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 34.1,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r1_c2",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 59 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "0dcce5538c10a4da1241",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 59.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r1_c3",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 100 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "0dcce5538c10a4da1241",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 100.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r1_c4",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 223 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "0dcce5538c10a4da1241",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 223.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r1_c5",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 297.761 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "0dcce5538c10a4da1241",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 297.761059,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r2_c0",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "38d1f100ecdb05852f55",
+    "constraints": []
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r2_c1",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 34.1 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "38d1f100ecdb05852f55",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 34.1,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r2_c2",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 59 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "38d1f100ecdb05852f55",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 59.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r2_c3",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 100 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "38d1f100ecdb05852f55",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 100.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r2_c4",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 223 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "38d1f100ecdb05852f55",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 223.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r2_c5",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 297.761 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "38d1f100ecdb05852f55",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 297.761059,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r3_c0",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "db81d83bb9bbb0906206",
+    "constraints": []
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r3_c1",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 34.1 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "db81d83bb9bbb0906206",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 34.1,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r3_c2",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 59 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "db81d83bb9bbb0906206",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 59.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r3_c3",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 100 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "db81d83bb9bbb0906206",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 100.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r3_c4",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 223 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "db81d83bb9bbb0906206",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 223.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r3_c5",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 297.761 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "db81d83bb9bbb0906206",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 297.761059,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r4_c0",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "2b47addc831e565a734c",
+    "constraints": []
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r4_c1",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 34.1 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "2b47addc831e565a734c",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 34.1,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r4_c2",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 59 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "2b47addc831e565a734c",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 59.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r4_c3",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 100 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "2b47addc831e565a734c",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 100.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r4_c4",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 223 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "2b47addc831e565a734c",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 223.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_connector_v6_new_exemplar_r4_c5",
+    "scenario_id": "shaft_connector",
+    "split": "test",
+    "text": "Shortlist a complete mechanical shaft-connection component with positive evidence of two coaxial shaft attachment regions or a keyed/clamping continuous connection. A hollow reducer alone is insufficient positive evidence. No torque or fit certification requested. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 297.761 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_shafts"
+    ],
+    "category_ids": [],
+    "reference_part_id": "2b47addc831e565a734c",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 297.761059,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r1_c0",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "534415fa08d6d2902c22",
+    "constraints": []
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r1_c1",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 23.12 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "534415fa08d6d2902c22",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 23.12,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r1_c2",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 42 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "534415fa08d6d2902c22",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 42.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r1_c3",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 93.9993 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "534415fa08d6d2902c22",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 93.999264,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r1_c4",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 152.4 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "534415fa08d6d2902c22",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 152.4,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r1_c5",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 406.4 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "534415fa08d6d2902c22",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 406.4,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r2_c0",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d7df176439398ae5e832",
+    "constraints": []
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r2_c1",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 23.12 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d7df176439398ae5e832",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 23.12,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r2_c2",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 42 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d7df176439398ae5e832",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 42.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r2_c3",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 93.9993 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d7df176439398ae5e832",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 93.999264,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r2_c4",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 152.4 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d7df176439398ae5e832",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 152.4,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r2_c5",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 406.4 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d7df176439398ae5e832",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 406.4,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r3_c0",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "bc7110f489b52b0cc3cc",
+    "constraints": []
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r3_c1",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 23.12 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "bc7110f489b52b0cc3cc",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 23.12,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r3_c2",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 42 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "bc7110f489b52b0cc3cc",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 42.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r3_c3",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 93.9993 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "bc7110f489b52b0cc3cc",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 93.999264,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r3_c4",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 152.4 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "bc7110f489b52b0cc3cc",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 152.4,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r3_c5",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 406.4 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "bc7110f489b52b0cc3cc",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 406.4,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r4_c0",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "06cb02da2490e4fa757e",
+    "constraints": []
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r4_c1",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 23.12 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "06cb02da2490e4fa757e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 23.12,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r4_c2",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 42 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "06cb02da2490e4fa757e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 42.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r4_c3",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 93.9993 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "06cb02da2490e4fa757e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 93.999264,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r4_c4",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 152.4 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "06cb02da2490e4fa757e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 152.4,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "belt_wheel_v6_new_exemplar_r4_c5",
+    "scenario_id": "belt_wheel",
+    "split": "test",
+    "text": "Shortlist a rotating belt-contact wheel with a recognizable circumferential groove or belt-type tooth/flange geometry. A generic toothed wheel is only conditional without profile evidence; springs, bolts and plain mating flanges do not meet this scope. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 406.4 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "participate_belt_drive"
+    ],
+    "category_ids": [],
+    "reference_part_id": "06cb02da2490e4fa757e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 406.4,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r1_c0",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "ebb79c7c67a2193e7f6a",
+    "constraints": []
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r1_c1",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 11.5545 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "ebb79c7c67a2193e7f6a",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 11.5545,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r1_c2",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 22.825 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "ebb79c7c67a2193e7f6a",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 22.825,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r1_c3",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 38.05 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "ebb79c7c67a2193e7f6a",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 38.05,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r1_c4",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 74.75 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "ebb79c7c67a2193e7f6a",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 74.75,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r1_c5",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 130.9 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "ebb79c7c67a2193e7f6a",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 130.9,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r2_c0",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "37e343d5c1ea7f3f0047",
+    "constraints": []
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r2_c1",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 11.5545 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "37e343d5c1ea7f3f0047",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 11.5545,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r2_c2",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 22.825 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "37e343d5c1ea7f3f0047",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 22.825,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r2_c3",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 38.05 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "37e343d5c1ea7f3f0047",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 38.05,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r2_c4",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 74.75 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "37e343d5c1ea7f3f0047",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 74.75,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r2_c5",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 130.9 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "37e343d5c1ea7f3f0047",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 130.9,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r3_c0",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7e3294de915057e91aec",
+    "constraints": []
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r3_c1",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 11.5545 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7e3294de915057e91aec",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 11.5545,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r3_c2",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 22.825 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7e3294de915057e91aec",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 22.825,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r3_c3",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 38.05 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7e3294de915057e91aec",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 38.05,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r3_c4",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 74.75 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7e3294de915057e91aec",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 74.75,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r3_c5",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 130.9 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7e3294de915057e91aec",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 130.9,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r4_c0",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e6928d50b193b7edd523",
+    "constraints": []
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r4_c1",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 11.5545 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e6928d50b193b7edd523",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 11.5545,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r4_c2",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 22.825 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e6928d50b193b7edd523",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 22.825,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r4_c3",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 38.05 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e6928d50b193b7edd523",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 38.05,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r4_c4",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 74.75 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e6928d50b193b7edd523",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 74.75,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "threaded_clamp_v6_new_exemplar_r4_c5",
+    "scenario_id": "threaded_clamp",
+    "split": "test",
+    "text": "Shortlist a headed external-thread fastener for a preliminary clamped-joint design. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 130.9 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "apply_threaded_clamping"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e6928d50b193b7edd523",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 130.9,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r1_c0",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "ac698b85813cdc3d597a",
+    "constraints": []
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r1_c1",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 6.35085 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "ac698b85813cdc3d597a",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 6.350853,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r1_c2",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 16.0111 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "ac698b85813cdc3d597a",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 16.011107,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r1_c3",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 34.641 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "ac698b85813cdc3d597a",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 34.641016,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r1_c4",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 69.282 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "ac698b85813cdc3d597a",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 69.282033,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r1_c5",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 92.376 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "ac698b85813cdc3d597a",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 92.376043,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r2_c0",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7bc36a3a3dfb6e28e60d",
+    "constraints": []
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r2_c1",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 6.35085 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7bc36a3a3dfb6e28e60d",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 6.350853,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r2_c2",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 16.0111 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7bc36a3a3dfb6e28e60d",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 16.011107,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r2_c3",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 34.641 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7bc36a3a3dfb6e28e60d",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 34.641016,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r2_c4",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 69.282 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7bc36a3a3dfb6e28e60d",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 69.282033,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r2_c5",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 92.376 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "7bc36a3a3dfb6e28e60d",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 92.376043,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r3_c0",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e4a410cc9425ea6c79cd",
+    "constraints": []
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r3_c1",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 6.35085 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e4a410cc9425ea6c79cd",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 6.350853,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r3_c2",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 16.0111 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e4a410cc9425ea6c79cd",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 16.011107,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r3_c3",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 34.641 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e4a410cc9425ea6c79cd",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 34.641016,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r3_c4",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 69.282 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e4a410cc9425ea6c79cd",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 69.282033,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r3_c5",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 92.376 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e4a410cc9425ea6c79cd",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 92.376043,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r4_c0",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "399a71e6cd0d2df922a9",
+    "constraints": []
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r4_c1",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 6.35085 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "399a71e6cd0d2df922a9",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 6.350853,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r4_c2",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 16.0111 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "399a71e6cd0d2df922a9",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 16.011107,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r4_c3",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 34.641 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "399a71e6cd0d2df922a9",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 34.641016,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r4_c4",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 69.282 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "399a71e6cd0d2df922a9",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 69.282033,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "nut_retention_v6_new_exemplar_r4_c5",
+    "scenario_id": "nut_retention",
+    "split": "test",
+    "text": "Shortlist a standalone wrenchable internally threaded nut to retain an external-thread fastener. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 92.376 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "retain_threaded_fastener"
+    ],
+    "category_ids": [],
+    "reference_part_id": "399a71e6cd0d2df922a9",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 92.376043,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r1_c0",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "63b9b6feb5ead3639d40",
+    "constraints": []
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r1_c1",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 37 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "63b9b6feb5ead3639d40",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 37.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r1_c2",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 54.1763 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "63b9b6feb5ead3639d40",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 54.176271,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r1_c3",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 101.6 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "63b9b6feb5ead3639d40",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 101.6,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r1_c4",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 125.339 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "63b9b6feb5ead3639d40",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 125.338781,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r1_c5",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 180.396 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "63b9b6feb5ead3639d40",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 180.395836,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r2_c0",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "19400e2e3fa9bd34a35d",
+    "constraints": []
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r2_c1",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 37 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "19400e2e3fa9bd34a35d",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 37.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r2_c2",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 54.1763 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "19400e2e3fa9bd34a35d",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 54.176271,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r2_c3",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 101.6 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "19400e2e3fa9bd34a35d",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 101.6,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r2_c4",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 125.339 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "19400e2e3fa9bd34a35d",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 125.338781,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r2_c5",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 180.396 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "19400e2e3fa9bd34a35d",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 180.395836,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r3_c0",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "bee790c9328fbfae486b",
+    "constraints": []
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r3_c1",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 37 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "bee790c9328fbfae486b",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 37.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r3_c2",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 54.1763 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "bee790c9328fbfae486b",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 54.176271,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r3_c3",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 101.6 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "bee790c9328fbfae486b",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 101.6,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r3_c4",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 125.339 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "bee790c9328fbfae486b",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 125.338781,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r3_c5",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 180.396 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "bee790c9328fbfae486b",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 180.395836,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r4_c0",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d82bc361af3f66f4a5dc",
+    "constraints": []
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r4_c1",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 37 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d82bc361af3f66f4a5dc",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 37.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r4_c2",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 54.1763 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d82bc361af3f66f4a5dc",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 54.176271,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r4_c3",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 101.6 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d82bc361af3f66f4a5dc",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 101.6,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r4_c4",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 125.339 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d82bc361af3f66f4a5dc",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 125.338781,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "bracket_mount_v6_new_exemplar_r4_c5",
+    "scenario_id": "bracket_mount",
+    "split": "test",
+    "text": "Shortlist a fixed bracket offering mounting features on two orthogonal or offset attachment faces. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 180.396 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mount_at_angle"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d82bc361af3f66f4a5dc",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 180.395836,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r1_c0",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "0e9037fb1d3cff721822",
+    "constraints": []
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r1_c1",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 73.68 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "0e9037fb1d3cff721822",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 73.68,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r1_c2",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 115 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "0e9037fb1d3cff721822",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 115.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r1_c3",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 216 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "0e9037fb1d3cff721822",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 216.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r1_c4",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 400 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "0e9037fb1d3cff721822",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 400.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r1_c5",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 565 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "0e9037fb1d3cff721822",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 565.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r2_c0",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "f0a5b096a56dca2adcf2",
+    "constraints": []
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r2_c1",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 73.68 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "f0a5b096a56dca2adcf2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 73.68,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r2_c2",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 115 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "f0a5b096a56dca2adcf2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 115.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r2_c3",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 216 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "f0a5b096a56dca2adcf2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 216.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r2_c4",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 400 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "f0a5b096a56dca2adcf2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 400.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r2_c5",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 565 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "f0a5b096a56dca2adcf2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 565.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r3_c0",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "6119a6acb0b8cb0a7cd4",
+    "constraints": []
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r3_c1",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 73.68 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "6119a6acb0b8cb0a7cd4",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 73.68,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r3_c2",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 115 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "6119a6acb0b8cb0a7cd4",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 115.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r3_c3",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 216 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "6119a6acb0b8cb0a7cd4",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 216.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r3_c4",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 400 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "6119a6acb0b8cb0a7cd4",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 400.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r3_c5",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 565 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "6119a6acb0b8cb0a7cd4",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 565.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r4_c0",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d3a757ce5401a07c1859",
+    "constraints": []
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r4_c1",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 73.68 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d3a757ce5401a07c1859",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 73.68,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r4_c2",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 115 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d3a757ce5401a07c1859",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 115.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r4_c3",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 216 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d3a757ce5401a07c1859",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 216.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r4_c4",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 400 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d3a757ce5401a07c1859",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 400.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "flanged_passage_v6_new_exemplar_r4_c5",
+    "scenario_id": "flanged_passage",
+    "split": "test",
+    "text": "Shortlist a flange-like part with a central passage, flat mating face and surrounding bolt holes for a preliminary passage connection. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 565 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "connect_flanged_passage"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d3a757ce5401a07c1859",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 565.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r1_c0",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e019455278f01adeb5f0",
+    "constraints": []
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r1_c1",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 20.8888 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e019455278f01adeb5f0",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 20.888838,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r1_c2",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 41.6332 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e019455278f01adeb5f0",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 41.633173,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r1_c3",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 79 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e019455278f01adeb5f0",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 79.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r1_c4",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 148.313 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e019455278f01adeb5f0",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 148.312665,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r1_c5",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 257.647 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e019455278f01adeb5f0",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 257.647369,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r2_c0",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "2dc36aa5269ec61f4ca2",
+    "constraints": []
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r2_c1",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 20.8888 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "2dc36aa5269ec61f4ca2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 20.888838,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r2_c2",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 41.6332 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "2dc36aa5269ec61f4ca2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 41.633173,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r2_c3",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 79 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "2dc36aa5269ec61f4ca2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 79.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r2_c4",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 148.313 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "2dc36aa5269ec61f4ca2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 148.312665,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r2_c5",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 257.647 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "2dc36aa5269ec61f4ca2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 257.647369,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r3_c0",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "542040d243e3583358df",
+    "constraints": []
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r3_c1",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 20.8888 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "542040d243e3583358df",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 20.888838,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r3_c2",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 41.6332 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "542040d243e3583358df",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 41.633173,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r3_c3",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 79 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "542040d243e3583358df",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 79.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r3_c4",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 148.313 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "542040d243e3583358df",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 148.312665,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r3_c5",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 257.647 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "542040d243e3583358df",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 257.647369,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r4_c0",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "3e3991f44859e1ddd13b",
+    "constraints": []
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r4_c1",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 20.8888 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "3e3991f44859e1ddd13b",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 20.888838,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r4_c2",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 41.6332 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "3e3991f44859e1ddd13b",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 41.633173,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r4_c3",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 79 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "3e3991f44859e1ddd13b",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 79.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r4_c4",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 148.313 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "3e3991f44859e1ddd13b",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 148.312665,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "gear_mesh_v6_new_exemplar_r4_c5",
+    "scenario_id": "gear_mesh",
+    "split": "test",
+    "text": "Shortlist an external spur or helical cylindrical gear for preliminary parallel-axis gear meshing. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 257.647 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "mesh_parallel_gears"
+    ],
+    "category_ids": [],
+    "reference_part_id": "3e3991f44859e1ddd13b",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 257.647369,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r1_c0",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "b54de35b73f87a0c9fb5",
+    "constraints": []
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r1_c1",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 49 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "b54de35b73f87a0c9fb5",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 49.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r1_c2",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 85.875 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "b54de35b73f87a0c9fb5",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 85.875,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r1_c3",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 235.25 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "b54de35b73f87a0c9fb5",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 235.25,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r1_c4",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 493.214 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "b54de35b73f87a0c9fb5",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 493.213863,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r1_c5",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 1000 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "b54de35b73f87a0c9fb5",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 1000.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r2_c0",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "f7660116e7f7860851be",
+    "constraints": []
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r2_c1",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 49 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "f7660116e7f7860851be",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 49.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r2_c2",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 85.875 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "f7660116e7f7860851be",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 85.875,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r2_c3",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 235.25 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "f7660116e7f7860851be",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 235.25,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r2_c4",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 493.214 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "f7660116e7f7860851be",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 493.213863,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r2_c5",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 1000 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "f7660116e7f7860851be",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 1000.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r3_c0",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "5a9de3c2842d945f12cf",
+    "constraints": []
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r3_c1",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 49 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "5a9de3c2842d945f12cf",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 49.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r3_c2",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 85.875 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "5a9de3c2842d945f12cf",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 85.875,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r3_c3",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 235.25 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "5a9de3c2842d945f12cf",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 235.25,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r3_c4",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 493.214 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "5a9de3c2842d945f12cf",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 493.213863,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r3_c5",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 1000 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "5a9de3c2842d945f12cf",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 1000.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r4_c0",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "48aa6978c1061a6e9113",
+    "constraints": []
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r4_c1",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 49 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "48aa6978c1061a6e9113",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 49.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r4_c2",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 85.875 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "48aa6978c1061a6e9113",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 85.875,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r4_c3",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 235.25 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "48aa6978c1061a6e9113",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 235.25,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r4_c4",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 493.214 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "48aa6978c1061a6e9113",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 493.213863,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "shaft_drive_v6_new_exemplar_r4_c5",
+    "scenario_id": "shaft_drive",
+    "split": "test",
+    "text": "Shortlist an elongated shaft with visible rotational drive features for preliminary motion transmission. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 1000 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "transmit_shaft_rotation"
+    ],
+    "category_ids": [],
+    "reference_part_id": "48aa6978c1061a6e9113",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 1000.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r1_c0",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "08999f4ff92651bbf81f",
+    "constraints": []
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r1_c1",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 21.126 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "08999f4ff92651bbf81f",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 21.126002,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r1_c2",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 45.0137 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "08999f4ff92651bbf81f",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 45.013738,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r1_c3",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 103 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "08999f4ff92651bbf81f",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 103.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r1_c4",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 207.39 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "08999f4ff92651bbf81f",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 207.389925,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r1_c5",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 303.992 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "08999f4ff92651bbf81f",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 303.991919,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r2_c0",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "a1330b32d8b96740fef2",
+    "constraints": []
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r2_c1",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 21.126 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "a1330b32d8b96740fef2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 21.126002,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r2_c2",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 45.0137 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "a1330b32d8b96740fef2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 45.013738,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r2_c3",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 103 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "a1330b32d8b96740fef2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 103.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r2_c4",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 207.39 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "a1330b32d8b96740fef2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 207.389925,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r2_c5",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 303.992 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "a1330b32d8b96740fef2",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 303.991919,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r3_c0",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "aa80781056a8ad4aa4ad",
+    "constraints": []
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r3_c1",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 21.126 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "aa80781056a8ad4aa4ad",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 21.126002,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r3_c2",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 45.0137 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "aa80781056a8ad4aa4ad",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 45.013738,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r3_c3",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 103 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "aa80781056a8ad4aa4ad",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 103.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r3_c4",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 207.39 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "aa80781056a8ad4aa4ad",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 207.389925,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r3_c5",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 303.992 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "aa80781056a8ad4aa4ad",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 303.991919,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r4_c0",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e42a534dab92b4823513",
+    "constraints": []
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r4_c1",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 21.126 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e42a534dab92b4823513",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 21.126002,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r4_c2",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 45.0137 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e42a534dab92b4823513",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 45.013738,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r4_c3",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 103 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e42a534dab92b4823513",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 103.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r4_c4",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 207.39 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e42a534dab92b4823513",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 207.389925,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "compression_return_v6_new_exemplar_r4_c5",
+    "scenario_id": "compression_return",
+    "split": "test",
+    "text": "Shortlist a helical spring body with visible coil travel and axial seating ends to resist compression. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 303.992 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "resist_axial_compression"
+    ],
+    "category_ids": [],
+    "reference_part_id": "e42a534dab92b4823513",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 303.991919,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r1_c0",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "97cd6babb0e732d78565",
+    "constraints": []
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r1_c1",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 21.126 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "97cd6babb0e732d78565",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 21.126002,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r1_c2",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 45.0137 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "97cd6babb0e732d78565",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 45.013738,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r1_c3",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 103 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "97cd6babb0e732d78565",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 103.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r1_c4",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 207.39 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "97cd6babb0e732d78565",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 207.389925,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r1_c5",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 303.992 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "97cd6babb0e732d78565",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 303.991919,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r2_c0",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "24004e6a9d4dad8cb857",
+    "constraints": []
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r2_c1",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 21.126 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "24004e6a9d4dad8cb857",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 21.126002,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r2_c2",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 45.0137 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "24004e6a9d4dad8cb857",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 45.013738,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r2_c3",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 103 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "24004e6a9d4dad8cb857",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 103.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r2_c4",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 207.39 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "24004e6a9d4dad8cb857",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 207.389925,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r2_c5",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 303.992 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "24004e6a9d4dad8cb857",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 303.991919,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r3_c0",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "cd2622ce237128ee7048",
+    "constraints": []
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r3_c1",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 21.126 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "cd2622ce237128ee7048",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 21.126002,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r3_c2",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 45.0137 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "cd2622ce237128ee7048",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 45.013738,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r3_c3",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 103 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "cd2622ce237128ee7048",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 103.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r3_c4",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 207.39 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "cd2622ce237128ee7048",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 207.389925,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r3_c5",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 303.992 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "cd2622ce237128ee7048",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 303.991919,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r4_c0",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d2ad1e46d6f76a7b598e",
+    "constraints": []
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r4_c1",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 21.126 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d2ad1e46d6f76a7b598e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 21.126002,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r4_c2",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 45.0137 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d2ad1e46d6f76a7b598e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 45.013738,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r4_c3",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 103 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d2ad1e46d6f76a7b598e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 103.0,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r4_c4",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 207.39 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d2ad1e46d6f76a7b598e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 207.389925,
+        "unit": "mm"
+      }
+    ]
+  },
+  {
+    "query_id": "tension_return_v6_new_exemplar_r4_c5",
+    "scenario_id": "tension_return",
+    "split": "test",
+    "text": "Shortlist a helical extension spring with two visible hooks or loops to provide a pulling return force. Use the supplied training exemplar for geometric similarity. Largest stored-axis extent must be at most 303.992 mm. This is a hypothetical dimension screening requirement.",
+    "function_ids": [
+      "provide_tension_return"
+    ],
+    "category_ids": [],
+    "reference_part_id": "d2ad1e46d6f76a7b598e",
+    "constraints": [
+      {
+        "attribute": "aabb_large_mm",
+        "op": "<=",
+        "value": 303.991919,
+        "unit": "mm"
+      }
+    ]
+  }
+]

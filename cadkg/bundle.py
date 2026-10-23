@@ -55,7 +55,7 @@ def load_bundle(directory):
 def prepare_annotations(directory, catalog=None, queries=None, config=None):
     directory = Path(directory)
     directory.mkdir(parents=True, exist_ok=True)
-    for path in (ROOT / "annotations" / "templates").iterdir():
+    for path in (ROOT / "data/annotations" / "templates").iterdir():
         target = directory / path.name
         if not target.exists():
             shutil.copyfile(path, target)
