@@ -1,4 +1,4 @@
-# Knowledge-guided relational evidence for functional CAD retrieval
+# Functional CAD retrieval with knowledge-guided large language models
 
 Research code and datasets for functional CAD retrieval using geometric similarity, category-derived priors, dimensional screening, and source-linked visual evidence.
 
