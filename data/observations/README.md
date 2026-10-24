@@ -17,9 +17,11 @@ Paths below are relative to the repository root. Large files become available lo
 | Holistic assessment contract | `data/study/role_only_contract.json` |
 | CAD input images | `data/observations/images/<part_id>.png` |
 
-Each raw response row includes `job_id`, `part_id`, `family_id`, requested/resolved model, `output_json`, `output_text`, `raw_response`, usage, and validation status. `raw_response` preserves the API response; `output_json` contains the parsed model assessment. Directed evidence records contain clause observations, view citations, source-image hashes, and H. Holistic records contain J. These are model observations, not verified engineering facts.
+Each raw response row includes `job_id`, `part_id`, `family_id`, requested and resolved model identifiers, `output_json`, `output_text`, `raw_response`, usage, and validation status. `raw_response` preserves the API response; `output_json` contains the parsed assessment. Directed evidence records contain clause observations, view citations, source-image hashes, and coverage H. Holistic records contain score J. These visual assessments support preliminary geometric shortlisting and require engineering review before use.
 
-The combined evidence joins all collections by `arm`, `replicate`, `family_id`, and `part_id`. `response_id` links an observation to its raw response. For first KG collections, `source_job_id` identifies the raw row in the corresponding directed-model file; other collections use `job_id` in the repeated-observation file. Inspection IDs used in the paper (such as Z0430) map to `part_id` through `data/annotations/judgments.json`.
+## Join observations to source records
+
+The combined evidence identifies each observation by `arm`, `replicate`, `family_id`, and `part_id`. `response_id` links the observation to its raw response. For the first KG-directed collections, `source_job_id` identifies the raw row in the corresponding model file; other collections use `job_id` in the repeated-observation file. Inspection IDs used in the paper, such as Z0430, map to `part_id` through `data/annotations/judgments.json`.
 
 ## Usage examples
 
@@ -37,7 +39,7 @@ Compare saved support for the shaft candidate Z0972 across all nine collections:
 python -m scripts.inspect_llm --inspection-id Z0972 --role shaft_drive --compare
 ```
 
-The output lists the observation design, collection number, H/J support, and validity for each record. Use `--part-id <stable_id>` instead of `--inspection-id` when joining directly to ranking or catalog records. A candidate outside a role's refinement pool has no observation; the command reports that explicitly. Both examples run offline.
+The output lists the observation design, collection number, H/J support, and validity for each record. Use `--part-id <stable_id>` instead of `--inspection-id` when joining directly to ranking or catalog records. Candidates outside a role's refinement pool have no observation. Both examples read saved data offline.
 
 Small saved examples are directly browsable on GitHub: [rejected shaft candidate Z0430](examples/shaft_rejected.json) and [supported shaft candidate Z0972](examples/shaft_supported.json). Each includes the source-linked evidence and parsed Luna response. The complete raw API records remain in the files listed above.
 
@@ -47,6 +49,8 @@ Small saved examples are directly browsable on GitHub: [rejected shaft candidate
 - `directed_luna/`, `directed_sol/`: each model's first KG-directed collection.
 - `repeated_observations/`: the additional KG collections and three holistic Luna collections.
 
-Each collection provides the study contract (`study.json`, including instructions, response schema, and job payloads), candidate pools, raw responses, source-linked geometric evidence, and support scores. Together these form three collections per observation design. Coverage H averages four clause states (yes = 1, no = 0, unknown = 0.5); holistic J uses the same nine-level range. Whole-record neutral fallback is 0.5. Raw observation records retain their recorded source identities and acquisition metadata.
+Each collection includes a study specification (`study.json`, containing instructions, response schema, and job payloads), candidate pools, raw responses, source-linked geometric evidence, and support scores. There are three collections per observer arm.
 
-The main comparison changes the authored requirement decomposition, binding prompts, and coverage construction together. It does not isolate a graph-storage effect. Collection SD measures acquisition variability conditional on fixed representations and the fixed query panel.
+Coverage H averages four clause states (yes = 1, no = 0, unknown = 0.5); holistic J uses the same nine-level range. Failed or invalid responses receive a whole-record neutral score of 0.5. Raw records include source identities and acquisition metadata.
+
+The main comparison evaluates requirement decomposition, component-binding prompts, and coverage aggregation together. Graph storage is not isolated as an experimental factor. Collection SD measures acquisition variability with fixed representations and a fixed query panel. See the [methodology](../../docs/METHODOLOGY.md) for the evaluation design.

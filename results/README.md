@@ -14,8 +14,12 @@ All files describe the study's 264-query primary panel, 1,816-candidate gallery,
 | [top5_rankings.json](top5_rankings.json) | Evaluated top-five gallery indices, joined through `data/rankings/cohorts.json` after preparation |
 | [validation/](validation/) | Reproduction and publication-integrity checks |
 
-Means weight six size conditions within each exemplar, four exemplars within each role, then eleven roles equally. SD uses the three collection means with denominator two. Lower/upper fields retain uncertainty from unresolved reference judgments. The primary nDCG@5 endpoints are point identified under those bounds.
+## Aggregation and uncertainty
 
-The primary comparisons use eleven role effects after averaging collections. Exact sign-flip tests enumerate 2,048 patterns; one Holm correction covers four tests. Bootstrap intervals use 20,000 role resamples with seed 20261023 and are unadjusted. Positive mean effects do not establish superiority after the specified correction.
+Means average six size conditions within each exemplar, four exemplars within each role, then eleven roles equally. Sample SD is calculated from the three collection means with denominator two. Lower and upper fields represent uncertainty from unresolved relevance judgments. These bounds coincide for the primary nDCG@5 results.
 
-`python -m scripts.reproduce` rebuilds the results and checks exact hashes. Generated files appear in a separate `results/reproduced/` directory. The checked-in numerical tables remain unchanged.
+The primary comparisons use eleven role effects after averaging collections. Exact sign-flip tests enumerate 2,048 patterns, with one Holm correction across four tests. Bootstrap intervals use 20,000 role resamples with seed 20261023 and are unadjusted. Interpret mean differences alongside the corrected p-values and uncertainty intervals; the reported Luna comparisons with the holistic control remain inconclusive after correction.
+
+## Reproduction
+
+Run `python -m scripts.reproduce` to rebuild the results in `results/reproduced/` and verify their hashes. See the [reproduction guide](../docs/REPRODUCIBILITY.md) for setup and the metrics-only workflow.

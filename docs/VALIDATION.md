@@ -13,8 +13,10 @@ The code, data workflows, numerical results, and documentation were checked on W
 | LLM usage examples | Both documented commands succeed; raw-response lookup also verified for all three observation designs |
 | Baseline extension evaluator | Directed and holistic saved-response checks each match all 528 corresponding query results exactly |
 
-Run `python -m scripts.validate` to verify the [result manifest](../results/manifest.json) and documentation links. Machine-readable proofs are in [results/validation](../results/validation/).
+Run `python -m scripts.validate` to verify the [result manifest](../results/manifest.json) and documentation links. Detailed validation records are in [results/validation](../results/validation/).
 
-Encoder retraining, raw-corpus preprocessing, a fresh network dependency installation, and Linux execution were not rerun. Linux core/data/statistical checks are configured in CI.
+## Validation scope
 
-These checks establish software and numerical consistency. Annotation review provenance is declared in the supplied judgment file; reproducibility checks do not independently assess engineering relevance.
+The recorded checks cover software behavior and numerical consistency. They exclude encoder retraining, raw-corpus preprocessing, a fresh dependency installation from the network, and Linux execution. Core, data, and statistical checks for Linux are configured in CI.
+
+Annotation provenance is documented in the [data guide](../data/README.md). Engineering relevance requires separate assessment from software and numerical validation.

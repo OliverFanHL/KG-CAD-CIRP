@@ -8,4 +8,4 @@ From the repository root, run:
 python -m scripts.prepare_data
 ```
 
-The command verifies each part and every input against `data/manifest.json`, then prepares only the listed final-study inputs at the paths in the [data guide](../README.md). `source_member` maps a packaged record to its public destination. Unlisted package members are not extracted. The command refuses to overwrite modified inputs. The directly checked-in judgment release is verified and preserved.
+The command verifies each package part and input against `data/manifest.json`, then extracts the listed study inputs to the paths in the [data guide](../README.md). The manifest's `source_member` field maps each archive entry to its destination. Preparation also verifies inputs supplied directly in the repository and stops if an existing input has been modified.
