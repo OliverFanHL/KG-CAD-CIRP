@@ -57,7 +57,7 @@ Data preparation verifies the supplied files and unpacks study inputs under `dat
 | `configs/` | Retrieval settings and the study specification |
 | `preprocessing/` | Encoder and geometry preprocessing implementation |
 | `tests/` | Core software and geometry checks |
-| `docs/` | Methodology, reproduction, validation, and extension guides |
+| `docs/` | Methodology, reproduction, and extension guides |
 
 The repository supplies representative STEP models, labels, source hashes, the selected encoder, saved observations, and all inputs for the primary offline reproduction. See the [data guide](data/README.md) for the complete raw TMCAD corpus source and attribution. Dataset and upstream materials remain subject to their original license terms.
 
