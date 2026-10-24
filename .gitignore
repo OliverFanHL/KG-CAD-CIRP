@@ -14,8 +14,6 @@ TMCAD/
 publication/
 archive/
 experiments/
-data/catalog/catalog.json
-data/knowledge/graph.json
 data/observations/*/
 !data/observations/examples/
 !data/observations/examples/*.json

@@ -10,13 +10,11 @@ Run `python -m scripts.prepare_data` to verify the dataset packages and unpack t
 | `annotations/judgments.json` | Supplied release of 19,976 role–part judgments; two unresolved grades remain explicit |
 | `annotations/templates/` | Blank relevance annotation templates |
 | `study/knowledge_rules.json` | The four visual requirements and bindings for each role |
+| `study/prior_relations.csv` | The eleven source-supported category–function relations used by the initial ranker |
 | `study/role_only_contract.json` | Matched holistic-observer contract |
 | `study/relevance_rubric.md` | Relevance assessment rubric |
 | `study/qualitative_diagnostics.json` | Source-linked diagnostics supporting the qualitative examples |
 | `catalog/parts.csv` | Part IDs, source category labels, split membership, STEP paths, and source hashes |
-| `catalog/catalog.json` (prepared) | Representations, classifier probabilities, geometry measurements, and source metadata |
-| `knowledge/priors/` | Source-supported engineering category–role priors |
-| `knowledge/graph.json`, `knowledge/knowledge.json` (prepared) | Retrieval knowledge graph and supporting records |
 | `observations/` (prepared) | Neutral source images, raw model responses, clause evidence, and H/J coverage |
 | `geometry/evidence/` (prepared) | Independent surface/dimensional reference evidence |
 | `rankings/` (prepared) | Initial ranking arrays for the 264 primary queries and the ordered candidate gallery |
